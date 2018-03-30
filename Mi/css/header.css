@@ -1,0 +1,318 @@
+/*解决浏览器不兼容问题*/
+*{
+    margin:0;
+    padding: 0;
+}
+ul,li{
+    list-style:none;
+}
+body{
+    font-size: 12px;
+    font-family: "microsoft yahei";
+}
+a{
+    text-decoration: none;
+}
+a img{
+    display: block;
+    border: none;
+}
+/* Header */
+.header{
+    width: 100%;
+    height: 140px;}
+/* Topnav */
+.topnav{
+    width: 100%;
+    height: 40px;
+    background-color: #111;
+}
+.topnav .t_wrapper{
+    width: 1226px;
+    height: 40px;
+    margin: 0 auto;
+}
+.topnav .t_wrapper .t_w_left{
+    float:left;
+    height: 40px;
+    line-height: 40px;
+    overflow:hidden;
+}
+.topnav .t_wrapper .t_w_left li{
+    float:left;
+}
+.topnav .t_wrapper .t_w_left li span{
+    margin: 0 9px;
+    color: #424242;
+}
+.topnav .t_wrapper .t_w_left li a{
+    color:#b0b0b0;
+}
+.topnav .t_wrapper .t_w_left li a:hover{
+    color: #fff;
+}
+.topnav .t_wrapper .t_w_right{
+    height:40px;
+}
+.topnav .t_wrapper .t_w_right .t_w_r_shop{
+    float: right;
+    position: relative;
+    width:120px;
+    height:40px;
+    margin-left: 15px;
+    line-height: 40px;
+    text-align:center;
+    color:#b0b0b0;
+}
+.topnav .t_wrapper .t_w_right .t_w_r_shop:hover .iconfont{
+    color: #f60;
+}
+.topnav .t_wrapper .t_w_right .t_w_r_shop:hover .car{
+    color: #f60;
+}
+.topnav .t_wrapper .t_w_right .t_w_r_shop:hover{
+    background-color: #fff;
+}
+.topnav .t_wrapper .t_w_right .t_w_r_shop .t_w_r_s_hide{
+    width:320px;
+    height:100px;
+    background:#fff;
+    box-shadow: 0 3px 3px #e5e5e5;
+    position: absolute;
+    top:40px;
+    right: 0;
+    line-height: 100px;
+    cursor: default;
+    display: none;
+    z-index: 10;
+}
+.topnav .t_wrapper .t_w_right .t_w_r_login{
+    float: right;
+    height:40px;
+}
+.topnav .t_wrapper .t_w_right .t_w_r_login a{
+    color:#b0b0b0;
+    line-height: 40px;
+}
+.topnav .t_wrapper .t_w_right .t_w_r_login a:hover{
+    color: #fff;
+}
+.topnav .t_wrapper .t_w_right .t_w_r_login span{
+    line-height: 40px;
+    color: #424242;
+    margin:0 4px;
+}
+/* End Topnav */
+/* Nav */
+.nav{
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+}
+.nav .n_wrapper{
+    position: relative;
+    width: 1226px;
+    height: 100px;
+    margin: 0 auto;
+}
+.nav .n_wrapper .n_w_logo{
+    width:55px;
+    height:55px;
+    float:left;
+    margin-top:22px;
+}
+.nav .n_wrapper .n_w_logo a{
+    width: 55px;
+    height: 55px;
+    display: block;
+    background: url("../images/index/logo/logo_mi.png") #f60 center;
+}
+.nav .n_wrapper .n_w_holiday{
+    left: 69px;
+    position: absolute;
+    width: 165px;
+    height: 100px;
+    background-image: url("../images/index/logo/logo_holiday.gif");
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+.nav .n_wrapper .n_w_holiday a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.nav .n_wrapper .n_w_main{
+    width: 630px;
+    height: 55px;
+    float: left;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+.nav .n_wrapper .n_w_main li{
+    float: left;
+    line-height: 55px;
+    color: #333;
+    font-size: 16px;
+}
+.nav .n_wrapper .n_w_main li a{
+    padding: 38px 8px;
+    color: #333;
+}
+.nav .n_wrapper .n_w_main li a:hover{
+    color: #f60;
+}
+.nav .n_wrapper .n_w_search{
+    float: right;
+    width: 296px;
+    margin-top: 25px;
+}
+.focus input{
+    border-color: #f60 !important;
+}
+.focus .n_w_s_find{
+    border-color: #f60 !important;
+}
+.nav .n_wrapper .n_w_s_input{
+    position: relative;
+    width: 296px;
+    height: 50px;
+}
+.nav .n_wrapper .n_w_s_input:hover input{
+    border:1px solid #b0b0b0;
+}
+.nav .n_wrapper .n_w_s_input:hover .n_w_s_find{
+    border:1px solid #b0b0b0;
+}
+.nav .n_wrapper .n_w_s_input input{
+    position: absolute;
+    top: 0;
+    right: 49px;
+    z-index: 1;
+    width: 245px;
+    height: 50px;
+    padding: 0 10px;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    line-height: 48px;
+    outline: 0;
+    transition: all .2s;
+}
+.nav .n_wrapper .n_w_s_input .n_w_s_hide{
+    z-index: 9;
+    width: 243px;
+    height: 300px;
+    background: #fff;
+    border: 1px solid #f60;
+    border-top: 0;
+    position: absolute;
+    top: 50px;
+    left: 2px;
+    display: none;
+}
+.nav .n_wrapper .n_w_s_input .n_w_s_hide li{
+    height: 30px;line-height: 30px;
+}
+.nav .n_wrapper .n_w_s_input .n_w_s_hide li a{
+    padding-left: 16px;display: block;color: #333;
+}
+.nav .n_wrapper .n_w_s_input .n_w_s_hide li span{
+    float: right;padding-right: 16px;color: #bbb;
+}
+.nav .n_wrapper .n_w_s_find{
+    position: absolute;
+    right: 0;
+    top: 0;
+    box-sizing: border-box;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    line-height: 50px;
+    text-align:center;
+    background: #fff;
+    cursor: pointer;
+    outline: 0;
+    transition: all .2s;
+}
+.nav .n_wrapper .n_w_s_find .iconfont{
+    color: #616161;
+    font-size: 24px;
+    transition: .2s;
+}
+.nav .n_wrapper .n_w_s_find:hover{
+    border: 1px solid #f60;
+    background: #f60
+}
+.nav .n_wrapper .n_w_s_find:hover .iconfont{
+    color: #fff;
+}
+
+.nav .n_product{
+    width: 100%;
+    height:230px;
+    background: #fff;
+    border-top:1px solid #e5e5e5;
+    box-shadow: 0 2px 5px #d3d3d3;
+    display: none;
+    min-width: 1226px;
+    z-index: 9;
+    position: relative;
+}
+.nav .n_p_main{
+    width: 1226px;
+    height: 230px;
+    margin:0 auto;
+    position: relative;
+}
+.nav .n_p_main ul{
+    width: 1226px;
+    height: 230px;
+    position: absolute;
+    left: 0;top:0;
+    display: none;
+}
+.nav .n_p_main li{
+    float: left;
+    padding: 35px 21px 28px 21px;
+    position: relative;
+}
+.nav .n_p_main li a{
+    display: block;
+}
+.nav .n_p_main li a img{
+    width: 160px;
+    height: 110px;
+}
+.nav .n_p_main li .p_label{
+    position: absolute;
+    top: 0;
+    left: 70px;
+    width: 65px;
+    height: 20px;
+    display: block;
+    border: 1px solid #ff6700;
+    color: #ff6700;
+    text-align: center;
+    line-height: 20px;
+}
+.nav .n_p_main li .p_title{
+    text-align: center;
+    margin-top:16px;
+    color: #333;
+}
+.nav .n_p_main li .p_price{
+    text-align: center;
+    margin-top:6px;
+    color: #f60;
+}
+.nav .n_p_main li .p_border{
+    width: 0;
+    height:100px;
+    border-right: 1px solid #e5e5e5;
+    position: absolute;
+    top:30px;
+    right: 0;
+}
+/* End Nav */
+/* End Header */
