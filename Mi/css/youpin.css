@@ -170,6 +170,13 @@ ul{
     text-align: center;
     line-height: 30px;
 }
+.c_s_f_t_cometotop{
+    width:81px;
+    height:71px;
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
 .c_s_f_s_newpeople:hover .c_s_f_s_n_intro{
     display:block;
 }
