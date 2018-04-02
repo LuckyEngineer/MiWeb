@@ -714,7 +714,7 @@ a{
     padding-left:22px;
     padding-right:22px;
     position: relative;
-    transition: 2s;
+    transition: 1s;
 }
 .c_c_e_p_e_firm img{
     display: block;
@@ -737,8 +737,8 @@ a{
 }
 .c_c_e_p_e_firm li:hover{
     top:-1px;
-    box-shadow: 0 10px 20px #dddddd;
-    transform:translate3d(0,0,5px);
+    box-shadow: 0 10px 30px #dddddd;
+    transform:translate3d(0,0,10px);
 }
 .c_c_e_p_e_clear{
     clear:both;
