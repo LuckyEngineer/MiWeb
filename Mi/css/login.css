@@ -1,0 +1,233 @@
+
+div{
+    display:block;
+    margin:0px;
+    padding:0px;
+}
+body {
+    font-size: 14px;
+    font-family: arial, "Hiragino Sans GB", "Microsoft YaHei", "微軟正黑體", "儷黑 Pro", sans-serif;
+}
+.head{
+    width:1286px;
+    height:98px;
+    /*border:1px solid black;*/
+}
+.h_panel{
+    width:1130px;
+    height:98px;
+    margin:auto;
+
+}
+.h_logo{
+    width:200px;
+    height:98px;
+    background:url(../images/login/mistore_logo.png) no-repeat;
+}
+.wrap{
+    width:1286px;
+    height:654px;
+    /*border:1px solid red;*/
+    background:url(../images/login/login-background.jpg) no-repeat -635px 0px;
+
+}
+.layout_panel{
+    width:1130px;
+    height:654px;
+    /*border:1px solid blue;*/
+    margin:auto;
+
+}
+.wrap .layout_panel .login-main{
+    width:410px;
+    height:524px;
+    /*border:1px solid green;*/
+    float:right;
+    margin-top:30px;
+    position:relative;
+    background-color: white;
+}
+.nav-tabs{
+    width:410px;
+    height:83px;
+    /*border:1px solid black;*/
+    padding: auto;
+}
+form{
+    width:348px;
+    height:227px;
+    /*border:3px solid black;*/
+    margin:auto
+}
+.login-box{
+    width:410px;
+    height:227px;
+    /*border:1px solid purple;*/
+    position:absolute;
+    left:0px;
+    top:83px;
+}
+.login-type-box{
+    width:410px;
+    height:29px;
+    margin-top:27px;
+    /*border:1px solid yellow;*/
+
+}
+.login-type-box1{
+    width:199px;
+    height:29px;
+    /*border:1px solid black;*/
+    float:left;
+    text-align: center;
+    font-size: 24px;
+}
+.login-type-box1 a{
+    color:#ef5b00;
+}
+.login-type-box2{
+    width:2px;
+    height:29px;
+    /*border:1px solid yellow;*/
+    float:left;
+
+}
+.login-type-box3{
+    width:199px;
+    height:29px;
+    /*border:1px solid black;*/
+    float:left;
+    text-align: center;
+    font-size: 24px;
+    color: #e0e0e0;
+}
+.login-type-box3 :hover{
+    color:#ef5b00;
+
+}
+/*注册框中部*/
+.account{
+    display:block;
+    position:absolute;
+    left:31px;
+    top:10px;
+    width:346px;
+    height:48px;
+    font-size:14px;
+}
+.password{
+    display:block;
+    position:absolute;
+    left:31px;
+    top:73px;
+    width:346px;
+    height:48px;
+    font-size:14px;
+}
+.button{
+    display:block;
+    position:absolute;
+    left:31px;
+    top:141px;
+    width:348px;
+    height:50px;
+    background-color: #ef5b00;
+    color:#ffffff;
+    font-size:14px;
+    border:transparent;
+
+}
+.other{
+    width:348px;
+    height:20px;
+    /*border:1px solid black;*/
+    position:absolute;
+    left:31px;
+    top:201px;
+}
+.other1{
+    width:116px;
+    height:20px;
+    /*border:1px solid red;*/
+    float:left;
+    font-size:14px;
+
+}
+.other1 a{
+    color:#ef5b00;
+}
+.other2{
+    width:150px;
+    height:20px;
+    /*border:1px solid red;*/
+    float:right;
+    font-size:14px;
+}
+.other2 a{
+    color:#757575;
+}
+.type-login{
+    width:348px;
+    height:30px;
+    /*border:1px solid black;*/
+    position:absolute;
+    left:31px;
+    bottom:66px;
+    text-align: center;
+    color:#757575;
+}
+
+.type-links{
+    width:348px;
+    height:36px;
+    /*border:1px solid black;*/
+    position:absolute;
+    left:31px;
+    bottom:30px;
+    background:url(../images/login/loginway.PNG) no-repeat 50px 0px;
+}
+.footer{
+    width:1286px;
+    height:215px;
+    /*border:1px solid black;*/
+    position:relative;
+}
+.select{
+    width:1288px;
+    height:20px;
+    /*border:1px solid black;*/
+    position:absolute;
+    bottom:44px;
+}
+ul{
+    position:absolute;
+    left:500px;
+    bottom:-10px;
+}
+li {
+    display:inline-block;
+    list-style:none;
+}
+li a{
+    color:#757575;
+}
+.simple{
+    color:#333333;
+}
+.introduce{
+    width:1288px;
+    height:44px;
+    /*border:1px solid black;*/
+    position:absolute;
+    bottom:0px;
+}
+
+.nf-intro {
+    padding: 10px;
+    position:absolute;;
+    left:450px;
+    bottom:1px;
+}
+.introduce p{
+    color:#757575;
+}
