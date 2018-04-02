@@ -69,7 +69,12 @@ a{
     width:100%;
     background-color: white;
 }
-.c_c_terrace{
+.c_c_top{
+    width:100%;
+    height:527px;
+    background-color:#f0f0f0 ;
+}
+.c_c_t_terrace{
     width:1220px;
     height:527px;
     margin:0 auto;
@@ -77,14 +82,14 @@ a{
     background-size: 1220px 527px;
     position: relative;
 }
-.c_c_t_text{
+.c_c_t_t_text{
     width:280px;
     height:141px;
     position: absolute;
     top:100px;
     left:60px;
 }
-.c_c_t_t_title{
+.c_c_t_t_t_title{
     width:280px;
     height:30px;
     font-size: 29px;
@@ -93,14 +98,14 @@ a{
     margin-bottom: 20px;
     color:#47b180;
 }
-.c_c_t_t_connect{
+.c_c_t_t_t_connect{
     width:280px;
     height:19px;
     font-size: 19px;
     color:#7b7b7b;
     margin-bottom: 30px;
 }
-.c_c_t_t_become{
+.c_c_t_t_t_become{
     display: block;
     width:143px;
     height:43px;
