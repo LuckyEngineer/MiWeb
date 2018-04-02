@@ -98,7 +98,7 @@ body{
     color: rgb(117,117,117);
     font-size: 8px;
 }
-/*µÇÂ¼µÄÕË»§Ò»À¸*/
+/*ç™»å½•çš„è´¦æˆ·ä¸€æ */
 .top_msg3{
     width: 120px;
     height: 30px;
@@ -180,7 +180,7 @@ body{
     top: 50px;
     left: 320px;
 }
-/*µÚÒ»À¸ÄÚÈİ*/
+/*ç¬¬ä¸€æ å†…å®¹*/
 .content_centre1{
     width: 1226px;
     height: 70px;
@@ -265,7 +265,7 @@ body{
     font-size: 20px;
     color: rgb(66,66,66);
 }
-/*µÚ¶şÀ¸ÄÚÈİ*/
+/*ç¬¬äºŒæ å†…å®¹*/
 .content_centre2{
     margin: 0 auto;
     width: 1226px;
@@ -329,7 +329,7 @@ body{
     top: 30px;
     border: 1px solid rgb(224,224,224);
 }
-/*¼ÛÇ®¿ò*/
+/*ä»·é’±æ¡†*/
 .c2_m5_bigbox1{
     width: 40px;
     height: 40px;
@@ -436,7 +436,7 @@ body{
     font-size: 14px;
     margin-left: 10px;
 }
-/*µÚÈıÀ¸ÄÚÈİ*/
+/*ç¬¬ä¸‰æ å†…å®¹*/
 .content_centre3{
     margin: 0 auto;
     width: 1226px;
@@ -500,7 +500,7 @@ body{
     top: 30px;
     border: 1px solid rgb(224,224,224);
 }
-/*¼ÛÇ®¿ò*/
+/*ä»·é’±æ¡†*/
 .c3_m5_bigbox1{
     width: 40px;
     height: 40px;
@@ -672,12 +672,12 @@ body{
 }
 .content_centre4{
     margin: 0 auto;
-     width: 1226px;
-     height: 117px;
-     position: relative;
-     border-bottom: 1px solid rgb(224,224,224);
-     background-color: white;
- }
+    width: 1226px;
+    height: 117px;
+    position: relative;
+    border-bottom: 1px solid rgb(224,224,224);
+    background-color: white;
+}
 .content_centre4_msg1{
     width: 110px;
     height: 86px;
@@ -733,7 +733,7 @@ body{
     top: 30px;
     border: 1px solid rgb(224,224,224);
 }
-/*¼ÛÇ®¿ò*/
+/*ä»·é’±æ¡†*/
 .c4_m5_bigbox1{
     width: 40px;
     height: 40px;
@@ -811,7 +811,7 @@ body{
 .content_centre4_msg7_chahao:hover.content_centre4_msg7_chahao i{
     color: white;
 }
-/*µÚÎåÀ¸ÄÚÈİ*/
+/*ç¬¬äº”æ å†…å®¹*/
 .content_centre5{
     margin: 0 auto;
     width: 1226px;
@@ -1036,7 +1036,7 @@ body{
     font-size: 14px;
     margin-left: 10px;
 }
-/*µÚÁùÀ¸ÄÚÈİ*/
+/*ç¬¬å…­æ å†…å®¹*/
 .content_centre6{
     margin: 0 auto;
     width: 1226px;
@@ -1067,7 +1067,7 @@ body{
     color: rgb(66,66,66);
     margin-left: 10px;
 }
-/*µÚÆßÀ¸ÄÚÈİ*/
+/*ç¬¬ä¸ƒæ å†…å®¹*/
 .content_centre7{
     margin: 0 auto;
     width: 1226px;
@@ -1149,7 +1149,7 @@ body{
 .content_centre7_msg5:hover{
     background-color: rgb(242,88,7);
 }
-/*ÖĞ¼ä±êÌâ*/
+/*ä¸­é—´æ ‡é¢˜*/
 .content_nav{
     width: 1226px;
     height: 70px;
@@ -1182,7 +1182,7 @@ body{
     position: absolute;
     left: 846px;
 }
-/*µ×²¿¸ü¶àÉÌÆ·²¿·Ö*/
+/*åº•éƒ¨æ›´å¤šå•†å“éƒ¨åˆ†*/
 .content_bottom{
     width: 1250px;
     height: 628px;
