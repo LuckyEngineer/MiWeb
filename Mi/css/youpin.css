@@ -57,7 +57,7 @@ ul{
 /*sidenav*/
 .container{
     width:100%;
-    height:17938px;
+    height:17738px;
 }
 .container a{
     color:#666666;
@@ -190,7 +190,7 @@ ul{
     padding-bottom:5px;
     box-sizing: border-box;
 }
-/*主导航顶部搜索区设置*/
+/*mainnav_top*/
 .c_m_top{
     width:1080px;
     height:51px;
@@ -254,8 +254,8 @@ ul{
 .c_m_t_search a:hover{
     color:#845f3f;
 }
-/*主导航顶部搜索区设置结束*/
-/*主导航子导航设置*/
+/*end mainnav_top*/
+/*mainnav_subnav*/
 .c_m_nav{
     width:1080px;
     height:46px;
@@ -274,7 +274,7 @@ ul{
 .c_m_nav ul a:hover{
     color:#845f3f;
 }
-/*有品推荐设置*/
+/*youpin*/
 .c_m_n_l_r_product{
     width:1080px;
     height:147px;
@@ -352,8 +352,8 @@ ul{
 .c_m_n_l_recommend:hover .c_m_n_l_r_product{
     display: block;
 }
-/*有品推荐设置结束*/
-/*居家设置*/
+/*end youpin*/
+/*livinghome*/
 .c_m_n_l_l_product{
     width:1080px;
     height:147px;
@@ -483,8 +483,8 @@ ul{
 .c_m_n_l_living:hover .c_m_n_l_l_product{
     display: block;
 }
-/*居家模块设置结束*/
-/*家电模块设置*/
+/*end livinghome*/
+/*appliances*/
 .c_m_n_l_a_product{
     width:1080px;
     height:147px;
@@ -601,8 +601,8 @@ ul{
 .c_m_n_l_appliances:hover .c_m_n_l_a_product{
     display: block;
 }
-/*家电模块设置结束*/
-/*手机模块设置*/
+/*end appliances*/
+/*cellphone*/
 .c_m_n_l_c_product{
     width:1080px;
     height:147px;
@@ -654,8 +654,8 @@ ul{
 .c_m_n_l_cellphone:hover .c_m_n_l_c_product{
     display: block;
 }
-/*手机模块设置结束*/
-/*服饰模块设置*/
+/*end cellphone*/
+/*clothing*/
 .c_m_n_l_cl_product{
     width:1080px;
     height:147px;
@@ -746,8 +746,8 @@ ul{
 .c_m_l_clothing:hover .c_m_n_l_cl_product{
     display: block;
 }
-/*服饰模块设置结束*/
-/*智能模块设置*/
+/*end clothing*/
+/*intelligence*/
 .c_m_n_l_in_product{
     width:1080px;
     height:147px;
@@ -900,8 +900,8 @@ ul{
 .c_m_n_l_intelligence:hover .c_m_n_l_in_product{
     display: block;
 }
-/*智能模块设置结束*/
-/*影音模块设置*/
+/*end intelligence*/
+/*video*/
 .c_m_n_l_vi_product{
     width:1080px;
     height:147px;
@@ -992,8 +992,8 @@ ul{
 .c_m_n_l_video:hover .c_m_n_l_vi_product{
     display: block;
 }
-/*影音模块设置结束*/
-/*餐厨模块设置*/
+/*end video*/
+/*dining*/
 .c_m_n_l_di_product{
     width:1080px;
     height:147px;
@@ -1110,8 +1110,8 @@ ul{
 .c_m_n_l_dining:hover .c_m_n_l_di_product{
     display: block;
 }
-/*餐厨模块设置结束*/
-/*洗护模块设置*/
+/*end dining*/
+/*skincare*/
 .c_m_n_l_sk_product{
     width:1080px;
     height:147px;
@@ -1228,8 +1228,8 @@ ul{
 .c_m_n_l_skincare:hover .c_m_n_l_sk_product{
     display: block;
 }
-/*洗护模块设置结束*/
-/*饮食模块设置*/
+/*end skincare*/
+/*food*/
 .c_m_n_l_fo_product{
     width:1080px;
     height:147px;
@@ -1307,8 +1307,8 @@ ul{
 .c_m_n_l_food:hover .c_m_n_l_fo_product{
     display: block;
 }
-/*饮食模块设置结束*/
-/*健康模块设置*/
+/*end food*/
+/*health*/
 .c_m_n_l_he_product{
     width:1080px;
     height:147px;
@@ -1386,8 +1386,8 @@ ul{
 .c_m_n_l_health:hover .c_m_n_l_he_product{
     display: block;
 }
-/*健康模块设置结束*/
-/*日杂模块设置*/
+/*end health*/
+/*dailyevery*/
 .c_m_n_l_da_product{
     width:1080px;
     height:147px;
@@ -1491,8 +1491,8 @@ ul{
 .c_m_n_l_dailyevery:hover .c_m_n_l_da_product{
     display: block;
 }
-/*日杂模块设置结束*/
-/*配件模块设置*/
+/*end dailyevery*/
+/*mountings*/
 .c_m_n_l_mo_product{
     width:1080px;
     height:147px;
@@ -1622,8 +1622,8 @@ ul{
 .c_m_n_l_mountings:hover .c_m_n_l_mo_product{
     display: block;
 }
-/*配件模块设置结束*/
-/*出行模块设置*/
+/*end mountings*/
+/*trip*/
 .c_m_n_l_tr_product{
     width:1080px;
     height:147px;
@@ -1688,8 +1688,8 @@ ul{
 .c_m_n_l_trip:hover .c_m_n_l_tr_product{
     display: block;
 }
-/*出行模块设置结束*/
-/*婴童模块设置*/
+/*end trip*/
+/*children*/
 .c_m_n_l_ch_product{
     width:1080px;
     height:147px;
@@ -1793,8 +1793,8 @@ ul{
 .c_m_n_l_children:hover .c_m_n_l_ch_product{
     display: block;
 }
-/*婴童模块设置结束*/
-/*箱包模块设置*/
+/*end children*/
+/*suitcase*/
 .c_m_n_l_su_product{
     width:1080px;
     height:147px;
@@ -1872,8 +1872,8 @@ ul{
 .c_m_n_l_suitcase:hover .c_m_n_l_su_product{
     display: block;
 }
-/*箱包模块设置结束*/
-/*品牌设置*/
+/*end suitcase*/
+/*brand*/
 .c_m_n_l_br_product{
     width:1080px;
     height:147px;
@@ -2026,9 +2026,9 @@ ul{
 .c_m_n_l_brand:hover .c_m_n_l_br_product{
     display: block;
 }
-/*品牌设置结束*/
+/*end brand*/
 /*end mainnav*/
-/*内容区设置*/
+/*content*/
 .c_content{
     width:1080px;
     height:17786px;
@@ -2042,7 +2042,7 @@ ul{
     width:1080px;
     height:450px;
 }
-/*菜单设置*/
+/*menu*/
 .c_c_menu{
     width:1080px;
     height:155px;
@@ -2074,8 +2074,8 @@ ul{
 .c_c_m_l_video{
     margin-right: 107px;
 }
-/*菜单设置结束*/
-/*有品推荐模块设置*/
+/*menu*/
+/*recommend*/
 .c_c_recommend{
     width:1080px;
     height:268px;
@@ -2138,8 +2138,8 @@ ul{
     width:266px;
     height:206px;
 }
-/*有品推荐模块结束*/
-/*小米众筹模块设置*/
+/*end recommond*/
+/*funding*/
 .c_c_funding{
     width:1080px;
     height:291px;
@@ -2170,7 +2170,7 @@ ul{
 .c_c_d_subtitle a:hover{
     color:#845f3f;
 }
-/*铜师傅大摆件设置*/
+/*article*/
 .c_c_f_article{
     width:266px;
     height:239px;
@@ -2236,8 +2236,8 @@ ul{
     float:right;
     color:red;
 }
-/*铜师傅大摆件设置结束*/
-/*魔方模块设置*/
+/*end article*/
+/*cube*/
 .c_c_f_cube{
     width:266px;
     height:239px;
@@ -2303,8 +2303,8 @@ ul{
     float:right;
     color:red;
 }
-/*魔方模块设置结束*/
-/*鼠标垫模块设置*/
+/*end cube*/
+/*pad*/
 .c_c_f_pad{
     width:266px;
     height:239px;
@@ -2370,8 +2370,8 @@ ul{
     float:right;
     color:red;
 }
-/*鼠标垫模块设置结束*/
-/*冰箱模块设置*/
+/*end pad*/
+/*refrigerator*/
 .c_c_f_refrigerator{
     width:266px;
     height:239px;
@@ -2436,239 +2436,8 @@ ul{
     float:right;
     color:red;
 }
-/*冰箱模块设置结束*/
-/*每日上新模块设置*/
-.c_c_daily{
-    width:1080px;
-    height:480px;
-    margin-top:90px;
-    clear:both;
-}
-.c_c_d_subtitle{
-    width:1080px;
-    height:32px;
-    margin-bottom: 30px;
-}
-.c_c_d_subtitle h2{
-    font-size:24px;
-    display: inline;
-    color:#333333;
-}
-.c_c_d_subtitle span{
-    color:#a9a9a9;
-}
-.c_c_d_subtitle a{
-    display:inline-block;
-    width:60px;
-    height:32px;
-    text-align: right;
-    line-height: 32px;
-    float:right;
-    color:#333333;
-}
-.c_c_d_subtitle a:hover{
-    color:#845f3f;
-}
-.c_c_d_product{
-    width:1080px;
-    height:418px;
-    position:relative;
-}
-.c_c_d_p_pillow{
-    width:266px;
-    height:418px;
-    position:absolute;
-}
-.c_c_d_p_pillow img{
-    width:266px;
-    height:418px;
-}
-.c_c_d_p_p_text{
-    box-sizing:border-box;
-    padding-top: 20px;
-    padding-left:10px;
-    position: absolute;
-    top:0;
-}
-.c_c_d_p_p_t_p1{
-    width:266px;
-    height:25px;
-    font-size: 16px;
-    line-height: 25px;
-    color: #333333;
-}
-.c_c_d_p_p_t_p2{
-    width:266px;
-    height:25px;
-    font-size: 14px;
-    line-height: 25px;
-    color:#999999;
-}
-.c_c_d_p_p_t_price{
-    width:266px;
-    height:30px;
-    font-size: 14px;
-    line-height: 25px;
-    color:#c00000;
-}
-.c_c_d_p_deodorant{
-    width:266px;
-    height:206px;
-    position:absolute;
-    left:271px;
-    background-color: #eaf9f5;
-}
-.c_c_d_p_d_text{
-    box-sizing:border-box;
-    padding-top: 20px;
-    padding-left:10px;
-    position: absolute;
-    top:0;
-}
-.c_c_d_p_d_t_p1{
-    width:266px;
-    height:25px;
-    font-size: 16px;
-    line-height: 25px;
-    color: #333333;
-}
-.c_c_d_p_d_t_price{
-    width:266px;
-    height:30px;
-    font-size: 14px;
-    line-height: 25px;
-    color:#c00000;
-}
-.c_c_d_p_deodorant img{
-    width:266px;
-    height:206px;
-}
-.c_c_d_p_foodprocesser{
-    width:538px;
-    height:206px;
-    position:absolute;
-    background-color: #f7f9ee;
-    right:0;
-}
-.c_c_d_p_foodprocesser img{
-    width:538px;
-    height:206px;
-}
-.c_c_d_p_f_text{
-    box-sizing:border-box;
-    padding-top: 20px;
-    padding-left:10px;
-    position: absolute;
-    top:0;
-}
-.c_c_d_p_f_t_p1{
-    width:266px;
-    height:25px;
-    font-size: 16px;
-    line-height: 25px;
-    color: #333333;
-}
-.c_c_d_p_f_t_p2{
-    width:200px;
-    height:25px;
-    font-size: 14px;
-    line-height: 25px;
-    color:#999999;
-    text-overflow: ellipsis;
-    white-space:nowrap;
-    overflow: hidden;
-}
-.c_c_d_p_f_t_price{
-    width:266px;
-    height:30px;
-    font-size: 14px;
-    line-height: 25px;
-    color:#c00000;
-}
-.c_c_d_p_teapot{
-    width:266px;
-    height:206px;
-    position:absolute;
-    top:211px;
-    left:271px;
-    background-color: #faf0f4;
-}
-.c_c_d_p_teapot img{
-    width:266px;
-    height:206px;
-}
-.c_c_d_p_t_text{
-    box-sizing:border-box;
-    padding-top: 20px;
-    padding-left:10px;
-    position: absolute;
-    top:0;
-}
-.c_c_d_p_t_t_p1{
-    width:266px;
-    height:25px;
-    font-size: 16px;
-    line-height: 25px;
-    color: #333333;
-}
-.c_c_d_p_t_t_price{
-    width:266px;
-    height:30px;
-    font-size: 14px;
-    line-height: 25px;
-    color:#c00000;
-}
-.c_c_d_p_wettissue{
-    width:266px;
-    height:206px;
-    position:absolute;
-    top:211px;
-    left:542px;
-    background-color: #faefeb;
-}
-.c_c_d_p_wettissue img{
-    width:266px;
-    height:206px;
-}
-.c_c_d_p_w_text{
-    box-sizing:border-box;
-    padding-top: 20px;
-    padding-left:10px;
-    position: absolute;
-    top:0;
-}
-.c_c_d_p_w_t_p1{
-    width:266px;
-    height:25px;
-    font-size: 16px;
-    line-height: 25px;
-    color: #333333;
-}
-.c_c_d_p_w_t_price{
-    width:266px;
-    height:30px;
-    font-size: 14px;
-    line-height: 25px;
-    color:#c00000;
-}
-.c_c_d_p_more{
-    width:266px;
-    height:206px;
-    position:absolute;
-    top:211px;
-    right:0;
-    background-color: #f7f5eb;
-}
-.c_c_d_p_m_morenews{
-    width:100px;
-    height:20px;
-    font-size:19px;
-    margin-left: 88px;
-    margin-top:93px;
-    color:#925f3f;
-}
-/*每日上新模块设置结束*/
-/*热门模块设置*/
+/*end refrigerator*/
+/*hot*/
 .c_c_hot{
     width:1080px;
     height:340px;
@@ -2954,8 +2723,239 @@ ul{
 .c_c_h_p_clear{
     clear:both;
 }
-/*热门模块设置结束*/
-/*品牌模块设置*/                              /*轮播图*/
+/*end hot*/
+/*daily*/
+.c_c_daily{
+    width:1080px;
+    height:480px;
+    margin-top:90px;
+    clear:both;
+}
+.c_c_d_subtitle{
+    width:1080px;
+    height:32px;
+    margin-bottom: 30px;
+}
+.c_c_d_subtitle h2{
+    font-size:24px;
+    display: inline;
+    color:#333333;
+}
+.c_c_d_subtitle span{
+    color:#a9a9a9;
+}
+.c_c_d_subtitle a{
+    display:inline-block;
+    width:60px;
+    height:32px;
+    text-align: right;
+    line-height: 32px;
+    float:right;
+    color:#333333;
+}
+.c_c_d_subtitle a:hover{
+    color:#845f3f;
+}
+.c_c_d_product{
+    width:1080px;
+    height:418px;
+    position:relative;
+}
+.c_c_d_p_pillow{
+    width:266px;
+    height:418px;
+    position:absolute;
+}
+.c_c_d_p_pillow img{
+    width:266px;
+    height:418px;
+}
+.c_c_d_p_p_text{
+    box-sizing:border-box;
+    padding-top: 20px;
+    padding-left:10px;
+    position: absolute;
+    top:0;
+}
+.c_c_d_p_p_t_p1{
+    width:266px;
+    height:25px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #333333;
+}
+.c_c_d_p_p_t_p2{
+    width:266px;
+    height:25px;
+    font-size: 14px;
+    line-height: 25px;
+    color:#999999;
+}
+.c_c_d_p_p_t_price{
+    width:266px;
+    height:30px;
+    font-size: 14px;
+    line-height: 25px;
+    color:#c00000;
+}
+.c_c_d_p_deodorant{
+    width:266px;
+    height:206px;
+    position:absolute;
+    left:271px;
+    background-color: #eaf9f5;
+}
+.c_c_d_p_d_text{
+    box-sizing:border-box;
+    padding-top: 20px;
+    padding-left:10px;
+    position: absolute;
+    top:0;
+}
+.c_c_d_p_d_t_p1{
+    width:266px;
+    height:25px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #333333;
+}
+.c_c_d_p_d_t_price{
+    width:266px;
+    height:30px;
+    font-size: 14px;
+    line-height: 25px;
+    color:#c00000;
+}
+.c_c_d_p_deodorant img{
+    width:266px;
+    height:206px;
+}
+.c_c_d_p_foodprocesser{
+    width:538px;
+    height:206px;
+    position:absolute;
+    background-color: #f7f9ee;
+    right:0;
+}
+.c_c_d_p_foodprocesser img{
+    width:538px;
+    height:206px;
+}
+.c_c_d_p_f_text{
+    box-sizing:border-box;
+    padding-top: 20px;
+    padding-left:10px;
+    position: absolute;
+    top:0;
+}
+.c_c_d_p_f_t_p1{
+    width:266px;
+    height:25px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #333333;
+}
+.c_c_d_p_f_t_p2{
+    width:200px;
+    height:25px;
+    font-size: 14px;
+    line-height: 25px;
+    color:#999999;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow: hidden;
+}
+.c_c_d_p_f_t_price{
+    width:266px;
+    height:30px;
+    font-size: 14px;
+    line-height: 25px;
+    color:#c00000;
+}
+.c_c_d_p_teapot{
+    width:266px;
+    height:206px;
+    position:absolute;
+    top:211px;
+    left:271px;
+    background-color: #faf0f4;
+}
+.c_c_d_p_teapot img{
+    width:266px;
+    height:206px;
+}
+.c_c_d_p_t_text{
+    box-sizing:border-box;
+    padding-top: 20px;
+    padding-left:10px;
+    position: absolute;
+    top:0;
+}
+.c_c_d_p_t_t_p1{
+    width:266px;
+    height:25px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #333333;
+}
+.c_c_d_p_t_t_price{
+    width:266px;
+    height:30px;
+    font-size: 14px;
+    line-height: 25px;
+    color:#c00000;
+}
+.c_c_d_p_wettissue{
+    width:266px;
+    height:206px;
+    position:absolute;
+    top:211px;
+    left:542px;
+    background-color: #faefeb;
+}
+.c_c_d_p_wettissue img{
+    width:266px;
+    height:206px;
+}
+.c_c_d_p_w_text{
+    box-sizing:border-box;
+    padding-top: 20px;
+    padding-left:10px;
+    position: absolute;
+    top:0;
+}
+.c_c_d_p_w_t_p1{
+    width:266px;
+    height:25px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #333333;
+}
+.c_c_d_p_w_t_price{
+    width:266px;
+    height:30px;
+    font-size: 14px;
+    line-height: 25px;
+    color:#c00000;
+}
+.c_c_d_p_more{
+    width:266px;
+    height:206px;
+    position:absolute;
+    top:211px;
+    right:0;
+    background-color: #f7f5eb;
+}
+.c_c_d_p_m_morenews{
+    width:100px;
+    height:20px;
+    font-size:19px;
+    margin-left: 88px;
+    margin-top:93px;
+    color:#925f3f;
+}
+/*end dailyevery*/
+/*brand*/
 .c_c_brand{
     width:1080px;
     height:304px;
@@ -3029,8 +3029,8 @@ ul{
     width:266px;
     height:252px;
 }
-/*品牌模块设置结束*/
-/*手机模块设置*/
+/*end brand*/
+/*cellphone*/
 .c_c_cellphone{
     width:1080px;
     height:958px;
@@ -3543,8 +3543,8 @@ ul{
     top:-1px;
     box-shadow: 0 0 8px #b7b7b7;
 }
-/*手机大模块设置结束*/
-/*居家大模块设置*/
+/*end cellphone*/
+/*appliances*/
 .c_c_appliances{
     width:1080px;
     height:958px;
@@ -4047,8 +4047,8 @@ ul{
     top:-1px;
     box-shadow: 0 0 8px #b7b7b7;
 }
-/*居家大模块设置结束*/
-/*家电大模块设置*/
+/*end appliances*/
+/*livinghome*/
 .c_c_livinghome{
     width:1080px;
     height:958px;
@@ -4551,8 +4551,8 @@ ul{
     top:-1px;
     box-shadow: 0 0 8px #b7b7b7;
 }
-/*家电大模块设置结束*/
-/*共同模块设置*/
+/*end livinghome*/
+/*same*/
 .c_c_samemodule{
     width:1080px;
     height:958px;
@@ -5088,8 +5088,8 @@ ul{
 .c_c_b_f11{
     background-color: #ade6df;
 }
-/*共同模块设置结束*/
-/*箱包大模块设置*/
+/*end same*/
+/*bags*/
 .c_c_bags{
     width:1080px;
     height:648px;
@@ -5361,7 +5361,7 @@ ul{
     top:-1px;
     box-shadow: 0 0 8px #b7b7b7;
 }
-/*箱包大模块设置结束*/
+/*end bags*/
 /*end container*/
 /*footer*/
 .footer{

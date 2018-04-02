@@ -1,0 +1,246 @@
+a{
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    height: 890px;
+}
+.content{
+    width: 1850px;
+    height: 890px;
+    position: relative;
+}
+.content img{
+    width: 1850px;
+    height: 890px;
+    position: absolute;
+}
+.top{
+    width: 1850px;
+    height: 50px;
+    position: absolute;
+    top:30px;
+}
+/*左边logo*/
+.xiaomibox{
+    width: 140px;
+    height: 32px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+.xiaomibox span{
+    color:rgb(162,167,181);
+    font-size: 14px;
+}
+.xiaomibox i{
+    color:rgb(162,167,181);
+    font-size: 20px;
+}
+.xiaomibox:hover{
+    border-radius: 10%;
+   background-color: rgb(51,63,92);
+}
+.xiaomibox:hover i{
+    color: white;
+}
+.xiaomibox:hover span{
+    color: white;
+}
+.xiaomibox_msg{
+    width: 130px;
+    height: 170px;
+    position: absolute;
+    left:-20px;
+    top: 16px;
+    list-style: none;
+    background-color: rgb(46,58,88);
+    line-height: 28px;
+    z-index: 2;
+    padding: 0px;
+    text-align: center;
+    display: none;
+}
+.xiaomibox:hover .xiaomibox_msg{
+    display: block;
+}
+.xiaomibox_msg li a{
+    color: rgb(193,200,209);
+}
+.size_yunfuwu{
+    background-color: rgb(68,82,109);
+    color: white;
+}
+.xiaomibox_msg li:hover{
+    background-color: rgb(54,66,92);
+}
+.xiaomibox_msg a:hover{
+    color:white;
+}
+
+
+
+
+
+
+
+
+/*客户端下载*/
+.client{
+    width: 140px;
+    height: 32px;
+    position: absolute;
+    left: 1500px;
+    top: 10px;
+}
+.client img{
+    width: 20px;
+    height: 15px;
+}
+.client span{
+    color: rgb(189,200,211);
+    font-size: 14px;
+    padding-left: 25px;
+}
+.new{
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+.new img{
+    width: 40px;
+    height: 17px;
+}
+/*了解云服务*/
+.top_cloud{
+    width: 140px;
+    height: 32px;
+    position: absolute;
+    left: 1650px;
+    top: 10px;
+}
+.doubt{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.doubt img{
+    width: 25px;
+    height: 20px;
+}
+.top_cloud span{
+    color: rgb(189,200,211);
+    font-size: 14px;
+    padding-left: 25px;
+}
+.top_cloud span:hover{
+    color: white;
+}
+/*中间框*/
+.centre{
+    height: 370px;
+    width: 1850px;
+    position: absolute;
+    top: 230px;
+}
+.centre_cloud{
+    height: 150px;
+    width: 350px;
+    position: absolute;
+    top: 0;
+    left: 670px;
+    text-align: center;
+}
+.centre_cloud img{
+    height: 105px;
+    width: 156px;
+}
+.centre_msg1{
+    height: 80px;
+    width: 350px;
+    position: absolute;
+    top: 90px;
+    left: 750px;
+    text-align: center;
+}
+.centre_msg1 p{
+    color: rgb(209,214,221);
+    font-size: 30px;
+}
+.centre_msg2{
+    height: 80px;
+    width: 350px;
+    position: absolute;
+    top: 150px;
+    left: 755px;
+    text-align: center;
+}
+.centre_msg2 p{
+    color: rgb(209,214,221);
+    font-size: 18px;
+}
+/*小米账号登录*/
+.centre_msg3{
+    height: 40px;
+    width: 320px;
+    position: absolute;
+    top: 225px;
+    left: 765px;
+    text-align: center;
+    background-color:#2C759A;
+    border-color:#598fab;
+    border-radius: 30px;
+    line-height: 10px;
+}
+.centre_msg3 p{
+    color: rgb(209,214,221);
+}
+.centre_msg3 p:hover{
+    color: white;
+}
+/*底端部分*/
+.bottom{
+    width: 1850px;
+    height: 100px;
+    position: absolute;
+    top: 790px;
+}
+.bottom_text{
+    width: 1700px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    left: 120px;
+}
+.bottom a{
+    font-size: 13px;
+    color: rgb(209,214,221);
+}
+.bottom a:hover{
+    color: white;
+}
+.bottom_text span{
+    color: rgb(209,214,221);
+    font-size: 13px;
+}
+.bottom_text2{
+    width: 800px;
+    height: 30px;
+    position: absolute;
+    top: 60px;
+    left: 550px;
+}
+.bottom_text2 span{
+    color: rgb(209,214,221);
+    font-size: 13px;
+}
+.bottom_text3{
+    width: 600px;
+    height: 30px;
+    position: absolute;
+    top: 0px;
+    left: 280px;
+}
+.bottom_text3 span{
+    color: rgb(109,170,197);
+}
