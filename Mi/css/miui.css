@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 49px;
+    background-color: #000000;
+}
+.nav{
+    position: relative;
+    width: 1240px;
+    height: 49px;
+    margin: 0 auto;
+    /*background-color: gray;*/
+}
+.nav .logo{
+    position: absolute;
+    top: 16px;
+    left: 0;0000000
+line-height: 49px;
+}
+.nav ul{
+    position: absolute;
+    top: 9px;
+    right: 0;
+    width: 335px;
+    height: 30px;
+    text-align: right;
+    line-height: 30px;
+}
+.nav li{
+    float: left;
+    margin-left: 35px;
+}
+.nav li a{
+    color: #ffffff;
+    font-size: 14px;
+}
+.nav li a:hover{
+    color: rgba(255,255,255,0.5);
+}
+.nav li .first{
+    color: rgba(255,255,255,0.5);
+}
+.container{
+    width: 100%;
+}
+.banner{
+    height: 657px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    min-width: 980px;
+    background: transparent url("../images/miui/banner/banner.jpg") no-repeat scroll center top;
+}
+.content{
+    width: 1240px;
+    height: 57px;
+    margin: 0 auto;
+    padding: 55px 0;
+    border-bottom: 1px solid #E1E1E1;
+}
+.content ul li{
+    float: left;
+    width: 33.33%;
+    text-align: left;
+}
+.content ul li a{
+    display: block;
+    text-align: center;
+    border-right: 1px solid #E1E1E1;
+}
+.content ul li img{
+    margin-right: 24px;
+}
+.content ul li h3{
+    font-size: 20px;
+    color: #333333;
+    line-height: 28px;
+    text-align: left;
+    cursor: pointer;
+    font-weight: normal;
+}
+.content ul li p{
+    font-size: 14px;
+    color: #939393;
+    line-height: 28px;
+    text-align: left;
+    cursor: pointer;
+}
+.content .c_desc{
+    display: inline-block;
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    height: 160px;
+}
+.footer .f_wrapper{
+    width: 1240px;
+    /*height: 160px;*/
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.footer ul{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.footer li{
+    display: inline-block;
+    width: 110px;
+    border-right: 1px solid #d9d9d9;
+    line-height: 14px;
+    height: 14px;
+}
+.footer a{
+    color: #858585;
+    font-size: 14px;
+}
+.footer a:hover{
+    color: #ff6700;
+    text-decoration: underline;
+}
+.footer .language_list{
+    border-right: none;
+    position: relative;
+}
+.footer .language_list .languages{
+    position: absolute;
+    z-index: 3;
+    left: -1px;
+    right: -15px;
+    bottom: -13px;
+    background: white ;
+    /*display: none;*/
+}
+.footer .language_list .languages a{
+    font-family: 'microsoft yahei';
+    color: #858585;
+    font-size: 14px;
+    display: inline-block;
+    width: 110px;
+    padding-right: 15px;
+    padding-left: 1px;
+    line-height: 40px;
+}
+.footer .language_list .languages a:hover{
+    color: #ff6700;
+    text-decoration: underline;
+}
+.footer .address{
+    line-height: 20px;
+    color: #c5c6c8;
+    font-size: 11px;
+    text-align: center;
+}
