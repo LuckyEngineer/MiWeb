@@ -4,33 +4,34 @@
     <meta charset="UTF-8">
     <title>小米商城</title>
     <!-- header:iconfont -->
-    <link rel="stylesheet" type="text/css" href="../font/header/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="../iconfont/header/iconfont.css">
     <!-- header.css -->
     <link rel="stylesheet" type="text/css" href="../css/header.css">
     <!-- index:iconfont -->
-    <link rel="stylesheet" type="text/css" href="../font/index/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="../iconfont/index/iconfont.css">
     <!-- index.css -->
     <link rel="stylesheet" type="text/css" href="../css/index.css">
     <!-- footer:iconfont -->
-    <link rel="stylesheet" type="text/css" href="../font/footer/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="../iconfont/footer/iconfont.css">
     <!-- footer.css -->
     <link rel="stylesheet" type="text/css" href="../css/footer.css">
 </head>
 <body>
 <!-- Header -->
 <div class="header">
+    <!-- Topnav 顶部导航栏 -->
     <div class="topnav">
         <div class="t_wrapper">
             <div class="t_w_left">
                 <ul>
                     <li><a href="javascript:void(0)">小米商城</a><span>|</span></li>
-                    <li><a href="javascript:void(0)">MIUI</a><span>|</span></li>
+                    <li><a href="./miui.html">MIUI</a><span>|</span></li>
                     <li><a href="javascript:void(0)">IoT</a><span>|</span></li>
                     <li><a href="javascript:void(0)">云服务</a><span>|</span></li>
                     <li><a href="javascript:void(0)">水滴</a><span>|</span></li>
                     <li><a href="javascript:void(0)">金融</a><span>|</span></li>
                     <li><a href="javascript:void(0)">有品</a><span>|</span></li>
-                    <li><a href="javascript:void(0)">小米商城</a></li>
+                    <li><a href="javascript:void(0)" class="t_w_l_selregion">Select Region</a></li>
                 </ul>
             </div>
             <div class="t_w_right">
@@ -49,6 +50,8 @@
             </div>
         </div>
     </div>
+    <!-- End Topnav -->
+    <!-- Nav 主导航 -->
     <div class="nav">
         <div class="n_wrapper">
             <div class="n_w_logo" title="小米官网">
@@ -65,7 +68,8 @@
                     <li class="n_w_m_label"><a href="javascript:void(0)">笔记本</a></li>
                     <li class="n_w_m_label"><a href="javascript:void(0)">盒子</a></li>
                     <li class="n_w_m_label"><a href="javascript:void(0)">新品</a></li>
-                    <li class="n_w_m_label"><a href="javascript:void(0)">路由</a></li>
+                    <li class="n_w_m_label"><a href="javascript:void(0)">路由器</a></li>
+                    <li class="n_w_m_label"><a href="javascript:void(0)">智能硬件</a></li>
                     <li><a href="javascript:void(0)">服务</a></li>
                     <li><a href="javascript:void(0)">社区</a></li>
                 </ul>
@@ -75,20 +79,24 @@
                     <input type="search" name="key">
                     <div class="n_w_s_hide">
                         <ul>
-                            <li><a href="http://www.baidu.com">小米手机6<span>约有29件</span></a></li>
-                            <li><a href="">小米手机5X<span>约有8件</span></a></li>
-                            <li><a href="">红米note&nbsp;4X<span>约有14件</span></a></li>
-                            <li><a href="">红米手机4X<span>约有9件</span></a></li>
-                            <li><a href="">红米Max&nbsp;2<span>约有5件</span></a></li>
-                            <li><a href="">小米电视4C<span>约有2件</span></a></li>
-                            <li><a href="">电视32英寸<span>约有1件</span></a></li>
-                            <li><a href="">笔记本pro<span>约有3件</span></a></li>
-                            <li><a href="">空气净化器<span>约有17件</span></a></li>
-                            <li><a href="">净水器<span>约有9件</span></a></li>
+                            <li><a href="javascript:void(0)">小米手机6<span>约有29件</span></a></li>
+                            <li><a href="javascript:void(0)">小米手机5X<span>约有8件</span></a></li>
+                            <li><a href="javascript:void(0)">红米note&nbsp;4X<span>约有14件</span></a></li>
+                            <li><a href="javascript:void(0)">红米手机4X<span>约有9件</span></a></li>
+                            <li><a href="javascript:void(0)">红米Max&nbsp;2<span>约有5件</span></a></li>
+                            <li><a href="javascript:void(0)">小米电视4C<span>约有2件</span></a></li>
+                            <li><a href="javascript:void(0)">电视32英寸<span>约有1件</span></a></li>
+                            <li><a href="javascript:void(0)">笔记本pro<span>约有3件</span></a></li>
+                            <li><a href="javascript:void(0)">空气净化器<span>约有17件</span></a></li>
+                            <li><a href="javascript:void(0)">净水器<span>约有9件</span></a></li>
                         </ul>
                     </div>
                     <div class="n_w_s_find">
                         <i class="iconfont icon-sousuo5"></i>
+                    </div>
+                    <div class="n_w_s_hotwords">
+                        <a href="javascript:void(0)">小米Note 5</a>
+                        <a href="javascript:void(0)">小米MIX 2</a>
                     </div>
                 </form>
             </div>
@@ -98,266 +106,365 @@
                 <ul class="ul1">
                     <li>
                         <span class="p_label">新品</span>
-                        <a href=""><img src="../images/index/product/product_phone1.png"></a>
-                        <a href="" class="p_title">小米Max</a>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_phone1.png"></a>
+                        <a href="javascript:void(0)" class="p_title">小米MIX 2S</a>
+                        <p class="p_price">3299元起</p>
+                        <div class="p_border"></div>
+                    </li>
+                    <li>
+                        <span class="p_label">热卖</span>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_phone2.png"></a>
+                        <a href="javascript:void(0)" class="p_title">小米MIX 2</a>
+                        <p class="p_price">3099元</p>
+                        <div class="p_border"></div>
+                    </li>
+                    <li>
+                        <span class="p_label">热卖</span>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_phone3.png"></a>
+                        <a href="javascript:void(0)" class="p_title">小米note 3</a>
+                        <p class="p_price">1799元起</p>
+                        <div class="p_border"></div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_phone4.png"></a>
+                        <a href="javascript:void(0)" class="p_title">小米6</a>
+                        <p class="p_price">2299元起</p>
+                        <div class="p_border"></div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_phone5.png"></a>
+                        <a href="javascript:void(0)" class="p_title">小米Max 2</a>
+                        <p class="p_price">1399元起</p>
+                        <div class="p_border"></div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_phone6.jpg"></a>
+                        <a href="javascript:void(0)" class="p_title">小米5X</a>
                         <p class="p_price">1299元起</p>
-                        <div class="p_border"></div>
-                    </li>
-                    <li>
-                        <span class="p_label">热卖</span>
-                        <a href=""><img src="../images/index/product/product_phone2.png"></a>
-                        <a href="" class="p_title">小米手机5</a>
-                        <p class="p_price">1999元起</p>
-                        <div class="p_border"></div>
-                    </li>
-                    <li>
-                        <span class="p_label">热卖</span>
-                        <a href=""><img src="../images/index/product/product_phone3.png"></a>
-                        <a href="" class="p_title">小米手机5</a>
-                        <p class="p_price">1999元起</p>
-                        <div class="p_border"></div>
-                    </li>
-                    <li>
-                        <a href=""><img src="../images/index/product/product_phone4.png"></a>
-                        <a href="" class="p_title">小米手机5</a>
-                        <p class="p_price">1999元起</p>
-                        <div class="p_border"></div>
-                    </li>
-                    <li>
-                        <a href=""><img src="../images/index/product/product_phone5.png"></a>
-                        <a href="" class="p_title">小米手机5</a>
-                        <p class="p_price">1999元起</p>
-                        <div class="p_border"></div>
-                    </li>
-                    <li>
-                        <a href=""><img src="../images/index/product/product_phone6.jpg"></a>
-                        <a href="" class="p_title">小米手机5</a>
-                        <p class="p_price">1999元起</p>
-                        <div class="p_border"></div>
                     </li>
                 </ul>
                 <ul class="ul2">
                     <li>
                         <span class="p_label">热卖</span>
-                        <a href=""><img src="../images/index/product/product_phone7.png"></a>
-                        <a href="" class="p_title">小米手机5</a>
-                        <p class="p_price">1999元起</p>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_phone7.png"></a>
+                        <a href="javascript:void(0)" class="p_title">红米Note 5</a>
+                        <p class="p_price">1099元起</p>
                         <div class="p_border"></div>
                     </li>
                     <li>
                         <span class="p_label">热卖</span>
-                        <a href=""><img src="../images/index/product/product_phone8.png"></a>
-                        <a href="" class="p_title">小米手机5</a>
-                        <p class="p_price">1999元起</p>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_phone8.png"></a>
+                        <a href="javascript:void(0)" class="p_title">红米5 Plus</a>
+                        <p class="p_price">999元起</p>
                         <div class="p_border"></div>
                     </li>
                     <li>
-                        <a href=""><img src="../images/index/product/product_phone9.png"></a>
-                        <a href="" class="p_title">小米手机5</a>
-                        <p class="p_price">1999元起</p>
+                        <span class="p_label">热卖</span>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_phone9.png"></a>
+                        <a href="javascript:void(0)" class="p_title">红米5</a>
+                        <p class="p_price">799元起</p>
                         <div class="p_border"></div>
                     </li>
                     <li>
-                        <a href=""><img src="../images/index/product/product_phone10.png"></a>
-                        <a href="" class="p_title">小米手机5</a>
-                        <p class="p_price">1999元起</p>
+                        <span class="p_label">热卖</span>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_phone10.png"></a>
+                        <a href="javascript:void(0)" class="p_title">红米5A</a>
+                        <p class="p_price">599元起</p>
                         <div class="p_border"></div>
                     </li>
                     <li>
-                        <a href=""><img src="../images/index/product/product_phone11.png"></a>
-                        <a href="" class="p_title">小米手机5</a>
-                        <p class="p_price">1999元起</p>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_phone11.png"></a>
+                        <a href="javascript:void(0)" class="p_title">红米Note 5A 标准版</a>
+                        <p class="p_price">699元</p>
                         <div class="p_border"></div>
                     </li>
                     <li>
                         <span class="p_label">新品</span>
-                        <a href=""><img src="../images/index/product/product_phone12.png"></a>
-                        <a href="" class="p_title">小米Max</a>
-                        <p class="p_price">1299元起</p>
-                        <div class="p_border"></div>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_phone12.png"></a>
+                        <a href="javascript:void(0)" class="p_title">红米Note 5A 高配版</a>
+                        <p class="p_price">899元起</p>
                     </li>
                 </ul>
                 <ul class="ul3">
                     <li>
                         <span class="p_label">新品</span>
-                        <a href=""><img src="../images/index/product/product_phone1.png"></a>
-                        <a href="" class="p_title">小米Max</a>
-                        <p class="p_price">1299元起</p>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_tv1.png"></a>
+                        <a href="javascript:void(0)" class="p_title">小米电视4S 55英寸</a>
+                        <p class="p_price">2999元</p>
                         <div class="p_border"></div>
                     </li>
                     <li>
                         <span class="p_label">热卖</span>
-                        <a href=""><img src="../images/index/product/product_phone2.png"></a>
-                        <a href="" class="p_title">小米手机5</a>
-                        <p class="p_price">1999元起</p>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_tv2.png"></a>
+                        <a href="javascript:void(0)" class="p_title">小米电视4A 32英寸</a>
+                        <p class="p_price">999元</p>
                         <div class="p_border"></div>
                     </li>
                     <li>
                         <span class="p_label">热卖</span>
-                        <a href=""><img src="../images/index/product/product_phone3.png"></a>
-                        <a href="" class="p_title">小米手机5</a>
-                        <p class="p_price">1999元起</p>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_tv3.png"></a>
+                        <a href="javascript:void(0)" class="p_title">小米电视4A 43英寸</a>
+                        <p class="p_price">1799元</p>
                         <div class="p_border"></div>
                     </li>
                     <li>
-                        <a href=""><img src="../images/index/product/product_phone4.png"></a>
-                        <a href="" class="p_title">小米手机5</a>
-                        <p class="p_price">1999元起</p>
+                        <span class="p_label">热卖</span>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_tv4.jpg"></a>
+                        <a href="javascript:void(0)" class="p_title">小米电视4A 50英寸</a>
+                        <p class="p_price">2199元</p>
                         <div class="p_border"></div>
                     </li>
                     <li>
-                        <a href=""><img src="../images/index/product/product_phone5.png"></a>
-                        <a href="" class="p_title">小米手机5</a>
-                        <p class="p_price">1999元起</p>
+                        <span class="p_label">热卖</span>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_tv5.jpg"></a>
+                        <a href="javascript:void(0)" class="p_title">小米电视4A 55英寸</a>
+                        <p class="p_price">2699元</p>
                         <div class="p_border"></div>
                     </li>
                     <li>
-                        <a href=""><img src="../images/index/product/product_phone6.jpg"></a>
-                        <a href="" class="p_title">小米手机5</a>
-                        <p class="p_price">1999元起</p>
-                        <div class="p_border"></div>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_tv6.png"></a>
+                        <a href="javascript:void(0)" class="p_title">小米电视4A 55英寸</a>
+                        <p class="p_price">2699元</p>
                     </li>
                 </ul>
                 <ul class="ul4">
                     <li>
-                        <span class="p_label">新品</span>
-                        <a href=""><img src="../images/index/product/product_phone1.png"></a>
-                        <a href="" class="p_title">小米Max</a>
-                        <p class="p_price">1299元起</p>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_computer1.png"></a>
+                        <a href="javascript:void(0)" class="p_title">小米游戏本 15.6"</a>
+                        <p class="p_price">5999元起</p>
                         <div class="p_border"></div>
                     </li>
                     <li>
-                        <span class="p_label">热卖</span>
-                        <a href=""><img src="../images/index/product/product_phone2.png"></a>
-                        <a href="" class="p_title">小米手机5</a>
-                        <p class="p_price">1999元起</p>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_computer2.jpg"></a>
+                        <a href="javascript:void(0)" class="p_title">小米笔记本Air 12.5"</a>
+                        <p class="p_price">3599元</p>
                         <div class="p_border"></div>
                     </li>
                     <li>
-                        <span class="p_label">热卖</span>
-                        <a href=""><img src="../images/index/product/product_phone3.png"></a>
-                        <a href="" class="p_title">小米手机5</a>
-                        <p class="p_price">1999元起</p>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_computer3.png"></a>
+                        <a href="javascript:void(0)" class="p_title">小米笔记本Air 12.5"</a>
+                        <p class="p_price">3599元起</p>
                         <div class="p_border"></div>
                     </li>
                     <li>
-                        <a href=""><img src="../images/index/product/product_phone4.png"></a>
-                        <a href="" class="p_title">小米手机5</a>
-                        <p class="p_price">1999元起</p>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_computer4.jpg"></a>
+                        <a href="javascript:void(0)" class="p_title">小米笔记本Air 12.5"</a>
+                        <p class="p_price">3599元起</p>
                         <div class="p_border"></div>
                     </li>
                     <li>
-                        <a href=""><img src="../images/index/product/product_phone5.png"></a>
-                        <a href="" class="p_title">小米手机5</a>
-                        <p class="p_price">1999元起</p>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_computer5.jpg"></a>
+                        <a href="javascript:void(0)" class="p_title">小米笔记本Air 12.5"</a>
+                        <p class="p_price">3599元起</p>
                         <div class="p_border"></div>
                     </li>
                     <li>
-                        <a href=""><img src="../images/index/product/product_phone6.jpg"></a>
-                        <a href="" class="p_title">小米手机5</a>
-                        <p class="p_price">1999元起</p>
-                        <div class="p_border"></div>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_computer6.png"></a>
+                        <a href="javascript:void(0)" class="p_title">小米笔记本Air 12.5"</a>
+                        <p class="p_price">3599元起</p>
                     </li>
                 </ul>
                 <ul class="ul5">
                     <li>
-                        <span class="p_label">新品</span>
-                        <a href=""><img src="../images/index/product/product_phone1.png"></a>
-                        <a href="" class="p_title">小米Max</a>
-                        <p class="p_price">1299元起</p>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_mibox1.png"></a>
+                        <a href="javascript:void(0)" class="p_title">小米盒子4</a>
+                        <p class="p_price">1299元</p>
                         <div class="p_border"></div>
                     </li>
                     <li>
-                        <span class="p_label">热卖</span>
-                        <a href=""><img src="../images/index/product/product_phone2.png"></a>
-                        <a href="" class="p_title">小米手机5</a>
-                        <p class="p_price">1999元起</p>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_mibox2.png"></a>
+                        <a href="javascript:void(0)" class="p_title">小米盒子4c</a>
+                        <p class="p_price">1999元</p>
                         <div class="p_border"></div>
                     </li>
                     <li>
-                        <span class="p_label">热卖</span>
-                        <a href=""><img src="../images/index/product/product_phone3.png"></a>
-                        <a href="" class="p_title">小米手机5</a>
-                        <p class="p_price">1999元起</p>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_mibox3.png"></a>
+                        <a href="javascript:void(0)" class="p_title">小米盒子3s</a>
+                        <p class="p_price">1999元</p>
                         <div class="p_border"></div>
                     </li>
                     <li>
-                        <a href=""><img src="../images/index/product/product_phone4.png"></a>
-                        <a href="" class="p_title">小米手机5</a>
-                        <p class="p_price">1999元起</p>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_mibox4.png"></a>
+                        <a href="javascript:void(0)" class="p_title">小米盒子3c</a>
+                        <p class="p_price">1999元</p>
                         <div class="p_border"></div>
                     </li>
                     <li>
-                        <a href=""><img src="../images/index/product/product_phone5.png"></a>
-                        <a href="" class="p_title">小米手机5</a>
-                        <p class="p_price">1999元起</p>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_mibox5.jpg"></a>
+                        <a href="javascript:void(0)" class="p_title">小米盒子3 增强版</a>
+                        <p class="p_price">399元</p>
                         <div class="p_border"></div>
                     </li>
                     <li>
-                        <a href=""><img src="../images/index/product/product_phone6.jpg"></a>
-                        <a href="" class="p_title">小米手机5</a>
-                        <p class="p_price">1999元起</p>
-                        <div class="p_border"></div>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_mibox6.png"></a>
+                        <a href="javascript:void(0)" class="p_title">小米家庭影院</a>
+                        <p class="p_price">2099元起</p>
                     </li>
                 </ul>
                 <ul class="ul6">
                     <li>
-                        <span class="p_label">新品</span>
-                        <a href=""><img src="../images/index/product/product_phone1.png"></a>
-                        <a href="" class="p_title">小米Max</a>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_new1.png"></a>
+                        <a href="javascript:void(0)" class="p_title">米家iHeadth 体温计</a>
+                        <p class="p_price">1299元</p>
+                        <div class="p_border"></div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_new2.png"></a>
+                        <a href="javascript:void(0)" class="p_title">70 迈智能记录仪</a>
+                        <p class="p_price">1999元</p>
+                        <div class="p_border"></div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_new3.png"></a>
+                        <a href="javascript:void(0)" class="p_title">TS太阳镜 路行者款 米家定制</a>
+                        <p class="p_price">1999元</p>
+                        <div class="p_border"></div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_new4.png"></a>
+                        <a href="javascript:void(0)" class="p_title">70 迈智能记录仪</a>
+                        <p class="p_price">1999元</p>
+                        <div class="p_border"></div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_new5.png"></a>
+                        <a href="javascript:void(0)" class="p_title">米家iHeadth 体温计</a>
+                        <p class="p_price">1999元</p>
+                        <div class="p_border"></div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_new6.png"></a>
+                        <a href="javascript:void(0)" class="p_title">TS太阳镜 路行者款 米家定制</a>
+                        <p class="p_price">1999元起</p>
+                    </li>
+                </ul>
+                <ul class="ul7">
+                    <li>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_router1.jpg"></a>
+                        <a href="javascript:void(0)" class="p_title">小米路由器</a>
                         <p class="p_price">1299元起</p>
                         <div class="p_border"></div>
                     </li>
                     <li>
-                        <span class="p_label">热卖</span>
-                        <a href=""><img src="../images/index/product/product_phone2.png"></a>
-                        <a href="" class="p_title">小米手机5</a>
+                        <span class="p_label">大容量</span>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_router2.png"></a>
+                        <a href="javascript:void(0)" class="p_title">小米路由器</a>
                         <p class="p_price">1999元起</p>
                         <div class="p_border"></div>
                     </li>
                     <li>
-                        <span class="p_label">热卖</span>
-                        <a href=""><img src="../images/index/product/product_phone3.png"></a>
-                        <a href="" class="p_title">小米手机5</a>
+                        <span class="p_label">双千兆</span>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_router3.png"></a>
+                        <a href="javascript:void(0)" class="p_title">小米路由器</a>
                         <p class="p_price">1999元起</p>
                         <div class="p_border"></div>
                     </li>
                     <li>
-                        <a href=""><img src="../images/index/product/product_phone4.png"></a>
-                        <a href="" class="p_title">小米手机5</a>
+                        <span class="p_label">双频</span>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_router4.png"></a>
+                        <a href="javascript:void(0)" class="p_title">小米路由器</a>
                         <p class="p_price">1999元起</p>
                         <div class="p_border"></div>
                     </li>
                     <li>
-                        <a href=""><img src="../images/index/product/product_phone5.png"></a>
-                        <a href="" class="p_title">小米手机5</a>
+                        <span class="p_label">包邮</span>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_router5.png"></a>
+                        <a href="javascript:void(0)" class="p_title">小米路由器</a>
                         <p class="p_price">1999元起</p>
                         <div class="p_border"></div>
                     </li>
                     <li>
-                        <a href=""><img src="../images/index/product/product_phone6.jpg"></a>
-                        <a href="" class="p_title">小米手机5</a>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_router6.jpg"></a>
+                        <a href="javascript:void(0)" class="p_title">小米路由器</a>
+                        <p class="p_price">1999元起</p>
+                    </li>
+                </ul>
+                <ul class="ul8">
+                    <li>
+                        <span class="p_label">航拍利器</span>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_smart1.jpg"></a>
+                        <a href="javascript:void(0)" class="p_title">小米无人机</a>
+                        <p class="p_price">1299元起</p>
+                        <div class="p_border"></div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_smart2.png"></a>
+                        <a href="javascript:void(0)" class="p_title">小米净水器</a>
                         <p class="p_price">1999元起</p>
                         <div class="p_border"></div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_smart3.jpg"></a>
+                        <a href="javascript:void(0)" class="p_title">小米扫地机器人</a>
+                        <p class="p_price">1999元起</p>
+                        <div class="p_border"></div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_smart4.jpg"></a>
+                        <a href="javascript:void(0)" class="p_title">小米压力HI电饭煲</a>
+                        <p class="p_price">1999元起</p>
+                        <div class="p_border"></div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><img src="../images/index/product/product_smart5.jpg"></a>
+                        <a href="javascript:void(0)" class="p_title">查看全部智能硬件</a>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
+    <!-- End Nav -->
+    <!-- Selregion Modal 地区选择模态框 -->
+    <div id="selregion" class="selregion" >
+        <div class="s_box">
+            <div class="s_b_header">
+                <span class="s_b_h_title">Select Region</span>
+                <a class="s_b_h_close" href="javascript:void(0)"><i class="iconfont icon-close"></i></a>
+            </div>
+            <div class="s_b_body">
+                <h1>Welcome to Mi.com</h1>
+                <p>Please select your country or region</p>
+                <p class="s_b_b_region">
+                    <a href="javascript:void(0)">Mainland China</a>
+                    <a href="javascript:void(0)">Hong Kong</a>
+                    <a href="javascript:void(0)">Taiwan</a>
+                    <a href="javascript:void(0)">Singapore</a>
+                    <a href="javascript:void(0)">Malaysia</a>
+                    <a href="javascript:void(0)">Philippines</a>
+                    <a href="javascript:void(0)">India</a>
+                    <a href="javascript:void(0)">Indonesia</a>
+                    <a href="javascript:void(0)">Global Home</a>
+                    <a href="javascript:void(0)">MENA</a>
+                    <a href="javascript:void(0)">Poland</a>
+                    <a href="javascript:void(0)">Ukraine</a>
+                    <a href="javascript:void(0)">Russia</a>
+                    <a href="javascript:void(0)">Vietnam</a>
+                    <a href="javascript:void(0)">Mexico</a>
+                    <a href="javascript:void(0)">Korea</a>
+                    <a href="javascript:void(0)">Egypt</a>
+                    <a href="javascript:void(0)">Thailand</a>
+                    <a href="javascript:void(0)">Spain</a>
+                    <a href="javascript:void(0)">United States</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End Selregion -->
 </div>
 <!-- End Header -->
+<!-- Container -->
 <div class="container">
-    <!-- Banner -->
+    <!-- Banner 广告位 -->
     <div class="banner">
         <!-- b_main -->
         <div class="b_main">
             <div class="b_m_pic">
                 <ul>
-                    <li style="display:block;"><a href=""><img src="../images/index/banner/banner_1.jpg" alt=""></a></li>
-                    <li><a href=""><img src="../images/index/banner/banner_2.jpg" alt=""></a></li>
-                    <li><a href=""><img src="../images/index/banner/banner_3.jpg" alt=""></a></li>
-                    <li><a href=""><img src="../images/index/banner/banner_4.jpg" alt=""></a></li>
-                    <li><a href=""><img src="../images/index/banner/banner_5.jpg" alt=""></a></li>
+                    <li style="display:block;"><a href="javascript:void(0)"><img src="../images/index/banner/banner_1.jpg"></a></li>
+                    <li><a href="javascript:void(0)"><img src="../images/index/banner/banner_2.jpg"></a></li>
+                    <li><a href="javascript:void(0)"><img src="../images/index/banner/banner_3.jpg"></a></li>
+                    <li><a href="javascript:void(0)"><img src="../images/index/banner/banner_4.jpg"></a></li>
+                    <li><a href="javascript:void(0)"><img src="../images/index/banner/banner_5.jpg"></a></li>
                 </ul>
             </div>
             <div class="b_m_btn">
@@ -369,174 +476,1487 @@
             </div>
         </div>
         <!-- End b_main -->
-        <!--b_nav start-->
-        <!--<div class="b_nav">-->
-        <!--<ul>-->
-        <!--<li>-->
-        <!--<a href="">手机 电话卡<i class="iconfont icon-right"></i></a>-->
-        <!--<div class="b_n_hide">-->
-        <!--<ul>-->
-        <!--<li>-->
-        <!--<a href="" class="b_n_h_img"><img src="../images/index/icon/icon_phone1.png" alt=""><span>小米手机5</span></a>-->
-        <!--</li>-->
-        <!--<li>-->
-        <!--<a href="" class="b_n_h_img"><img src="../images/index/icon/icon_phone1.png" alt=""><span>小米手机5</span></a>-->
-        <!--</li>-->
-        <!--<li>-->
-        <!--<a href="" class="b_n_h_img"><img src="../images/index/icon/icon_phone1.png" alt=""><span>小米手机5</span></a>-->
-        <!--</li>-->
-        <!--<li>-->
-        <!--<a href="" class="b_n_h_img"><img src="../images/index/icon/icon_phone1.png" alt=""><span>小米手机5</span></a>-->
-        <!--</li>-->
-        <!--<li>-->
-        <!--<a href="" class="b_n_h_img"><img src="../images/index/icon/icon_phone1.png" alt=""><span>小米手机5</span></a>-->
-        <!--</li>-->
-        <!--<li>-->
-        <!--<a href="" class="b_n_h_img"><img src="../images/index/icon/icon_phone1.png" alt=""><span>小米手机5</span></a>-->
-        <!--</li>-->
-        <!--</ul>-->
-        <!--<ul>-->
-        <!--<li>-->
-        <!--<a href="" class="b_n_h_img"><img src="../images/index/icon/icon_phone1.png" alt=""><span>小米手机5</span></a>-->
-        <!--</li>-->
-        <!--<li>-->
-        <!--<a href="" class="b_n_h_img"><img src="../images/index/icon/icon_phone1.png" alt=""><span>小米手机5</span></a>-->
-        <!--</li>-->
-        <!--<li>-->
-        <!--<a href="" class="b_n_h_img"><img src="../images/index/icon/icon_phone1.png" alt=""><span>小米手机5</span></a>-->
-        <!--</li>-->
-        <!--<li>-->
-        <!--<a href="" class="b_n_h_img"><img src="../images/index/icon/icon_phone1.png" alt=""><span>小米手机5</span></a>-->
-        <!--</li>-->
-        <!--<li>-->
-        <!--<a href="" class="b_n_h_img"><img src="../images/index/icon/icon_phone1.png" alt=""><span>小米手机5</span></a>-->
-        <!--</li>-->
-        <!--<li>-->
-        <!--<a href="" class="b_n_h_img"><img src="../images/index/icon/icon_phone1.png" alt=""><span>小米手机5</span></a>-->
-        <!--</li>-->
-        <!--</ul>-->
-        <!--</div>-->
-        <!--</li>-->
-        <!--<li>-->
-        <!--<a href="">电视 盒子<i class="iconfont icon-right"></i></a>-->
-        <!--<div class="b_n_hide" style="width:256px">-->
-        <!--<ul>-->
-        <!--<li>-->
-        <!--<a href="" class="b_n_h_img"><img src="../images/index/icon/icon_phone1.png" alt=""><span>小米手机5</span></a>-->
-        <!--</li>-->
-        <!--<li>-->
-        <!--<a href="" class="b_n_h_img"><img src="../images/index/icon/icon_phone1.png" alt=""><span>小米手机5</span></a>-->
-        <!--</li>-->
-        <!--</ul>-->
-        <!--</div>-->
-        <!--</li>-->
-        <!--<li>-->
-        <!--<a href="">笔记本<i class="iconfont icon-right"></i></a>-->
-        <!--<div class="b_n_hide" style="width:768px">-->
-        <!--3-->
-        <!--</div>-->
-        <!--</li>-->
-        <!--<li>-->
-        <!--<a href="">智能 家电<i class="iconfont icon-right"></i></a>-->
-        <!--<div class="b_n_hide" style="width:768px">-->
-        <!--4-->
-        <!--</div>-->
-        <!--</li>-->
-        <!--<li>-->
-        <!--<a href="">健康 家居<i class="iconfont icon-right"></i></a>-->
-        <!--<div class="b_n_hide" style="width:512px">-->
-        <!--5-->
-        <!--</div>-->
-        <!--</li>-->
-        <!--<li>-->
-        <!--<a href="">出行 儿童<i class="iconfont icon-right"></i></a>-->
-        <!--<div class="b_n_hide" style="width:768px">-->
-        <!--6-->
-        <!--</div>-->
-        <!--</li>-->
-        <!--<li>-->
-        <!--<a href="">路由器 手机配件<i class="iconfont icon-right"></i></a>-->
-        <!--<div class="b_n_hide" style="width:256px">-->
-        <!--7-->
-        <!--</div>-->
-        <!--</li>-->
-        <!--<li>-->
-        <!--<a href="">移动电源 插线板<i class="iconfont icon-right"></i></a>-->
-        <!--<div class="b_n_hide" style="width:256px">-->
-        <!--8-->
-        <!--</div>-->
-        <!--</li>-->
-        <!--<li>-->
-        <!--<a href="">耳机 音箱<i class="iconfont icon-right"></i></a>-->
-        <!--<div class="b_n_hide" style="width:256px">-->
-        <!--9-->
-        <!--</div>-->
-        <!--</li>-->
-        <!--<li>-->
-        <!--<a href="">生活 米兔<i class="iconfont icon-right"></i></a>-->
-        <!--<div class="b_n_hide" style="width:256px">-->
-        <!--10-->
-        <!--</div>-->
-        <!--</li>-->
-        <!--</ul>-->
-        <!--</div>-->
-        <!--b_nav end-->
+        <!-- b_nav -->
+        <div class="b_nav">
+            <ul>
+                <li>
+                    <a href="javascript:void(0)">手机 平板 电话卡<i class="iconfont icon-right"></i></a>
+                    <div class="b_n_hide">
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone1.png">
+                                    <span>小米MIX 2S</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone2.png">
+                                    <span>小米Note 3</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone3.png">
+                                    <span>小米MIX 2</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone4.png">
+                                    <span>小米6</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone5.png">
+                                    <span>小米5X</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone6.jpg">
+                                    <span>小米MAX 2</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone1.png">
+                                    <span>小米MIX 2S</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone2.png">
+                                    <span>小米Note 3</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone3.png">
+                                    <span>小米MIX 2</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone4.png">
+                                    <span>小米6</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone5.png">
+                                    <span>小米5X</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone6.jpg">
+                                    <span>小米MAX 2</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone1.png">
+                                    <span>小米MIX 2S</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone2.png">
+                                    <span>小米Note 3</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone3.png">
+                                    <span>小米MIX 2</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone4.png">
+                                    <span>小米6</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone5.png">
+                                    <span>小米5X</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone6.jpg">
+                                    <span>小米MAX 2</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">电视 盒子<i class="iconfont icon-right"></i></a>
+                    <div class="b_n_hide" style="width:520px;">
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv1.jpg">
+                                    <span>小米电视4S 55英寸</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv2.png">
+                                    <span>小米电视4C 50英寸</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv3.jpg">
+                                    <span>小米电视4A 32英寸</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv4.jpg">
+                                    <span>小米电视4C 50英寸</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv5.jpg">
+                                    <span>小米电视4S 55英寸</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv6.jpg">
+                                    <span>小米电视4A 40英寸</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv1.jpg">
+                                    <span>小米电视4S 55英寸</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv2.png">
+                                    <span>小米电视4C 50英寸</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv3.jpg">
+                                    <span>小米电视4A 32英寸</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv4.jpg">
+                                    <span>小米电视4C 50英寸</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv5.jpg">
+                                    <span>小米电视4S 55英寸</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv6.jpg">
+                                    <span>小米电视4A 40英寸</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">笔记本<i class="iconfont icon-right"></i></a>
+                    <div class="b_n_hide">
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer1.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer2.jpg">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer4.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer2.jpg">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer1.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer4.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer1.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer2.jpg">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer4.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer2.jpg">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer1.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer4.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer1.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer2.jpg">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer4.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer2.jpg">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer1.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer4.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">智能 家电<i class="iconfont icon-right"></i></a>
+                    <div class="b_n_hide" style="width:520px;">
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_smart1.jpg">
+                                    <span>小米电磁炉</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_smart2.jpg">
+                                    <span>扫地机器人</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_smart3.jpg">
+                                    <span>PM2.5 检测仪</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_smart1.jpg">
+                                    <span>小米电磁炉</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_smart2.jpg">
+                                    <span>扫地机器人</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_smart3.jpg">
+                                    <span>PM2.5 检测仪</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_smart1.jpg">
+                                    <span>小米电磁炉</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_smart2.jpg">
+                                    <span>扫地机器人</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_smart3.jpg">
+                                    <span>PM2.5 检测仪</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_smart1.jpg">
+                                    <span>小米电磁炉</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_smart2.jpg">
+                                    <span>扫地机器人</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_smart3.jpg">
+                                    <span>PM2.5 检测仪</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">健康 家居<i class="iconfont icon-right"></i></a>
+                    <div class="b_n_hide">
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone1.png">
+                                    <span>小米MIX 2S</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone2.png">
+                                    <span>小米Note 3</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone3.png">
+                                    <span>小米MIX 2</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone4.png">
+                                    <span>小米6</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone5.png">
+                                    <span>小米5X</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone6.jpg">
+                                    <span>小米MAX 2</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone1.png">
+                                    <span>小米MIX 2S</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone2.png">
+                                    <span>小米Note 3</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone3.png">
+                                    <span>小米MIX 2</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone4.png">
+                                    <span>小米6</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone5.png">
+                                    <span>小米5X</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone6.jpg">
+                                    <span>小米MAX 2</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone1.png">
+                                    <span>小米MIX 2S</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone2.png">
+                                    <span>小米Note 3</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone3.png">
+                                    <span>小米MIX 2</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone4.png">
+                                    <span>小米6</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone5.png">
+                                    <span>小米5X</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_phone6.jpg">
+                                    <span>小米MAX 2</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">出行 儿童<i class="iconfont icon-right"></i></a>
+                    <div class="b_n_hide" style="width:520px;">
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv1.jpg">
+                                    <span>小米电视4S 55英寸</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv2.png">
+                                    <span>小米电视4C 50英寸</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv3.jpg">
+                                    <span>小米电视4A 32英寸</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv4.jpg">
+                                    <span>小米电视4C 50英寸</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv5.jpg">
+                                    <span>小米电视4S 55英寸</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv6.jpg">
+                                    <span>小米电视4A 40英寸</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv1.jpg">
+                                    <span>小米电视4S 55英寸</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv2.png">
+                                    <span>小米电视4C 50英寸</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv3.jpg">
+                                    <span>小米电视4A 32英寸</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv4.jpg">
+                                    <span>小米电视4C 50英寸</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv5.jpg">
+                                    <span>小米电视4S 55英寸</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv6.jpg">
+                                    <span>小米电视4A 40英寸</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">路由器 手机配件<i class="iconfont icon-right"></i></a>
+                    <div class="b_n_hide">
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer1.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer2.jpg">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer4.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer2.jpg">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer1.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer4.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer1.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer2.jpg">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer4.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer2.jpg">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer1.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer4.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer1.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer2.jpg">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer4.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer2.jpg">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer1.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer4.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">移动电源 插线板<i class="iconfont icon-right"></i></a>
+                    <div class="b_n_hide" style="width:520px;">
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_smart1.jpg">
+                                    <span>小米电磁炉</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_smart2.jpg">
+                                    <span>扫地机器人</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_smart3.jpg">
+                                    <span>PM2.5 检测仪</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_smart1.jpg">
+                                    <span>小米电磁炉</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_smart2.jpg">
+                                    <span>扫地机器人</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_smart3.jpg">
+                                    <span>PM2.5 检测仪</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_smart1.jpg">
+                                    <span>小米电磁炉</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_smart2.jpg">
+                                    <span>扫地机器人</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_smart3.jpg">
+                                    <span>PM2.5 检测仪</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_smart1.jpg">
+                                    <span>小米电磁炉</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_smart2.jpg">
+                                    <span>扫地机器人</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_smart3.jpg">
+                                    <span>PM2.5 检测仪</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">耳机 音箱<i class="iconfont icon-right"></i></a>
+                    <div class="b_n_hide" style="width:520px;">
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv1.jpg">
+                                    <span>小米电视4S 55英寸</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv2.png">
+                                    <span>小米电视4C 50英寸</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv3.jpg">
+                                    <span>小米电视4A 32英寸</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv4.jpg">
+                                    <span>小米电视4C 50英寸</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv5.jpg">
+                                    <span>小米电视4S 55英寸</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv6.jpg">
+                                    <span>小米电视4A 40英寸</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv1.jpg">
+                                    <span>小米电视4S 55英寸</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv2.png">
+                                    <span>小米电视4C 50英寸</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv3.jpg">
+                                    <span>小米电视4A 32英寸</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv4.jpg">
+                                    <span>小米电视4C 50英寸</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv5.jpg">
+                                    <span>小米电视4S 55英寸</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_tv6.jpg">
+                                    <span>小米电视4A 40英寸</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">生活 米兔<i class="iconfont icon-right"></i></a>
+                    <div class="b_n_hide">
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer1.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer2.jpg">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer4.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer2.jpg">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer1.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer4.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer1.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer2.jpg">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer4.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer2.jpg">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer1.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer4.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer1.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer2.jpg">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer4.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer2.jpg">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer1.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="../images/index/icon/icon_computer4.png">
+                                    <span>小米笔记本Air</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- End b_nav -->
     </div>
+    <!-- End Banner -->
+    <!-- Hot 热门 -->
+    <div class="hot">
+        <div class="h_list">
+            <ul>
+                <li class="l1"><a href="javascript:void(0)"><i class="iconfont icon-phone"></i><span class="h_l_title">选购手机</span></a></li>
+                <li class="l2"><a href="javascript:void(0)"><i class="iconfont icon-gift"></i><span class="h_l_title">企业团购</span></a></li>
+                <li class="l3"><a href="javascript:void(0)"><i class="iconfont icon-F"></i><span class="h_l_title">F码通道</span></a></li>
+                <li class="l4"><a href="javascript:void(0)"><i class="iconfont icon-ai-SIM"></i><span class="h_l_title">米粉卡</span></a></li>
+                <li class="l5"><a href="javascript:void(0)"><i class="iconfont icon-phone02"></i><span class="h_l_title">以旧换新</span></a></li>
+                <li class="l6"><a href="javascript:void(0)"><i class="iconfont icon-qiapian"></i><span class="h_l_title">话费充值</span></a></li>
+            </ul>
+        </div>
+        <div class="h_img1 h_img">
+            <a href="javascript:void(0)"><img src="../images/index/hot/hot_phone1.jpg" width="316" height="170"></a>
+        </div>
+        <div class="h_img2 h_img">
+            <a href="javascript:void(0)"><img src="../images/index/hot/hot_phone2.jpg" width="316" height="170"></a>
+        </div>
+        <div class="h_img3 h_img">
+            <a href="javascript:void(0)"><img src="../images/index/hot/hot_phone3.jpg" width="316" height="170"></a>
+        </div>
+    </div>
+    <!-- End Hot -->
+    <!-- Purchase 购买 -->
+    <div class="purchase">
+        <div class="p_title">
+            <h2 class="p_t_h2">小米闪购</h2>
+            <div class="p_t_btn">
+                <div class="p_t_b_left"><i class="iconfont icon-left"></i></div>
+                <div class="p_t_b_right click"><i class="iconfont icon-right"></i></div>
+            </div>
+        </div>
+        <div class="p_goods">
+            <div class="p_g_countdown">
+                <div class="p_g_c_title">10:00场</div>
+                <img src="../images/index/purchase/purchase_flash.png">
+                <div class="p_g_c_desc">距离结束还有</div>
+                <div class="p_g_c_time">
+                    <div class="p_g_c_box">00</div>
+                    <div class="p_g_c_dosh">:</div>
+                    <div class="p_g_c_box">10</div>
+                    <div class="p_g_c_dosh">:</div>
+                    <div class="p_g_c_box">35</div>
+                </div>
+            </div>
+            <div class="p_g_list">
+                <ul>
+                    <!--<li class="p_g_l_border1">-->
+                        <!--<a href="javascript:void(0)">-->
+                            <!--<img src="../images/index/purchase/purchase_goods1.jpg">-->
+                        <!--</a>-->
+                        <!--<h3>红米5 2+16GB 移动4G+版 金色</h3>-->
+                        <!--<p class="p_g_l_desc">千元全面屏，前置柔光自拍</p>-->
+                        <!--<p class="p_g_l_price">-->
+                            <!--<span>739</span>-->
+                            <!--<span>元</span>-->
+                            <!--<del>799元</del>-->
+                        <!--</p>-->
+                    <!--</li>-->
+                </ul>
+            </div>
+        </div>
+        <div class="common_banner">
+            <a href="javascript:void(0)">
+                <img src="../images/index/banner/banner_long1.jpg">
+            </a>
+        </div>
+    </div>
+    <!-- End Purchase -->
+    <!-- bgColor -->
+    <div id="bgColor">
+        <!-- Phone -->
+        <div class="phone">
+            <div class="p_title">
+                <h2>手机</h2>
+                <a href="javascript:void(0)">查看全部<span class="iconfont icon-xiangyou3fill"></span></a>
+            </div>
+            <div class="p_content">
+                <ul>
+                    <li class="left">
+                        <a href="javascript:void(0)">
+                            <img src="../images/index/phone/phone_main.jpg">
+                        </a>
+                    </li>
+                    <li class="p_c_bottom">
+                        <a href="./product.html" class="p_c_img">
+                            <img src="../images/index/phone/phone_4.jpg">
+                        </a>
+                        <a href="./product.html" class="p_c_title">小米6 4GB+64GB</a>
+                        <p class="p_c_detail">变焦双摄，4 轴防抖，骁龙835 处理器</p>
+                        <p class="p_c_price">2299元</p>
+                    </li>
+                    <li class="p_c_bottom">
+                        <a href="javascript:void(0)" class="p_c_img">
+                            <img src="../images/index/phone/phone_2.jpg">
+                        </a>
+                        <a href="javascript:void(0)" class="p_c_title">小米6 4GB+64GB</a>
+                        <p class="p_c_detail">变焦双摄，4 轴防抖，骁龙835 处理器</p>
+                        <p class="p_c_price">2299元</p>
+                    </li>
+                    <li class="p_c_bottom">
+                        <a href="javascript:void(0)" class="p_c_img">
+                            <img src="../images/index/phone/phone_3.jpg">
+                        </a>
+                        <a href="javascript:void(0)" class="p_c_title">小米6 4GB+64GB</a>
+                        <p class="p_c_detail">变焦双摄，4 轴防抖，骁龙835 处理器</p>
+                        <p class="p_c_price">2299元</p>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0)" class="p_c_img">
+                            <img src="../images/index/phone/phone_8.jpg">
+                        </a>
+                        <a href="javascript:void(0)" class="p_c_title">小米6 4GB+64GB</a>
+                        <p class="p_c_detail">变焦双摄，4 轴防抖，骁龙835 处理器</p>
+                        <p class="p_c_price">2299元</p>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="p_c_img">
+                            <img src="../images/index/phone/phone_6.jpg">
+                        </a>
+                        <a href="javascript:void(0)" class="p_c_title">小米6 4GB+64GB</a>
+                        <p class="p_c_detail">变焦双摄，4 轴防抖，骁龙835 处理器</p>
+                        <p class="p_c_price">2299元</p>
+                    </li>
+                    <li class="freetag">
+                        <a href="javascript:void(0)" class="p_c_img">
+                            <img src="../images/index/phone/phone_7.jpg">
+                        </a>
+                        <a href="javascript:void(0)" class="p_c_title">小米6 4GB+64GB</a>
+                        <p class="p_c_detail">变焦双摄，4 轴防抖，骁龙835 处理器</p>
+                        <p class="p_c_price">2299元</p>
+                    </li>
+                    <li style="margin-right:0" class="freetag">
+                        <a href="javascript:void(0)" class="p_c_img">
+                            <img src="../images/index/phone/phone_8.jpg">
+                        </a>
+                        <a href="javascript:void(0)" class="p_c_title">小米6 4GB+64GB</a>
+                        <p class="p_c_detail">变焦双摄，4 轴防抖，骁龙835 处理器</p>
+                        <p class="p_c_price">2299元</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="common_banner">
+                <a href="javascript:void(0)">
+                    <img src="../images/index/banner/banner_long2.jpg">
+                </a>
+            </div>
+        </div>
+        <!-- End Phone -->
+        <!-- Household -->
+        <div class="household">
+            <div class="h_title">
+                <h2 class="h_t_h2">家电</h2>
+                <ul>
+                    <li>热门</li>
+                    <li>电视影音</li>
+                    <li>电脑</li>
+                    <li>家居</li>
+                </ul>
+            </div>
+            <div class="h_con">
+                <div class="h_c_left">
+                    <a href="javascript:void(0)" class="h_c_l_top"><img src="../images/index/household/household_left1.jpg"></a>
+                    <a href="javascript:void(0)"><img src="../images/index/household/household_left2.jpg"></a>
+                </div>
+                <div class="h_c_right">
+                </div>
+            </div>
+            <div class="common_banner">
+                <a href="javascript:void(0)">
+                    <img src="../images/index/banner/banner_long2.jpg">
+                </a>
+            </div>
+        </div>
+        <!-- End household -->
+
+        <!-- End household -->
+        <!-- Comment -->
+        <div class="comment">
+            <h2 class="c_title">热评产品</h2>
+            <div class="c_con">
+                <ul>
+                    <li>
+                        <a href="javascript:void(0)" class="c_c_img"><img src="../images/index/comment/comment_1.jpg"></a>
+                        <a href="javascript:void(0)" class="c_c_detail">手机好用，反应快，价格适中，会常光顾，赞，五分好评！</a>
+                        <p class="c_c_comment">来自于 颜海平 的评价</p>
+                        <a href="javascript:void(0)" class="c_c_title">小米Max全网通版 <span class="space">| </span><span class="price">1499元</span></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="c_c_img"><img src="../images/index/comment/comment_2.jpg"></a>
+                        <a href="javascript:void(0)" class="c_c_detail">手机好用，反应快，价格适中，会常光顾，赞，五分好评！</a>
+                        <p class="c_c_comment">来自于 颜海平 的评价</p>
+                        <a href="javascript:void(0)" class="c_c_title">小米Max全网通版 <span class="space">| </span><span class="price">1499元</span></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="c_c_img"><img src="../images/index/comment/comment_3.jpg"></a>
+                        <a href="javascript:void(0)" class="c_c_detail">手机好用，反应快，价格适中，会常光顾，赞，五分好评！</a>
+                        <p class="c_c_comment">来自于 颜海平 的评价</p>
+                        <a href="javascript:void(0)" class="c_c_title">小米Max全网通版 <span class="space">| </span><span class="price">1499元</span></a>
+                    </li>
+                    <li style="margin-right:0">
+                        <a href="javascript:void(0)" class="c_c_img"><img src="../images/index/comment/comment_4.jpg"></a>
+                        <a href="javascript:void(0)" class="c_c_detail">手机好用，反应快，价格适中，会常光顾，赞，五分好评！</a>
+                        <p class="c_c_comment">来自于 颜海平 的评价</p>
+                        <a href="javascript:void(0)" class="c_c_title">小米Max全网通版 <span class="space">| </span><span class="price">1499元</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Comment -->
+
+        <!-- Content -->
+        <div class="content">
+            <h2 class="c_title">内容</h2>
+            <div class="c_con">
+                <ul>
+                    <li class="c_c_li">
+                        <h3>图书</h3>
+                        <div class="box_wrap">
+                            <div class="box">
+                                <a href="javascript:void(0)" class="c_c_title">哈利·波特与被诅咒的孩子</a>
+                                <a href="javascript:void(0)" class="c_c_detail">哈利波特</a>
+                                <a href="javascript:void(0)" class="c_c_price">29.37元</a>
+                                <a href="javascript:void(0)" class="c_c_img"><img src="../images/index/content/content_book1.png"></a>
+                            </div>
+                            <div class="box">
+                                <a href="javascript:void(0)" class="c_c_title">哈利·波特与魔法石</a>
+                                <a href="javascript:void(0)" class="c_c_detail">哈利波特</a>
+                                <a href="javascript:void(0)" class="c_c_price">29.37元</a>
+                                <a href="javascript:void(0)" class="c_c_img"><img src="../images/index/content/content_book2.png"></a>
+                            </div>
+                            <div class="box">
+                                <a href="javascript:void(0)" class="c_c_title">哈利·波特与魔法石</a>
+                                <a href="javascript:void(0)" class="c_c_detail">哈利波特</a>
+                                <a href="javascript:void(0)" class="c_c_price">29.37元</a>
+                                <a href="javascript:void(0)" class="c_c_img"><img src="../images/index/content/content_book1.png"></a>
+                            </div>
+                            <div class="box">
+                                <a href="javascript:void(0)" class="c_c_title">哈利·波特与魔法石</a>
+                                <a href="javascript:void(0)" class="c_c_detail">哈利波特</a>
+                                <a href="javascript:void(0)" class="c_c_price">29.37元</a>
+                                <a href="javascript:void(0)" class="c_c_img"><img src="../images/index/content/content_book3.jpg"></a>
+                            </div>
+                        </div>
+                        <div class="tab">
+                            <ul><li class="on"></li><li></li><li></li><li></li></ul>
+                        </div>
+                        <div class="btn" onselectstart="return false;">
+                            <div class="b_left iconfont" style="left:0">&#xe615;</div>
+                            <div class="b_right iconfont" style="right:0;">&#xe618;</div>
+                        </div>
+                    </li>
+                    <li class="c_c_li">
+                        <h3>MIUI 主题</h3>
+                        <div class="box_wrap">
+                            <div class="box">
+                                <a href="javascript:void(0)" class="c_c_title">黑豹-迅猛来袭</a>
+                                <a href="javascript:void(0)" class="c_c_detail">小米主题与迪士尼首度合作</a>
+                                <a href="javascript:void(0)" class="c_c_price">8米币</a>
+                                <a href="javascript:void(0)" class="c_c_img"><img src="../images/index/content/content_theme1.png"></a>
+                            </div>
+                            <div class="box">
+                                <a href="javascript:void(0)" class="c_c_title">黑豹-迅猛来袭</a>
+                                <a href="javascript:void(0)" class="c_c_detail">小米主题与迪士尼首度合作</a>
+                                <a href="javascript:void(0)" class="c_c_price">8米币</a>
+                                <a href="javascript:void(0)" class="c_c_img"><img src="../images/index/content/content_theme2.png"></a>
+                            </div>
+                            <div class="box">
+                                <a href="javascript:void(0)" class="c_c_title">黑豹-迅猛来袭</a>
+                                <a href="javascript:void(0)" class="c_c_detail">小米主题与迪士尼首度合作</a>
+                                <a href="javascript:void(0)" class="c_c_price">8米币</a>
+                                <a href="javascript:void(0)" class="c_c_img"><img src="../images/index/content/content_theme3.png"></a>
+                            </div>
+                            <div class="box">
+                                <a href="javascript:void(0)" class="c_c_title">黑豹-迅猛来袭</a>
+                                <a href="javascript:void(0)" class="c_c_detail">小米主题与迪士尼首度合作</a>
+                                <a href="javascript:void(0)" class="c_c_price">8米币</a>
+                                <a href="javascript:void(0)" class="c_c_img"><img src="../images/index/content/content_theme4.jpg"></a>
+                            </div>
+                        </div>
+                        <div class="tab">
+                            <ul><li class="on"></li><li></li><li></li><li></li></ul>
+                        </div>
+                        <div class="btn" onselectstart="return false;">
+                            <div class="b_left iconfont" style="left:0">&#xe615;</div>
+                            <div class="b_right iconfont" style="right:0;">&#xe618;</div>
+                        </div>
+                    </li>
+                    <li class="c_c_li">
+                        <h3>游戏</h3>
+                        <div class="box_wrap">
+                            <div class="box">
+                                <a href="javascript:void(0)" class="c_c_title">剑侠世界2</a>
+                                <a href="javascript:void(0)" class="c_c_detail">潮流武侠，炫动江湖！</a>
+                                <a href="javascript:void(0)" class="c_c_price">免费</a>
+                                <a href="javascript:void(0)" class="c_c_img"><img src="../images/index/content/content_game1.png"></a>
+                            </div>
+                            <div class="box">
+                                <a href="javascript:void(0)" class="c_c_title">剑侠世界2</a>
+                                <a href="javascript:void(0)" class="c_c_detail">潮流武侠，炫动江湖！</a>
+                                <a href="javascript:void(0)" class="c_c_price">免费</a>
+                                <a href="javascript:void(0)" class="c_c_img"><img src="../images/index/content/content_game2.png"></a>
+                            </div>
+                            <div class="box">
+                                <a href="javascript:void(0)" class="c_c_title">剑侠世界2</a>
+                                <a href="javascript:void(0)" class="c_c_detail">潮流武侠，炫动江湖！</a>
+                                <a href="javascript:void(0)" class="c_c_price">免费</a>
+                                <a href="javascript:void(0)" class="c_c_img"><img src="../images/index/content/content_game3.png"></a>
+                            </div>
+                            <div class="box">
+                                <a href="javascript:void(0)" class="c_c_title">剑侠世界2</a>
+                                <a href="javascript:void(0)" class="c_c_detail">潮流武侠，炫动江湖！</a>
+                                <a href="javascript:void(0)" class="c_c_price">免费</a>
+                                <a href="javascript:void(0)" class="c_c_img"><img src="../images/index/content/content_game4.jpg"></a>
+                            </div>
+                        </div>
+                        <div class="tab">
+                            <ul><li class="on"></li><li></li><li></li><li></li></ul>
+                        </div>
+                        <div class="btn" onselectstart="return false;">
+                            <div class="b_left iconfont" style="left:0">&#xe615;</div>
+                            <div class="b_right iconfont" style="right:0;">&#xe618;</div>
+                        </div>
+                    </li>
+                    <li class="c_c_li"  style="margin-right:0">
+                        <h3>应用</h3>
+                        <div class="box_wrap">
+                            <div class="box">
+                                <a href="javascript:void(0)" class="c_c_title">2017金米奖</a>
+                                <a href="javascript:void(0)" class="c_c_detail">最优秀的应用和游戏</a>
+                                <a href="javascript:void(0)" class="c_c_price">免费</a>
+                                <a href="javascript:void(0)" class="c_c_img"><img src="../images/index/content/content_app1.png"></a>
+                            </div>
+                            <div class="box">
+                                <a href="javascript:void(0)" class="c_c_title">2015年度应用</a>
+                                <a href="javascript:void(0)" class="c_c_detail">2015年度应用</a>
+                                <a href="javascript:void(0)" class="c_c_price">免费</a>
+                                <a href="javascript:void(0)" class="c_c_img"><img src="../images/index/content/content_app2.png"></a>
+                            </div>
+                            <div class="box">
+                                <a href="javascript:void(0)" class="c_c_title">2015年度应用</a>
+                                <a href="javascript:void(0)" class="c_c_detail">2015年度应用</a>
+                                <a href="javascript:void(0)" class="c_c_price">免费</a>
+                                <a href="javascript:void(0)" class="c_c_img"><img src="../images/index/content/content_app3.png"></a>
+                            </div>
+                            <div class="box">
+                                <a href="javascript:void(0)" class="c_c_title">2015年度应用</a>
+                                <a href="javascript:void(0)" class="c_c_detail">2015年度应用</a>
+                                <a href="javascript:void(0)" class="c_c_price">免费</a>
+                                <a href="javascript:void(0)" class="c_c_img"><img src="../images/index/content/content_app4.jpg"></a>
+                            </div>
+                        </div>
+                        <div class="tab">
+                            <ul><li class="on"></li><li></li><li></li><li></li></ul>
+                        </div>
+                        <div class="btn" onselectstart="return false;">
+                            <div class="b_left iconfont icon-left" style="left:0"></div>
+                            <div class="b_right iconfont icon-right" style="right:0;"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Content -->
+
+        <!-- Video -->
+        <div class="video">
+            <div class="v_title">
+                <h2 class="v_t_h2">视频</h2>
+                <a href="#">查看全部<span class="iconfont icon-xiangyou3fill"></span></a>
+            </div>
+            <div class="v_con">
+                <ul>
+                    <li data="http://hd.mi.com/f/zt/hd/misc/youku.html?vid=XMTY1ODg5ODA0MA==">
+                        <img src="../images/index/video/video_bg1.jpg" alt="">
+                        <a href="">红米年度品牌视频</a>
+                        <p>一亿人喜爱你，是一种责任。</p>
+                        <span class="iconfont">&#xe611;</span>
+                    </li>
+                    <li data="http://hd.mi.com/f/zt/hd/misc/youku.html?vid=XMTY1OTg3NjQ4OA==">
+                        <img src="../images/index/video/video_bg2.jpg" alt="">
+                        <a href="">小米笔记本Air最全介绍视频</a>
+                        <p>带独立显卡的轻薄笔记本</p>
+                        <span class="iconfont">&#xe611;</span>
+                    </li>
+                    <li data="http://hd.mi.com/f/zt/hd/misc/youku.html?vid=XMTY1OTg4NjY0OA==">
+                        <img src="../images/index/video/video_bg3.jpg" alt="">
+                        <a href="">小米笔记本Air</a>
+                        <p>小米笔记本Air是如何炼成的？</p>
+                        <span class="iconfont">&#xe611;</span>
+                    </li>
+                    <li style="margin-right:0;"  data="http://hd.mi.com/f/zt/hd/misc/youku.html?vid=XMTU2NDM3NjEzMg==">
+                        <img src="../images/index/video/video_bg4.jpg" alt="">
+                        <a href="">小米Max 绝美外观视频</a>
+                        <p>6.44" 大屏黄金尺寸，看什么都震撼</p>
+                        <span class="iconfont">&#xe611;</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="v_hide">
+                <div class="v_h_con">
+                    <div class="v_h_c_title">
+                        <h2 class="v_h_c_h2">红米年度品牌视频</h2>
+                        <span class="close">×</span>
+                    </div>
+                    <div class="v_h_c_content">
+                        <iframe src='http://player.youku.com/embed/XMTY4OTI1ODI1Ng==' frameborder=0 'allowfullscreen'></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End video -->
+    </div>
+    <!-- End bgcolor -->
+
 </div>
+<!-- End Container -->
+<!-- Footer -->
 <div class="footer">
     <div class="f_service">
         <ul>
-            <li><a href="#"><i class="iconfont icon-weixiubanshou"></i>预约维修服务</a></li>
-            <li><a href="#"><i class="iconfont icon-7tianwuliyoutuihuo"></i>7天无理由退货</a></li>
-            <li><a href="#"><i class="iconfont icon-15tianwuliyoutuihuo"></i>15天免费换货</a></li>
-            <li><a href="#"><i class="iconfont icon-liwuhuodong"></i>满150元包邮</a></li>
-            <li style="border-right:none;"><a href="#"><i class="iconfont icon-dingwei"></i>520余家售后网点</a></li>
+            <li><a href="javascript:void(0)"><i class="iconfont icon-weixiubanshou"></i>预约维修服务</a></li>
+            <li><a href="javascript:void(0)"><i class="iconfont icon-7tianwuliyoutuihuo"></i>7天无理由退货</a></li>
+            <li><a href="javascript:void(0)"><i class="iconfont icon-15tianwuliyoutuihuo"></i>15天免费换货</a></li>
+            <li><a href="javascript:void(0)"><i class="iconfont icon-liwuhuodong"></i>满150元包邮</a></li>
+            <li style="border-right:none;"><a href="javascript:void(0)"><i class="iconfont icon-dingwei"></i>520余家售后网点</a></li>
         </ul>
     </div>
     <div class="f_info">
         <div class="f_i_left">
             <dl>
                 <dt>帮助中心</dt>
-                <dd><a href="#">账户管理</a></dd>
-                <dd><a href="#">购物指南</a></dd>
-                <dd><a href="#">订单操作</a></dd>
+                <dd><a href="javascript:void(0)">账户管理</a></dd>
+                <dd><a href="javascript:void(0)">购物指南</a></dd>
+                <dd><a href="javascript:void(0)">订单操作</a></dd>
             </dl>
             <dl>
                 <dt>服务支持</dt>
-                <dd><a href="#">售后政策</a></dd>
-                <dd><a href="#">自助服务</a></dd>
-                <dd><a href="#">相关下载</a></dd>
+                <dd><a href="javascript:void(0)">售后政策</a></dd>
+                <dd><a href="javascript:void(0)">自助服务</a></dd>
+                <dd><a href="javascript:void(0)">相关下载</a></dd>
             </dl>
             <dl>
                 <dt>线下门店</dt>
-                <dd><a href="#">小米之家</a></dd>
-                <dd><a href="#">服务网点</a></dd>
-                <dd><a href="#">零售网点</a></dd>
+                <dd><a href="javascript:void(0)">小米之家</a></dd>
+                <dd><a href="javascript:void(0)">服务网点</a></dd>
+                <dd><a href="javascript:void(0)">零售网点</a></dd>
             </dl>
             <dl>
                 <dt>关于小米</dt>
-                <dd><a href="#">了解小米</a></dd>
-                <dd><a href="#">加入小米</a></dd>
-                <dd><a href="#">联系我们</a></dd>
+                <dd><a href="javascript:void(0)">了解小米</a></dd>
+                <dd><a href="javascript:void(0)">加入小米</a></dd>
+                <dd><a href="javascript:void(0)">联系我们</a></dd>
             </dl>
             <dl>
                 <dt>关注我们</dt>
-                <dd><a href="#">新浪微博</a></dd>
-                <dd><a href="#">小米部落</a></dd>
-                <dd><a href="#">官方微信</a></dd>
+                <dd><a href="javascript:void(0)">新浪微博</a></dd>
+                <dd><a href="javascript:void(0)">小米部落</a></dd>
+                <dd><a href="javascript:void(0)">官方微信</a></dd>
             </dl>
             <dl>
                 <dt>特色服务</dt>
-                <dd><a href="#">F 码通道</a></dd>
-                <dd><a href="#">礼物码</a></dd>
-                <dd><a href="#">防伪查询</a></dd>
+                <dd><a href="javascript:void(0)">F 码通道</a></dd>
+                <dd><a href="javascript:void(0)">礼物码</a></dd>
+                <dd><a href="javascript:void(0)">防伪查询</a></dd>
             </dl>
         </div>
         <div class="f_i_right">
             <p class="p1">400-100-5678</p>
             <p class="p2">周一至周日 8:00-18:00 </p>
             <p class="p3">（仅收市话费）</p>
-            <a href=""><i class="iconfont icon-pinglun"></i> 在线客服</a>
+            <a href="javascript:void(0)"><i class="iconfont icon-pinglun"></i> 在线客服</a>
         </div>
     </div>
     <div class="f_link">
@@ -544,148 +1964,39 @@
             <div class="f_l_i_left">
                 <img src="../images/index/logo/logo_footer.png" width="57" height="57">
                 <ul>
-                    <li><a href="">小米商城</a>|</li>
-                    <li><a href="">MIUI</a>|</li>
-                    <li><a href="">米家</a>|</li>
-                    <li><a href="">米聊</a>|</li>
-                    <li><a href="">多看</a>|</li>
-                    <li><a href="">路由器</a>|</li>
-                    <li><a href="">米粉卡</a>|</li>
-                    <li><a href="">小米天猫店</a>|</li>
-                    <li><a href="">隐私政策</a>|</li>
-                    <li><a href="">问题反馈</a>|</li>
-                    <li><a href="">Select Region</a></li>
+                    <li><a href="javascript:void(0)">小米商城</a>|</li>
+                    <li><a href="javascript:void(0)">MIUI</a>|</li>
+                    <li><a href="javascript:void(0)">米家</a>|</li>
+                    <li><a href="javascript:void(0)">米聊</a>|</li>
+                    <li><a href="javascript:void(0)">多看</a>|</li>
+                    <li><a href="javascript:void(0)">路由器</a>|</li>
+                    <li><a href="javascript:void(0)">米粉卡</a>|</li>
+                    <li><a href="javascript:void(0)">小米天猫店</a>|</li>
+                    <li><a href="javascript:void(0)">隐私政策</a>|</li>
+                    <li><a href="javascript:void(0)">问题反馈</a>|</li>
+                    <li><a href="javascript:void(0)">Select Region</a></li>
                 </ul>
                 <span>©mi.com 京ICP证110507号 京ICP备10046444号 京公网安备11010802020134号 京网文[2014]0059-0009号
 违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</span>
             </div>
             <div class="f_l_i_right">
-                <a href="#"><img src="../images/index/footer/1.png" alt=""></a>
-                <a href="#"><img src="../images/index/footer/2.png" alt=""></a>
-                <a href="#"><img src="../images/index/footer/3.png" alt=""></a>
-                <a href="#"><img src="../images/index/footer/4.png" alt=""></a>
-                <a href="#"><img src="../images/index/footer/5.png" alt=""></a>
+                <a href="javascript:void(0)"><img src="../images/index/footer/1.png"></a>
+                <a href="javascript:void(0)"><img src="../images/index/footer/2.png"></a>
+                <a href="javascript:void(0)"><img src="../images/index/footer/3.png"></a>
+                <a href="javascript:void(0)"><img src="../images/index/footer/4.png"></a>
+                <a href="javascript:void(0)"><img src="../images/index/footer/5.png"></a>
             </div>
         </div>
         <div class="f_l_bottom"></div>
     </div>
 </div>
+<!-- End Footer -->
 <!-- 引入jQuery -->
 <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
-<!-- 自定义js -->
-<script type="text/javascript">
-    $(function(){
-        // header
-        (function () {
-            // 购物车
-            var $shop = $(".topnav .t_wrapper .t_w_right .t_w_r_shop");
-            var $s_hide = $(".topnav .t_wrapper .t_w_right .t_w_r_shop .t_w_r_s_hide");
-            // 搜索框
-            var $search = $(".nav .n_wrapper .n_w_search");
-            var $input = $(".nav .n_wrapper .n_w_s_input input");
-            var $search_hide = $(".nav .n_wrapper .n_w_s_input .n_w_s_hide");
-            $shop.hover(function(){
-                $s_hide.stop(true).slideDown();
-            },function(){
-                $s_hide.stop(true).slideUp();
-            });
-            // search input获取焦点
-            $input.focus(function(){
-                $search.addClass("focus");
-                $search_hide.fadeIn();
-            }).blur(function(){
-                $search.removeClass("focus");
-                $search_hide.fadeOut();
-            });
-            // 鼠标滑动到主导航上，将n_product展示出来
-            var $label = $(".nav .n_wrapper .n_w_main .n_w_m_label");
-            var $product = $(".nav .n_product");
-            var $p_ul = $(".n_product .n_p_main ul");
-            $label.hover(function(){
-                var ul_index = $(this).index();
-                $product.stop(true).slideDown(300);
-                // 显示需要显示的那一栏，把同级的其他ul隐藏
-                $p_ul.eq(ul_index).show().siblings().hide();
-            },function(){
-                $product.stop(true).slideUp(300);
-            });
-            $product.hover(function(){
-                $(this).stop(true).slideDown(300);
-            },function(){
-                $(this).stop(true).slideUp(300);
-            });
-        })();
-        // Container
-        // banner轮播图的切换
-        (function(){
-            var $tabLi = $(".b_main .b_m_tab li");
-            var $picLi = $(".b_main .b_m_pic li");
-            var $btn = $(".b_main .b_m_btn div");
-            var $b_main = $(".b_main");
-            var _index = 0;//全局索引
-            var len = $tabLi.length;//5
-            var timer = null;//定时器
-            $tabLi.hover(function(){
-                $(this).addClass("hover");
-            },function(){
-                $(this).removeClass("hover");
-            }).click(function(){
-                _index = $(this).index();
-                plays();
-            });
-            //点击左右按钮
-            $btn.click(function(){
-                var index = $(this).index();
-                if(index){//判断若点击的是右按钮
-                    _index++;//_index = _index+1;
-                    if(_index > len-1){
-                        _index = 0;
-                    }
-                    plays();
-                }else{
-                    _index--;
-                    if(_index<0){
-                        _index = len-1;
-                    }
-                    plays();
-                }
-            });
-            //统一功能函数封装
-            function plays(){
-                $tabLi.eq(_index).addClass("click").siblings().removeClass("click");
-                $picLi.eq(_index).fadeIn().siblings().fadeOut();
-            };
-            //定时轮播
-            function auto(){
-                timer = setInterval(function(){
-                    _index++;//_index = _index+1;
-                    if(_index > len-1){
-                        _index = 0;
-                    }
-                    plays();
-                },2000);
-            }
-            auto();//默认执行定时轮播
-            //鼠标移入b_main停止定时，离开继续
-            $b_main.hover(function(){
-                clearInterval(timer);//清除定时器
-            },function(){
-                auto();//执行定时器轮播效果
-            });
-        })();
-        // 左侧nav的二级导航
-        (function(){
-            var $nav_li = $(".b_nav>ul>li");
-            $nav_li.hover(function(){
-                //将对应的hide部分显示
-                $(this).find(".b_n_hide").show();
-            },function(){
-                //将对应的hide部分隐藏
-                $(this).find(".b_n_hide").hide();
-            });
-        })();
-    });
-
-</script>
+<!-- 引入header.js -->
+<script type="text/javascript" src="../js/header.js"></script>
+<script type="text/javascript" src="../js/indexdata.js"></script>
+<!-- index.js -->
+<script type="text/javascript" src="../js/index.js"></script>
 </body>
 </html>
