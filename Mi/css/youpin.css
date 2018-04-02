@@ -1,6 +1,7 @@
 *{
     padding:0;
     margin:0;
+    font-family: "microsoft yahei";
 }
 a{
     text-decoration: none;
@@ -14,13 +15,13 @@ ul{
     height:48px;
     background-color: #333333;
 }
-.header a{
-    color:#b7b7b7;
-}
 .h_topnavbar{
     width:1080px;
     height:48px;
     margin:0 auto;
+}
+.h_topnavbar a{
+    color:#e7e7e7;
 }
 .h_t_download{
     width:95px;
@@ -29,7 +30,7 @@ ul{
     font-size:15px;
     line-height:48px;
     text-align: center;
-    color:#b7b7b7;
+    color:#e7e7e7;
     float:right;
 }
 .h_t_download a:hover{
@@ -37,7 +38,6 @@ ul{
 }
 .h_t_loginbar{
     float:right;
-    color:#b7b7b7;
 }
 .h_t_loginbar li{
     width:36px;
