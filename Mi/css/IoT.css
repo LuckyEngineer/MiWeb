@@ -117,7 +117,7 @@ a{
     position:relative;
     background-color: white;
 }
-/*接入方案设置*/
+/*solution*/
 .c_c_p_solution{
     width:1220px;
     height:339px;
@@ -294,7 +294,7 @@ a{
     background-size:502px 185px;
     background-position: 403px 0;
 }
-/*接入方案设置结束*/
+/*end solution*/
 .c_c_p_bleecontainer{
     width:100%;
     height:500px;
@@ -380,7 +380,7 @@ a{
     line-height: 36px;
     color:#4a4a4a;
 }
-/*接入流程设置*/
+/*sprocesse*/
 .c_c_sprocesse{
     width:1220px;
     height:496px;
@@ -511,8 +511,8 @@ a{
     line-height: 30px;
     color:#4a4a4a;
 }
-/*接入流程设置*/
-/*平台资源设置*/
+/*end sprocesse*/
+/*resources*/
 .c_c_resources{
     width:1220px;
     height:496px;
@@ -621,14 +621,14 @@ a{
     line-height: 30px;
     color:#4a4a4a;
 }
-/*平台资源设置结束*/
-/*例子模块设置*/
+/*resources*/
+/*example*/
 .c_c_example{
     width:100%;
     height:1304px;
     background-color: #ededed;
 }
-/*成功案例设置*/
+/*cases*/
 .c_c_e_cases{
     width:1220px;
     height:584px;
@@ -665,8 +665,8 @@ a{
 .c_c_e_c_clear{
     clear:both;
 }
-/*成功案例设置完毕*/
-/*合作伙伴模块设置*/
+/*end cases*/
+/*partners*/
 .c_c_e_partners{
     width:1220px;
     height:602px;
@@ -738,8 +738,8 @@ a{
 .c_c_e_p_e_clear{
     clear:both;
 }
-/*合作伙伴模块设置完毕*/
-/*例子模块设置结束*/
+/*end partners*/
+/*end example*/
 /*end content*/
 /*footer*/
 .footer{
