@@ -2437,237 +2437,6 @@ ul{
     color:red;
 }
 /*end refrigerator*/
-/*daily*/
-.c_c_daily{
-    width:1080px;
-    height:480px;
-    margin-top:90px;
-    clear:both;
-}
-.c_c_d_subtitle{
-    width:1080px;
-    height:32px;
-    margin-bottom: 30px;
-}
-.c_c_d_subtitle h2{
-    font-size:24px;
-    display: inline;
-    color:#333333;
-}
-.c_c_d_subtitle span{
-    color:#a9a9a9;
-}
-.c_c_d_subtitle a{
-    display:inline-block;
-    width:60px;
-    height:32px;
-    text-align: right;
-    line-height: 32px;
-    float:right;
-    color:#333333;
-}
-.c_c_d_subtitle a:hover{
-    color:#845f3f;
-}
-.c_c_d_product{
-    width:1080px;
-    height:418px;
-    position:relative;
-}
-.c_c_d_p_pillow{
-    width:266px;
-    height:418px;
-    position:absolute;
-}
-.c_c_d_p_pillow img{
-    width:266px;
-    height:418px;
-}
-.c_c_d_p_p_text{
-    box-sizing:border-box;
-    padding-top: 20px;
-    padding-left:10px;
-    position: absolute;
-    top:0;
-}
-.c_c_d_p_p_t_p1{
-    width:266px;
-    height:25px;
-    font-size: 16px;
-    line-height: 25px;
-    color: #333333;
-}
-.c_c_d_p_p_t_p2{
-    width:266px;
-    height:25px;
-    font-size: 14px;
-    line-height: 25px;
-    color:#999999;
-}
-.c_c_d_p_p_t_price{
-    width:266px;
-    height:30px;
-    font-size: 14px;
-    line-height: 25px;
-    color:#c00000;
-}
-.c_c_d_p_deodorant{
-    width:266px;
-    height:206px;
-    position:absolute;
-    left:271px;
-    background-color: #eaf9f5;
-}
-.c_c_d_p_d_text{
-    box-sizing:border-box;
-    padding-top: 20px;
-    padding-left:10px;
-    position: absolute;
-    top:0;
-}
-.c_c_d_p_d_t_p1{
-    width:266px;
-    height:25px;
-    font-size: 16px;
-    line-height: 25px;
-    color: #333333;
-}
-.c_c_d_p_d_t_price{
-    width:266px;
-    height:30px;
-    font-size: 14px;
-    line-height: 25px;
-    color:#c00000;
-}
-.c_c_d_p_deodorant img{
-    width:266px;
-    height:206px;
-}
-.c_c_d_p_foodprocesser{
-    width:538px;
-    height:206px;
-    position:absolute;
-    background-color: #f7f9ee;
-    right:0;
-}
-.c_c_d_p_foodprocesser img{
-    width:538px;
-    height:206px;
-}
-.c_c_d_p_f_text{
-    box-sizing:border-box;
-    padding-top: 20px;
-    padding-left:10px;
-    position: absolute;
-    top:0;
-}
-.c_c_d_p_f_t_p1{
-    width:266px;
-    height:25px;
-    font-size: 16px;
-    line-height: 25px;
-    color: #333333;
-}
-.c_c_d_p_f_t_p2{
-    width:200px;
-    height:25px;
-    font-size: 14px;
-    line-height: 25px;
-    color:#999999;
-    text-overflow: ellipsis;
-    white-space:nowrap;
-    overflow: hidden;
-}
-.c_c_d_p_f_t_price{
-    width:266px;
-    height:30px;
-    font-size: 14px;
-    line-height: 25px;
-    color:#c00000;
-}
-.c_c_d_p_teapot{
-    width:266px;
-    height:206px;
-    position:absolute;
-    top:211px;
-    left:271px;
-    background-color: #faf0f4;
-}
-.c_c_d_p_teapot img{
-    width:266px;
-    height:206px;
-}
-.c_c_d_p_t_text{
-    box-sizing:border-box;
-    padding-top: 20px;
-    padding-left:10px;
-    position: absolute;
-    top:0;
-}
-.c_c_d_p_t_t_p1{
-    width:266px;
-    height:25px;
-    font-size: 16px;
-    line-height: 25px;
-    color: #333333;
-}
-.c_c_d_p_t_t_price{
-    width:266px;
-    height:30px;
-    font-size: 14px;
-    line-height: 25px;
-    color:#c00000;
-}
-.c_c_d_p_wettissue{
-    width:266px;
-    height:206px;
-    position:absolute;
-    top:211px;
-    left:542px;
-    background-color: #faefeb;
-}
-.c_c_d_p_wettissue img{
-    width:266px;
-    height:206px;
-}
-.c_c_d_p_w_text{
-    box-sizing:border-box;
-    padding-top: 20px;
-    padding-left:10px;
-    position: absolute;
-    top:0;
-}
-.c_c_d_p_w_t_p1{
-    width:266px;
-    height:25px;
-    font-size: 16px;
-    line-height: 25px;
-    color: #333333;
-}
-.c_c_d_p_w_t_price{
-    width:266px;
-    height:30px;
-    font-size: 14px;
-    line-height: 25px;
-    color:#c00000;
-}
-.c_c_d_p_more{
-    width:266px;
-    height:206px;
-    position:absolute;
-    top:211px;
-    right:0;
-    background-color: #f7f5eb;
-}
-.c_c_d_p_m_morenews{
-    width:100px;
-    height:20px;
-    font-size:19px;
-    margin-left: 88px;
-    margin-top:93px;
-    color:#925f3f;
-}
-/*end dailyevery*/
 /*hot*/
 .c_c_hot{
     width:1080px;
@@ -2955,6 +2724,237 @@ ul{
     clear:both;
 }
 /*end hot*/
+/*daily*/
+.c_c_daily{
+    width:1080px;
+    height:480px;
+    margin-top:90px;
+    clear:both;
+}
+.c_c_d_subtitle{
+    width:1080px;
+    height:32px;
+    margin-bottom: 30px;
+}
+.c_c_d_subtitle h2{
+    font-size:24px;
+    display: inline;
+    color:#333333;
+}
+.c_c_d_subtitle span{
+    color:#a9a9a9;
+}
+.c_c_d_subtitle a{
+    display:inline-block;
+    width:60px;
+    height:32px;
+    text-align: right;
+    line-height: 32px;
+    float:right;
+    color:#333333;
+}
+.c_c_d_subtitle a:hover{
+    color:#845f3f;
+}
+.c_c_d_product{
+    width:1080px;
+    height:418px;
+    position:relative;
+}
+.c_c_d_p_pillow{
+    width:266px;
+    height:418px;
+    position:absolute;
+}
+.c_c_d_p_pillow img{
+    width:266px;
+    height:418px;
+}
+.c_c_d_p_p_text{
+    box-sizing:border-box;
+    padding-top: 20px;
+    padding-left:10px;
+    position: absolute;
+    top:0;
+}
+.c_c_d_p_p_t_p1{
+    width:266px;
+    height:25px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #333333;
+}
+.c_c_d_p_p_t_p2{
+    width:266px;
+    height:25px;
+    font-size: 14px;
+    line-height: 25px;
+    color:#999999;
+}
+.c_c_d_p_p_t_price{
+    width:266px;
+    height:30px;
+    font-size: 14px;
+    line-height: 25px;
+    color:#c00000;
+}
+.c_c_d_p_deodorant{
+    width:266px;
+    height:206px;
+    position:absolute;
+    left:271px;
+    background-color: #eaf9f5;
+}
+.c_c_d_p_d_text{
+    box-sizing:border-box;
+    padding-top: 20px;
+    padding-left:10px;
+    position: absolute;
+    top:0;
+}
+.c_c_d_p_d_t_p1{
+    width:266px;
+    height:25px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #333333;
+}
+.c_c_d_p_d_t_price{
+    width:266px;
+    height:30px;
+    font-size: 14px;
+    line-height: 25px;
+    color:#c00000;
+}
+.c_c_d_p_deodorant img{
+    width:266px;
+    height:206px;
+}
+.c_c_d_p_foodprocesser{
+    width:538px;
+    height:206px;
+    position:absolute;
+    background-color: #f7f9ee;
+    right:0;
+}
+.c_c_d_p_foodprocesser img{
+    width:538px;
+    height:206px;
+}
+.c_c_d_p_f_text{
+    box-sizing:border-box;
+    padding-top: 20px;
+    padding-left:10px;
+    position: absolute;
+    top:0;
+}
+.c_c_d_p_f_t_p1{
+    width:266px;
+    height:25px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #333333;
+}
+.c_c_d_p_f_t_p2{
+    width:200px;
+    height:25px;
+    font-size: 14px;
+    line-height: 25px;
+    color:#999999;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow: hidden;
+}
+.c_c_d_p_f_t_price{
+    width:266px;
+    height:30px;
+    font-size: 14px;
+    line-height: 25px;
+    color:#c00000;
+}
+.c_c_d_p_teapot{
+    width:266px;
+    height:206px;
+    position:absolute;
+    top:211px;
+    left:271px;
+    background-color: #faf0f4;
+}
+.c_c_d_p_teapot img{
+    width:266px;
+    height:206px;
+}
+.c_c_d_p_t_text{
+    box-sizing:border-box;
+    padding-top: 20px;
+    padding-left:10px;
+    position: absolute;
+    top:0;
+}
+.c_c_d_p_t_t_p1{
+    width:266px;
+    height:25px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #333333;
+}
+.c_c_d_p_t_t_price{
+    width:266px;
+    height:30px;
+    font-size: 14px;
+    line-height: 25px;
+    color:#c00000;
+}
+.c_c_d_p_wettissue{
+    width:266px;
+    height:206px;
+    position:absolute;
+    top:211px;
+    left:542px;
+    background-color: #faefeb;
+}
+.c_c_d_p_wettissue img{
+    width:266px;
+    height:206px;
+}
+.c_c_d_p_w_text{
+    box-sizing:border-box;
+    padding-top: 20px;
+    padding-left:10px;
+    position: absolute;
+    top:0;
+}
+.c_c_d_p_w_t_p1{
+    width:266px;
+    height:25px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #333333;
+}
+.c_c_d_p_w_t_price{
+    width:266px;
+    height:30px;
+    font-size: 14px;
+    line-height: 25px;
+    color:#c00000;
+}
+.c_c_d_p_more{
+    width:266px;
+    height:206px;
+    position:absolute;
+    top:211px;
+    right:0;
+    background-color: #f7f5eb;
+}
+.c_c_d_p_m_morenews{
+    width:100px;
+    height:20px;
+    font-size:19px;
+    margin-left: 88px;
+    margin-top:93px;
+    color:#925f3f;
+}
+/*end dailyevery*/
 /*brand*/
 .c_c_brand{
     width:1080px;
