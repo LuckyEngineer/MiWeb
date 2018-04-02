@@ -2037,7 +2037,10 @@ ul{
 .c_c_adv{
     width:1080px;
     height:450px;
-    background-color: greenyellow;
+}
+.c_c_adv img{
+    width:1080px;
+    height:450px;
 }
 /*菜单设置*/
 .c_c_menu{
@@ -2668,12 +2671,9 @@ ul{
 /*热门模块设置*/
 .c_c_hot{
     width:1080px;
-    height:462px;
+    height:340px;
     margin-top:90px;
-    padding-top: 50px;
     padding-bottom: 25px;
-    background-color: blue;
-    /*background-color: #f5f5f5;*/
 }
 .c_c_h_subtitle{
     width:1080px;
@@ -2699,6 +2699,260 @@ ul{
 }
 .c_c_h_subtitle a:hover{
     color:#845f3f;
+}
+.c_c_h_product{
+    width:1080px;
+    height:291px;
+}
+.c_c_h_p_first{
+    width:264px;
+    height:301px;
+    border:1px solid #e7e7e7;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    float:left;
+    position: relative;
+    transition: 1s;
+}
+.c_c_h_p_first img{
+    width:195px;
+    height:195px;
+    margin-left:35px;
+    margin-bottom: 4px;
+}
+.c_c_h_p_f_overview{
+    width:150px;
+    height:24px;
+    margin:0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    line-height: 24px;
+    font-size: 16px;
+    color:#3b3b3b;
+}
+.c_c_h_p_f_inner{
+    width:264px;
+    height:62px;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+.c_c_h_p_f_i_info{
+    width:200px;
+    height:26px;
+    margin:0 auto;
+    margin-top:5px;
+    font-size: 14px;
+    color:#999999;
+    text-align: center;
+    line-height: 26px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.c_c_h_p_f_i_value{
+    width:264px;
+    height:30px;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top:5px;
+    padding-top: 4px;
+    color:#c00000;
+}
+.c_c_c_p_f_i_v_depreciate{
+    display: inline-block;
+    width:30px;
+    height:16px;
+    font-size: 13px;
+    text-align: center;
+    line-height: 16px;
+    background-color: #c00000;
+    color:white;
+}
+.c_c_h_p_second{
+    width:264px;
+    height:301px;
+    border:1px solid #e7e7e7;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    float:left;
+    position: relative;
+    transition: 1s;
+}
+.c_c_h_p_second img{
+    width:195px;
+    height:195px;
+    margin-left:35px;
+    margin-bottom: 4px;
+}
+.c_c_h_p_s_overview{
+    width:150px;
+    height:24px;
+    margin:0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    line-height: 24px;
+    font-size: 16px;
+    color:#3b3b3b;
+}
+.c_c_h_p_s_inner{
+    width:264px;
+    height:62px;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+.c_c_h_p_s_i_info{
+    width:200px;
+    height:26px;
+    margin:0 auto;
+    margin-top:5px;
+    font-size: 14px;
+    color:#999999;
+    text-align: center;
+    line-height: 26px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.c_c_h_p_s_i_value{
+    width:264px;
+    height:30px;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top:5px;
+    padding-top: 4px;
+    color:#c00000;
+}
+.c_c_h_p_third{
+    width:264px;
+    height:301px;
+    border:1px solid #e7e7e7;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    float:left;
+    position: relative;
+    transition: 1s;
+}
+.c_c_h_p_third img{
+    width:195px;
+    height:195px;
+    margin-left:35px;
+    margin-bottom: 4px;
+}
+.c_c_h_p_t_overview{
+    width:150px;
+    height:24px;
+    margin:0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    line-height: 24px;
+    font-size: 16px;
+    color:#3b3b3b;
+}
+.c_c_h_p_t_inner{
+    width:264px;
+    height:62px;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+.c_c_h_p_t_i_info{
+    width:200px;
+    height:26px;
+    margin:0 auto;
+    margin-top:5px;
+    font-size: 14px;
+    color:#999999;
+    text-align: center;
+    line-height: 26px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.c_c_h_p_t_i_value{
+    width:264px;
+    height:30px;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top:5px;
+    padding-top: 4px;
+    color:#c00000;
+}
+.c_c_h_p_t_i_v_depreciate{
+    display: inline-block;
+    width:30px;
+    height:16px;
+    font-size: 13px;
+    text-align: center;
+    line-height: 16px;
+    background-color: #c00000;
+    color:white;
+}
+.c_c_h_p_fourth{
+    width:264px;
+    height:301px;
+    border:1px solid #e7e7e7;
+    margin-bottom: 5px;
+    float:right;
+    position: relative;
+    transition: 1s;
+}
+.c_c_h_p_fourth img{
+    width:195px;
+    height:195px;
+    margin-left:35px;
+    margin-bottom: 4px;
+}
+.c_c_h_p_fo_overview{
+    width:150px;
+    height:24px;
+    margin:0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    line-height: 24px;
+    font-size: 16px;
+    color:#3b3b3b;
+}
+.c_c_h_p_fo_inner{
+    width:264px;
+    height:62px;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+.c_c_h_p_fo_i_info{
+    width:200px;
+    height:26px;
+    margin:0 auto;
+    margin-top:5px;
+    font-size: 14px;
+    color:#999999;
+    text-align: center;
+    line-height: 26px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.c_c_h_p_fo_i_value{
+    width:264px;
+    height:30px;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top:5px;
+    padding-top: 4px;
+    color:#c00000;
+}
+.c_c_h_p_clear{
+    clear:both;
 }
 /*热门模块设置结束*/
 /*品牌模块设置*/                              /*轮播图*/
@@ -2735,34 +2989,45 @@ ul{
 .c_c_b_product{
     width:1080px;
     height:252px;
-    background-color: blue;
 }
 .c_c_b_p_eight{
     width:266px;
     height:252px;
     margin-right:5px;
     float:left;
-    background-color: greenyellow;
+}
+.c_c_b_p_eight img{
+    width:266px;
+    height:252px;
 }
 .c_c_b_p_ninth{
     width:266px;
     height:252px;
     margin-right:5px;
     float:left;
-    background-color: greenyellow;
+}
+.c_c_b_p_ninth img{
+    width:266px;
+    height:252px;
 }
 .c_c_b_p_yeelight{
     width:266px;
     height:252px;
     margin-right:5px;
     float:left;
-    background-color: greenyellow;
+}
+.c_c_b_p_yeelight img{
+    width:266px;
+    height:252px;
 }
 .c_c_b_p_lefan{
     width:267px;
     height:252px;
     float:left;
-    background-color: greenyellow;
+}
+.c_c_b_p_lefan img{
+    width:266px;
+    height:252px;
 }
 /*品牌模块设置结束*/
 /*手机模块设置*/
