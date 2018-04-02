@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../css/register.css.css">
+    <style>
+        body {
+            font-size: 14px;
+            font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","微軟正黑體","儷黑 Pro", sans-serif;
+        }
+        .wrapper{
+            width:1286px;
+            height:639px;
+            /*border:1px solid black;*/
+            position:relative;
+        }
+        .wrap{
+            position:absolute;
+            left:216px;
+            width:854px;
+            height:639px;
+            /*border:1px solid black;*/
+
+        }
+        .layout{
+            width:854px;
+            height:559px;
+            /*border:1px solid red;*/
+            position:relative;
+        }
+        .register-box{
+            width:786px;
+            height:549px;
+            /*border:1px solid blue;*/
+            position:absolute;
+            left:34px;
+        }
+        .logo-area{
+            width:786px;
+            height:88px;
+            /*border:1px solid green;*/
+        }
+        .external-logo-area{
+            width:786px;
+            height:48px;
+        }
+        .milogo {
+            width: 49px;
+            height: 48px;
+            margin: 0 auto;
+            display: block;
+            background-image: url(../images/register/milogo.png);
+
+        }
+        .title{
+            width:786px;
+            height:45px;
+            /*border:1px solid green;*/
+        }
+        .register-title{
+            font-size: 30px;
+            font-weight: normal;
+            color: #333;
+            line-height: 1.5;
+            text-align:center;
+
+
+        }
+
+        .register-list{
+            width:786px;
+            height:386px;
+            /*border:1px solid green;*/
+        }
+        .regbox{
+            width:332px;
+            height:246px;
+            /*border:1px solid black;*/
+            margin:auto;
+            position:relative;
+        }
+        .country-box{
+            width:332px;
+            height:42px;
+            /*border:1px solid black;*/
+        }
+        .country-select{
+            width:332px;
+            height:42px;
+            border:1px solid #e8e8e8;
+            color:#555555;
+            font-size:14px;
+        }
+        .phonenumber-select{
+            width:74px;
+            height:42px;
+            border:1px solid #e8e8e8;
+            color:#555555;
+        }
+        .phonenumber-text-box{
+            width:256px;
+            height:42px;
+            border:1px solid #e8e8e8;
+        }
+        .phonenumber-text{
+            width:100px;
+            height:14px;
+            bottom:136px;
+            position:absolute;
+        }
+        .phonenumber{
+            width:332px;
+            height:42px;
+            border:1px solid #e8e8e8;
+            position:absolute;
+            bottom:86px;
+            transition:0.5s;
+        }
+
+        .Exclamatory-mark {
+            width: 14px;
+            height: 14px;
+            background: url(../images/login/Exclamatory-mark.png) no-repeat;
+            display: inline-block;
+        }
+
+        .phonenumber-text1{
+            width:332px;
+            height:46px;
+            /*border:1px solid black;*/
+            position:absolute;
+            bottom:42px;
+            line-height: 46px;
+            visibility: hidden;
+        }
+        .phonenumber:hover +.phonenumber-text1{
+            width:332px;
+            height:46px;
+            /*border:1px solid black;*/
+            position:absolute;
+            bottom:42px;
+            line-height: 46px;
+            visibility: visible;
+        }
+        .button{
+            display:block;
+            /*position:absolute;*/
+            /*left:31px;*/
+            /*top:141px;*/
+            width:330px;
+            height:42px;
+            background-color: #ff6700;
+            color:#ffffff;
+            font-size:14px;
+            position:absolute;
+            bottom:0px;
+            border:transparent;
+        }
+        .privary_box{
+            width:786px;
+            height:80px;
+            /*border:1px solid black;*/
+            position:relative;
+        }
+        .msg{
+            width:410px;
+            height:40px;
+            /*border:1px solid green;*/
+            position:absolute;
+            left:194px;
+            bottom:0px;
+        }
+        .msg .icon_select{
+            width:20px;
+            height:20px;
+            /*border:1px solid black;*/
+            background:url(../images/register/hook.png);
+            float:left;
+            margin-top:10px;
+
+        }
+        .msg1{
+            float:left;
+            margin-top:10px;
+        }
+        /*.footer{*/
+            /*width:1286px;*/
+            /*height:80px;*/
+            /*border:1px solid black;*/
+        /*}*/
+        .footer{
+            width:1286px;
+            height:80px;
+            /*border:1px solid black;*/
+            position:relative;
+        }
+        .select{
+            width:1288px;
+            height:20px;
+            /*border:1px solid black;*/
+            position:absolute;
+            bottom:44px;
+        }
+        ul{
+            position:absolute;
+            left:500px;
+            bottom:-10px;
+        }
+        li {
+            display:inline-block;
+            list-style:none;
+        }
+        li a{
+            color:#757575;
+        }
+        .simple{
+            color:#333333;
+        }
+        .introduce{
+            width:1288px;
+            height:44px;
+            /*border:1px solid black;*/
+            position:absolute;
+            bottom:0px;
+        }
+
+        .nf-intro {
+            padding: 10px;
+            position:absolute;;
+            left:450px;
+            bottom:1px;
+        }
+        .introduce p{
+            color:#757575;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="wrap">
+        <div class="layout">
+            <div class="register-box">
+                <div class="logo-area">
+                    <div class="external-logo-area"><a class="milogo"href="javascipt:void(0)"></a></div>
+                </div>
+                <div class="title">
+                    <div class="register-title">注册小米帐号</div>
+                </div>
+                <div class="register-list">
+                    <form method="get">
+                    <div class="regbox">
+                        <div style="color:#333333">国家/地区</div>
+                        <div class="country-box">
+                            <select class="country-select">
+                                <option value="1">中国</option>
+                                <option value="2">美国</option>
+                                <option value="3">日本</option>
+                            </select>
+                        </div>
+                        <div style="color:#666666">成功注册帐号后，国家/地区将不能被修改</div>
+                        <div class="phonenumber-text" style="color:#333333">手机号码</div>
+                        <div class="phonenumber">
+                            <select class="phonenumber-select">
+                               <option>+86</option>
+                            </select>
+                            <input type="text" class="phonenumber-text-box"/>
+                        </div>
+                        <div class="phonenumber-text1"><div class="Exclamatory-mark"></div>请输入手机号码</div>
+                        <div>
+                            <input class="button" type="submit" value="立即注册" color="#ffffff">
+                        </div>
+                    </div>
+                    </form>
+                    <div class="privary_box">
+                        <div class="msg">
+                            <div class="icon_select"></div>
+                            <div class="msg1">注册帐号即表示你同意并愿意遵守小米
+                            <a href="javascript:void(0)" title="用户协议"style="color:#333333">用户协议</a>
+                            和
+                            <a href="javascript:void(0)"title="隐私政策" style="color:#333333">隐私政策</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="select">
+        <ul>
+            <li><a class="simple" href="javascript:void(0)">简体</a>|</li>
+            <li><a href="javascript:void(0)">繁体</a>|</li>
+            <li><a href="javascript:void(0)">English</a>|</li>
+            <li><a href="javascript:void(0)">常见问题</a>|</li>
+            <li><a href="javascript:void(0)">隐私政策</a>|</li>
+        </ul>
+    </div>
+    <div class="introduce">
+        <p class="nf-intro">
+            "小米公司版权所有-京ICP备10046444-"
+            <a class="beian-record-link" href="javascript:void(0)">
+                <span>
+                    <img src="../images/login/ghs.png">
+                </span>
+            </a>
+            "-京ICP正110507号"
+        </p>
+    </div>
+</div>
+</body>
+</html>
