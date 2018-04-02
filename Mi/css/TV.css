@@ -498,14 +498,13 @@ body{
     font-size: 23px;
     margin: 0 auto;
 }
-/*内容底部菜单*/
+/*menu*/
 .c7_menu{
     width:1850px;
     height: 130px;
     position: absolute;
     top:690px;
 }
-/*菜单里a标签属性*/
 .c7_menu a{
     color: white;
     font-size: 30px;
@@ -840,19 +839,6 @@ body{
     top: 350px;
     left: 750px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
                 /*End content*/
                /*content*/
 .content_10{
@@ -958,7 +944,7 @@ body{
     font-size: 23px;
     margin: 0 auto;
 }
-/*内容11侧栏内容*/
+/*content_sidebar*/
 .sidebar{
     width: 700px;
     height: 400px;
@@ -1084,7 +1070,7 @@ body{
     width: 1850px;
     height:727px;
 }
-/*VIP会员尊享*/
+/*vipbox*/
 .vipbox{
     height: 50px;
     width: 200px;
@@ -1120,7 +1106,7 @@ body{
     font-size: 23px;
     margin: 0 auto;
 }
-/*小米儿童会员*/
+/*childrenVIP*/
 .childrenVIP{
     height: 50px;
     width: 200px;
