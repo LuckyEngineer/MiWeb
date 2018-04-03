@@ -127,6 +127,7 @@ a{
     width:1220px;
     height:339px;
     margin:0 auto;
+    position: relative;
 }
 .c_c_p_s_text{
     width:1200px;
@@ -149,6 +150,7 @@ a{
     width:1220px;
     height:221px;
     margin-top:60px;
+    position: relative;
 }
 .c_c_p_s_engineering p{
     width:1220px;
@@ -161,30 +163,30 @@ a{
     width:124px;
     height:124px;
     position: absolute;
-    top:160px;
-    left:595px;
+    top:39px;
+    left:545px;
 }
 .c_c_p_s_e_connect{
     width:8px;
     height:38px;
     position: absolute;
-    top:302px;
-    left:653px;
+    top:185px;
+    left:604px;
 }
 .c_c_p_s_e_light{
     width:50px;
     height:50px;
     position: absolute;
-    top:374px;
-    left:31px;
+    top:243px;
+    left:-9px;
     border-radius: 50%;
 }
 .c_c_p_s_e_set{
     width:104px;
     height:140px;
     position: absolute;
-    top:334px;
-    left:154px;
+    top:223px;
+    left:113px;
 }
 .c_c_p_s_e_set img{
     width:104px;
@@ -203,16 +205,16 @@ a{
     width:50px;
     height:50px;
     position: absolute;
-    top:416px;
-    left:321px;
+    top:299px;
+    left:279px;
     border-radius: 50%;
 }
 .c_c_p_s_e_linux{
     width:104px;
     height:140px;
     position: absolute;
-    top:378px;
-    left:445px;
+    top:257px;
+    left:398px;
 }
 .c_c_p_s_e_linux img{
     width:104px;
@@ -231,16 +233,16 @@ a{
     width:50px;
     height:50px;
     position: absolute;
-    top:360px;
-    left:632px;
+    top:240px;
+    left:584px;
     border-radius: 50%;
 }
 .c_c_p_s_e_android{
     width:104px;
     height:140px;
     position: absolute;
-    top:378px;
-    left:760px;
+    top:257px;
+    right:398px;
 }
 .c_c_p_s_e_android img{
     width:104px;
@@ -259,16 +261,16 @@ a{
     width:50px;
     height:50px;
     position: absolute;
-    top:416px;
-    left:937px;
+    top:299px;
+    right:279px;
     border-radius: 50%;
 }
 .c_c_p_s_e_protocolconnection{
     width:104px;
     height:140px;
     position: absolute;
-    top:334px;
-    right:154px;
+    top:223px;
+    right:113px;
 }
 .c_c_p_s_e_protocolconnection img{
     width:104px;
@@ -287,8 +289,8 @@ a{
     width:50px;
     height:50px;
     position: absolute;
-    top:374px;
-    right:31px;
+    top:248px;
+    right:-9px;
     border-radius: 50%;
 }
 .c_c_p_wavecontainer{
