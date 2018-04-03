@@ -65,16 +65,12 @@ a{
     width:100%;
     height:3868px;
 }
-.c_container{
-    width:100%;
-    background-color: white;
-}
-.c_c_top{
+.c_top{
     width:100%;
     height:527px;
     background-color:#f0f0f0 ;
 }
-.c_c_t_terrace{
+.c_t_terrace{
     width:1220px;
     height:527px;
     margin:0 auto;
@@ -82,14 +78,14 @@ a{
     background-size: 1220px 527px;
     position: relative;
 }
-.c_c_t_t_text{
+.c_t_t_text{
     width:280px;
     height:141px;
     position: absolute;
     top:100px;
     left:60px;
 }
-.c_c_t_t_t_title{
+.c_t_t_t_title{
     width:280px;
     height:30px;
     font-size: 29px;
@@ -98,14 +94,14 @@ a{
     margin-bottom: 20px;
     color:#47b180;
 }
-.c_c_t_t_t_connect{
+.c_t_t_t_connect{
     width:280px;
     height:19px;
     font-size: 19px;
     color:#7b7b7b;
     margin-bottom: 30px;
 }
-.c_c_t_t_t_become{
+.c_t_t_t_become{
     display: block;
     width:143px;
     height:43px;
@@ -116,64 +112,64 @@ a{
     background-color: #47b180;
     border-radius: 4px;
 }
-.c_c_procedure{
+.c_procedure{
     width:100%;
     height:1045px;
     position:relative;
     background-color: white;
 }
 /*solution*/
-.c_c_p_solution{
+.c_p_solution{
     width:1220px;
     height:339px;
     margin:0 auto;
     position: relative;
 }
-.c_c_p_s_text{
+.c_p_s_text{
     width:1200px;
     height:58px;
     box-sizing: border-box;
     padding-top:38px;
     padding-left:18px;
 }
-.c_c_p_s_t_cn{
+.c_p_s_t_cn{
     font-size: 20px;
     color: #4d4d4d;
     line-height: 20px;
 }
-.c_c_p_s_t_en{
+.c_p_s_t_en{
     font-size:10px;
     color:#999999;
     margin-left: 15px;
 }
-.c_c_p_s_engineering{
+.c_p_s_engineering{
     width:1220px;
     height:221px;
     margin-top:60px;
     position: relative;
 }
-.c_c_p_s_engineering p{
+.c_p_s_engineering p{
     width:1220px;
     height:22px;
     font-size: 22px;
     text-align: center;
     line-height: 22px;
 }
-.c_c_p_s_e_wifi{
+.c_p_s_e_wifi{
     width:124px;
     height:124px;
     position: absolute;
     top:39px;
     left:545px;
 }
-.c_c_p_s_e_connect{
+.c_p_s_e_connect{
     width:8px;
     height:38px;
     position: absolute;
     top:185px;
     left:604px;
 }
-.c_c_p_s_e_light{
+.c_p_s_e_light{
     width:50px;
     height:50px;
     position: absolute;
@@ -181,18 +177,18 @@ a{
     left:-9px;
     border-radius: 50%;
 }
-.c_c_p_s_e_set{
+.c_p_s_e_set{
     width:104px;
     height:140px;
     position: absolute;
     top:223px;
     left:113px;
 }
-.c_c_p_s_e_set img{
+.c_p_s_e_set img{
     width:104px;
     height: 104px;
 }
-.c_c_p_s_e_set p{
+.c_p_s_e_set p{
     width:104px;
     height:16px;
     margin-top: 14px;
@@ -201,7 +197,7 @@ a{
     line-height: 16px;
     color:#4c4c4c;
 }
-.c_c_p_s_e_socket{
+.c_p_s_e_socket{
     width:50px;
     height:50px;
     position: absolute;
@@ -209,18 +205,18 @@ a{
     left:279px;
     border-radius: 50%;
 }
-.c_c_p_s_e_linux{
+.c_p_s_e_linux{
     width:104px;
     height:140px;
     position: absolute;
     top:257px;
     left:398px;
 }
-.c_c_p_s_e_linux img{
+.c_p_s_e_linux img{
     width:104px;
     height: 104px;
 }
-.c_c_p_s_e_linux p{
+.c_p_s_e_linux p{
     width:104px;
     height:16px;
     margin-top: 14px;
@@ -229,7 +225,7 @@ a{
     line-height: 16px;
     color:#4c4c4c;
 }
-.c_c_p_s_e_camera{
+.c_p_s_e_camera{
     width:50px;
     height:50px;
     position: absolute;
@@ -237,18 +233,18 @@ a{
     left:584px;
     border-radius: 50%;
 }
-.c_c_p_s_e_android{
+.c_p_s_e_android{
     width:104px;
     height:140px;
     position: absolute;
     top:257px;
     right:398px;
 }
-.c_c_p_s_e_android img{
+.c_p_s_e_android img{
     width:104px;
     height: 104px;
 }
-.c_c_p_s_e_android p{
+.c_p_s_e_android p{
     width:104px;
     height:16px;
     margin-top: 14px;
@@ -257,7 +253,7 @@ a{
     line-height: 16px;
     color:#4c4c4c;
 }
-.c_c_p_s_e_box{
+.c_p_s_e_box{
     width:50px;
     height:50px;
     position: absolute;
@@ -265,18 +261,18 @@ a{
     right:279px;
     border-radius: 50%;
 }
-.c_c_p_s_e_protocolconnection{
+.c_p_s_e_protocolconnection{
     width:104px;
     height:140px;
     position: absolute;
     top:223px;
     right:113px;
 }
-.c_c_p_s_e_protocolconnection img{
+.c_p_s_e_protocolconnection img{
     width:104px;
     height: 104px;
 }
-.c_c_p_s_e_protocolconnection p{
+.c_p_s_e_protocolconnection p{
     width:104px;
     height:16px;
     margin-top: 14px;
@@ -285,7 +281,7 @@ a{
     line-height: 16px;
     color:#4c4c4c;
 }
-.c_c_p_s_e_route{
+.c_p_s_e_route{
     width:50px;
     height:50px;
     position: absolute;
@@ -293,7 +289,7 @@ a{
     right:-9px;
     border-radius: 50%;
 }
-.c_c_p_wavecontainer{
+.c_p_wavecontainer{
     width:100%;
     height:166px;
     margin-top: 40px;
@@ -302,12 +298,12 @@ a{
     background-position: 403px 0;
 }
 /*end solution*/
-.c_c_p_bleecontainer{
+.c_p_bleecontainer{
     width:100%;
     height:500px;
     background-color: #e6f9ff;
 }
-.c_c_p_b_bleequipment{
+.c_p_b_bleequipment{
     width:1226px;
     height:500px;
     margin:0 auto;
@@ -315,7 +311,7 @@ a{
     padding-top:100px;
     position: relative;
 }
-.c_c_p_b_b_bletext{
+.c_p_b_b_bletext{
     width:1226px;
     height:21px;
     font-size: 21px;
@@ -324,22 +320,22 @@ a{
     color:#4c4c4c;
     margin-bottom: 28px;
 }
-.c_c_p_b_b_list{
+.c_p_b_b_list{
     width:1220px;
     height:124px;
 }
-.c_c_p_b_b_l_mible {
+.c_p_b_b_l_mible {
     width: 104px;
     height: 212px;
     position: absolute;
     top: 160px;
     left:372px;
 }
-.c_c_p_b_b_l_mible img{
+.c_p_b_b_l_mible img{
     width:104px;
     height:104px;
 }
-.c_c_p_b_b_l_mible p{
+.c_p_b_b_l_mible p{
     width:104px;
     height:36px;
     text-align: center;
@@ -347,39 +343,39 @@ a{
     line-height: 36px;
     color:#4a4a4a;
 }
-.c_c_p_b_b_l_link1{
+.c_p_b_b_l_link1{
     width:38px;
     height:8px;
     position: absolute;
     top:210px;
     left:490px;
 }
-.c_c_p_b_b_l_ble{
+.c_p_b_b_l_ble{
     width:124px;
     height:124px;
     position: absolute;
     top:150px;
     left:540px;
 }
-.c_c_p_b_b_l_link2{
+.c_p_b_b_l_link2{
     width:38px;
     height:8px;
     position: absolute;
     top:210px;
     right:490px;
 }
-.c_c_p_b_b_l_mibeacon{
+.c_p_b_b_l_mibeacon{
     width: 104px;
     height: 176px;
     position: absolute;
     top: 160px;
     right:372px;
 }
-.c_c_p_b_b_l_mibeacon img{
+.c_p_b_b_l_mibeacon img{
     width:104px;
     height:104px;
 }
-.c_c_p_b_b_l_mibeacon p{
+.c_p_b_b_l_mibeacon p{
     width:104px;
     height:36px;
     text-align: center;
@@ -388,48 +384,48 @@ a{
     color:#4a4a4a;
 }
 /*sprocesse*/
-.c_c_sprocesse{
+.c_sprocesse{
     width:1220px;
     height:496px;
     margin:0 auto;
     position: relative;
     background-color: white;
 }
-.c_c_s_text{
+.c_s_text{
     width:1200px;
     height:58px;
     box-sizing: border-box;
     padding-top:38px;
     padding-left:18px;
 }
-.c_c_s_t_cn{
+.c_s_t_cn{
     font-size: 20px;
     color: #4d4d4d;
     line-height: 20px;
 }
-.c_c_s_t_en{
+.c_s_t_en{
     font-size:10px;
     color:#999999;
     margin-left: 15px;
 }
-.c_c_s_engineering{
+.c_s_engineering{
     width:1220px;
     height:221px;
     margin-top:100px;
 }
-.c_c_s_e_developer{
+.c_s_e_developer{
     width: 124px;
     height: 164px;
     position: absolute;
     top: 175px;
     left:202px;
 }
-.c_c_s_e_developer img{
+.c_s_e_developer img{
     width:124px;
     height:124px;
     margin-bottom: 10px;
 }
-.c_c_s_e_developer p{
+.c_s_e_developer p{
     width:124px;
     height:30px;
     text-align: center;
@@ -437,26 +433,26 @@ a{
     line-height: 30px;
     color:#4a4a4a;
 }
-.c_c_s_e_fivelink{
+.c_s_e_fivelink{
     width:52px;
     height:4px;
     position: absolute;
     top:230px;
     right:814px;
 }
-.c_c_s_e_programme{
+.c_s_e_programme{
     width: 124px;
     height: 164px;
     position: absolute;
     top: 175px;
     left:434px;
 }
-.c_c_s_e_programme img{
+.c_s_e_programme img{
     width:124px;
     height:124px;
     margin-bottom: 10px;
 }
-.c_c_s_e_programme p{
+.c_s_e_programme p{
     width:124px;
     height:30px;
     text-align: center;
@@ -464,26 +460,26 @@ a{
     line-height: 30px;
     color:#4a4a4a;
 }
-.c_c_s_e_fivelink2{
+.c_s_e_fivelink2{
     width:52px;
     height:4px;
     position: absolute;
     top:230px;
     left:583px;
 }
-.c_c_s_e_development{
+.c_s_e_development{
     width: 124px;
     height: 164px;
     position: absolute;
     top: 175px;
     right:434px;
 }
-.c_c_s_e_development img{
+.c_s_e_development img{
     width:124px;
     height:124px;
     margin-bottom: 10px;
 }
-.c_c_s_e_development p{
+.c_s_e_development p{
     width:124px;
     height:30px;
     text-align: center;
@@ -491,26 +487,26 @@ a{
     line-height: 30px;
     color:#4a4a4a;
 }
-.c_c_s_e_fivelink3{
+.c_s_e_fivelink3{
     width:52px;
     height:4px;
     position: absolute;
     top:230px;
     left:814px;
 }
-.c_c_s_e_batch{
+.c_s_e_batch{
     width: 124px;
     height: 164px;
     position: absolute;
     top: 175px;
     right:202px;
 }
-.c_c_s_e_batch img{
+.c_s_e_batch img{
     width:124px;
     height:124px;
     margin-bottom: 10px;
 }
-.c_c_s_e_batch p{
+.c_s_e_batch p{
     width:124px;
     height:30px;
     text-align: center;
@@ -520,47 +516,47 @@ a{
 }
 /*end sprocesse*/
 /*resources*/
-.c_c_resources{
+.c_resources{
     width:1220px;
     height:496px;
     margin:0 auto;
     position: relative;
 }
-.c_c_r_text{
+.c_r_text{
     width:1200px;
     height:58px;
     box-sizing: border-box;
     padding-top:38px;
     padding-left:18px;
 }
-.c_c_r_t_cn{
+.c_r_t_cn{
     font-size: 20px;
     color: #4d4d4d;
     line-height: 20px;
 }
-.c_c_r_t_en{
+.c_r_t_en{
     font-size:10px;
     color:#999999;
     margin-left: 15px;
 }
-.c_c_r_engineering{
+.c_r_engineering{
     width:1220px;
     height:221px;
     margin-top:100px;
 }
-.c_c_r_e_technology{
+.c_r_e_technology{
     width: 124px;
     height: 164px;
     position: absolute;
     top: 175px;
     left:202px;
 }
-.c_c_r_e_technology img{
+.c_r_e_technology img{
     width:124px;
     height:124px;
     margin-bottom: 10px;
 }
-.c_c_r_e_technology p{
+.c_r_e_technology p{
     width:124px;
     height:30px;
     text-align: center;
@@ -568,19 +564,19 @@ a{
     line-height: 30px;
     color:#4a4a4a;
 }
-.c_c_r_e_interconnection{
+.c_r_e_interconnection{
     width: 124px;
     height: 164px;
     position: absolute;
     top: 175px;
     left:434px;
 }
-.c_c_r_e_interconnection img{
+.c_r_e_interconnection img{
     width:124px;
     height:124px;
     margin-bottom: 10px;
 }
-.c_c_r_e_interconnection p{
+.c_r_e_interconnection p{
     width:124px;
     height:30px;
     text-align: center;
@@ -588,19 +584,19 @@ a{
     line-height: 30px;
     color:#4a4a4a;
 }
-.c_c_r_e_cloud{
+.c_r_e_cloud{
     width: 124px;
     height: 164px;
     position: absolute;
     top: 175px;
     right:434px;
 }
-.c_c_r_e_cloud img{
+.c_r_e_cloud img{
     width:124px;
     height:124px;
     margin-bottom: 10px;
 }
-.c_c_r_e_cloud p{
+.c_r_e_cloud p{
     width:124px;
     height:30px;
     text-align: center;
@@ -608,19 +604,19 @@ a{
     line-height: 30px;
     color:#4a4a4a;
 }
-.c_c_r_e_extension{
+.c_r_e_extension{
     width: 124px;
     height: 164px;
     position: absolute;
     top: 175px;
     right:202px;
 }
-.c_c_r_e_extension img{
+.c_r_e_extension img{
     width:124px;
     height:124px;
     margin-bottom: 10px;
 }
-.c_c_r_e_extension p{
+.c_r_e_extension p{
     width:124px;
     height:30px;
     text-align: center;
@@ -630,83 +626,83 @@ a{
 }
 /*resources*/
 /*example*/
-.c_c_example{
+.c_example{
     width:100%;
     height:1304px;
     background-color: #ededed;
 }
 /*cases*/
-.c_c_e_cases{
+.c_e_cases{
     width:1220px;
     height:584px;
     margin:0 auto;
     position: relative;
 }
-.c_c_e_c_text{
+.c_e_c_text{
     width:1200px;
     height:58px;
     box-sizing: border-box;
     padding-top:38px;
     padding-left:18px;
 }
-.c_c_e_c_t_cn{
+.c_e_c_t_cn{
     font-size: 20px;
     color: #4d4d4d;
     line-height: 20px;
 }
-.c_c_e_c_t_en{
+.c_e_c_t_en{
     font-size:10px;
     color:#999999;
     margin-left: 15px;
 }
-.c_c_e_c_engineering{
+.c_e_c_engineering{
     width:1220px;
     height:432px;
     margin-top:100px;
 }
-.c_c_e_c_engineering img{
+.c_e_c_engineering img{
     width:305px;
     height:432px;
     float:left;
 }
-.c_c_e_c_clear{
+.c_e_c_clear{
     clear:both;
 }
 /*end cases*/
 /*partners*/
-.c_c_e_partners{
+.c_e_partners{
     width:1220px;
     height:602px;
     margin:0 auto;
     position: relative;
 }
-.c_c_e_p_text{
+.c_e_p_text{
     width:1200px;
     height:58px;
     box-sizing: border-box;
     padding-top:38px;
     padding-left:18px;
 }
-.c_c_e_p_t_cn{
+.c_e_p_t_cn{
     font-size: 20px;
     color: #4d4d4d;
     line-height: 20px;
 }
-.c_c_e_p_t_en{
+.c_e_p_t_en{
     font-size:10px;
     color:#999999;
     margin-left: 15px;
 }
-.c_c_e_p_engineering{
+.c_e_p_engineering{
     width:1220px;
     height:535px;
     margin-top:50px;
     background-color: white;
 }
-.c_c_e_p_e_firm{
+.c_e_p_e_firm{
     list-style: none;
 }
-.c_c_e_p_e_firm li{
+.c_e_p_e_firm li{
     width:305px;
     height:134px;
     float:left;
@@ -718,13 +714,13 @@ a{
     position: relative;
     transition: 1s;
 }
-.c_c_e_p_e_firm img{
+.c_e_p_e_firm img{
     display: block;
     margin:0 auto;
     width:184px;
     height:50px;
 }
-.c_c_e_p_e_firm a{
+.c_e_p_e_firm a{
     display: block;
     width:184px;
     height:40px;
@@ -734,15 +730,15 @@ a{
     font-size: 14px;
     color:#676767;
 }
-.c_c_e_p_e_firm a:hover{
+.c_e_p_e_firm a:hover{
     color:#3498db;
 }
-.c_c_e_p_e_firm li:hover{
+.c_e_p_e_firm li:hover{
     top:-1px;
     box-shadow: 0 10px 30px #dddddd;
     transform:translate3d(0,0,10px);
 }
-.c_c_e_p_e_clear{
+.c_e_p_e_clear{
     clear:both;
 }
 /*end partners*/
