@@ -147,6 +147,7 @@ a{
     height:221px;
     margin-top:60px;
     position: relative;
+    z-index: 3;
 }
 .c_p_s_engineering p{
     width:1220px;
@@ -293,14 +294,25 @@ a{
     width:100%;
     height:166px;
     margin-top: 40px;
+    position: relative;
+    overflow: hidden;
+}
+.c_p_w_wave{
+    width:3000px;
+    height:166px;
+    overflow:hidden;
+    position: absolute;
+    left:50%;
+    margin-left: -1500px;
     background: url(../images/IoT/bg_wave.jpg) repeat-x;
-    background-size:502px 185px;
-    background-position: 403px 0;
+    background-position: 300px 0;
 }
 /*end solution*/
 .c_p_bleecontainer{
     width:100%;
     height:500px;
+    position: absolute;
+    bottom:0;
     background-color: #e6f9ff;
 }
 .c_p_b_bleequipment{
