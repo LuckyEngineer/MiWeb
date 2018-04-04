@@ -11,165 +11,136 @@ a{
 body{
     font-size: 12px;
 }
+/* header */
+.header{
+    width: 100%;
+    height: 102px;
+    border-bottom: 2px solid #ff6700;
+}
+/* top */
+.top{
+    width: 1226px;
+    height: 102px;
+    margin: 0 auto;
+}
+.top .top_logo{
+    float: left;
+    width: 93px;
+    margin-top: 26px;
+    line-height: 50px;
+}
+.top .top_logo a{
+    position: relative;
+    display: block;
+    width: 48px;
+    height: 48px;
+    background-color: #ff6700;
+    overflow: hidden;
+}
+.top .top_logo a:before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 48px;
+    height: 48px;
+    content: '';
+    background: url("../images/cart/logo_mi.png") no-repeat 50% 50%;
+    opacity: 1;
+    transition: .2s;
+}
+.top .top_logo a:hover::before{
+    opacity: 0;
+    margin-left: 55px;
+}
+.top .top_logo a:after{
+    background: url("../images/cart/logo_home.png") no-repeat 50% 50%;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 48px;
+    height: 48px;
+    margin-left: -55px;
+    content: '';
+    transform-origin: 50% 50%;
+    transition: .2s;
+}
+.top .top_logo a:hover::after{
+    opacity: 1;
+    margin-left: 0;
+}
+.top .top_title{
+    float:left;
+    margin-top: 26px;
+}
+.top .top_title h2{
+    font-size: 28px;
+    line-height: 48px;
+    font-weight: normal;
+    color: #424242;
+}
+.top .top_tip{
+    float: left;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.top .top_tip p{
+    color: rgb(117,117,117);
+    font-size: 8px;
+}
+.top .top_nav{
+    float: right;
+    margin-top: 40px;
+}
+.top .top_nav li{
+    float:left;
+}
+.top .top_nav a{
+    color: #757575;
+}
+.top .top_nav span{
+    color: #e0e0e0;
+    margin: 0 6px;
+}
+.top .top_nav .t_n_account{
+    position: relative;
+}
+
+.top .top_nav .t_n_account .t_n_a_menu{
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 0;
+    z-index: 1000;
+    background-color:#ffffff;
+}
+
+.top .top_nav .t_n_account:hover .t_n_a_menu{
+    display: block;
+}
+.t_n_a_menu:hover{
+    display: block;
+}
+.top .top_nav .t_n_account .t_n_a_menu li{
+    padding: 2px 16px;
+    float: none;
+}
+.top .top_nav .t_n_account .t_n_a_menu li:hover{
+    background-color: #e0e0e0;
+}
+/*End top*/
+/*End header*/
+
 .container{
     width: 100%;
     height: 2200px;
 }
-/* top */
-.top{
-    width: 1857px;
-    height: 102px;
-    position: relative;
-    border-bottom: 3px solid rgb(255,103,0);
-}
-.xiaomilogo{
-    width: 130px;
-    height: 48px;
-    position: absolute;
-    top: 20px;
-    left: 250px;
-    line-height: 50px;
-}
-.xiaomi{
-    width: 48px;
-    height: 48px;
-    position: absolute;
-    background-color: rgb(255,103,0);
-    text-align: center;
-    left: 83px;
-}
-.xiaomilogo a{
-    color: white;
-    font-size: 35px;
-}
-.home{
-    width: 48px;
-    height: 48px;
-    position: absolute;
-    text-align: center;
-    left:-85px;
-    top: 0px;
-    background: url("../images/cart/logo_home.png") rgb(255,103,0);
-    color: white;
-    display: none;
-}
-.xiaomi:hover .home{
-    display: block;
-    left: 0px;
-}
-.xiaomiguanwang{
-    width: 70px;
-    height: 20px;
-    position: absolute;
-    border: 1px solid cadetblue;
-    top: 55px;
-    left: 30px;
-    text-align: center;
-    line-height: 20px;
-    box-shadow:2px 2px 2px  rgb(150,150,150);
-    display: none;
-}
-.xiaomi:hover .xiaomiguanwang{
-    display: block;
-}
-.xiaomiguanwang span{
-    font-size: 13px;
-}
 
-.top_msg1{
-    width: 150px;
-    height: 48px;
-    position: absolute;
-    top: 30px;
-    left: 410px;
-    text-align: center;
-}
-.top_msg1 h2{
-    color: rgb(66,66,66);
-    font-size: 28px;
-}
-.top_msg2{
-    width: 350px;
-    height: 30px;
-    position: absolute;
-    top: 40px;
-    left: 565px;
-    text-align: center;
-}
-.top_msg2 p{
-    color: rgb(117,117,117);
-    font-size: 8px;
-}
-/*登录的账户一栏*/
-.top_msg3{
-    width: 120px;
-    height: 30px;
-    position: absolute;
-    top: 40px;
-    left: 1370px;
-}
-.top_msg3:hover .number{
-    color: rgb(255,103,0);
-}
-.top_msg3:hover i{
-    color: rgb(255,103,0);
-}
-.top_msg3:hover span{
-    display: none;
-}
-.top_msg3 .number{
-    color: rgb(117,117,117);
-    font-size: 15px;
-}
-.top_msg3 i{
-    color: rgb(117,117,117);
-    font-size: 15px;
-}
-.top_msg3 span{
-    color: rgb(117,117,117);
-    font-size: 15px;
-}
-.top_msg3_hide{
-    height: 150px;
-    width: 120px;
-    position:absolute;
-    z-index: 2;
-    top: 30px;
-    box-shadow: 2px 2px 2px rgba(0,0,0,.2);
-    background-color: white;
-    list-style: none;
-    text-align: center;
-    line-height:29px;
-    display: none;
-}
-.top_msg3:hover .top_msg3_hide{
-    display: block;
-}
-.top_msg3_hide a{
-    font-size: 14px;
-    color: rgb(117,117,117);
-}
-.top_msg3_hide li:hover{
-    background-color:rgb(245,245,245);;
-}
-.top_msg3_hide li a:hover{
-    color: rgb(255,103,0);
-}
-.top_msg4{
-    width: 120px;
-    height: 30px;
-    position: absolute;
-    top: 40px;
-    left: 1490px;
-}
-.top_msg4 a{
-    color: rgb(117,117,117);
-    font-size: 13px;
-}
-/*End top*/
 /*content*/
 .content{
-    width: 1857px;
+    width: 1226px;
     height: 2000px;
     position: relative;
     background-color: rgb(245,245,245);
@@ -179,14 +150,11 @@ body{
     width: 1226px;
     height: 1100px;
     position: relative;
-    top: 50px;
-    left: 320px;
 }
 /*第一栏内容*/
 .content_centre1{
     width: 1226px;
     height: 70px;
-    position: relative;
     background-color: white;
     margin: 0 auto;
     border-bottom: 1px solid rgb(224,224,224);
@@ -1051,8 +1019,8 @@ body{
     width: 1100px;
     height: 50px;
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
 }
 .content_centre6_msg1:hover{
     background-color: rgb(250,250,250);
@@ -1186,11 +1154,11 @@ body{
 }
 /*底部更多商品部分*/
 .content_bottom{
-    width: 1250px;
+    width: 1226px;
     height: 628px;
     position: relative;
-    left: 306px;
-    top: 110px;
+    /*left: 306px;*/
+    /*top: 110px;*/
 }
 .shoppingbox{
     width: 1250px;

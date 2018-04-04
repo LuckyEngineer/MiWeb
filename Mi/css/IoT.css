@@ -3,6 +3,9 @@
     padding:0;
     font-family: "microsoft yahei";
 }
+body{
+    /*min-width: 1226px;*/
+}
 a{
     text-decoration: none;
 }

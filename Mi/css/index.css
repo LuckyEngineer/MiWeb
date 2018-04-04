@@ -793,7 +793,7 @@ h2 {
 .recommend .r_title .r_t_btn .r_t_b_left{border-right: 1px solid #bbb;}
 .recommend .r_goods{width:1226;height: 340px;position: relative;overflow: hidden;}
 .recommend .r_goods ul{width: 1000%;}
-.recommend .r_goods li{width: 234px;height:340px;background: #fafafa;float: left;margin-right: 14px;}
+.recommend .r_goods li{width: 234px;height:340px;background: #ffffff;float: left;margin-right: 14px;}
 .recommend .r_goods li .r_g_img{width: 160px;height: 160px;display: block;padding:36px 0;margin:0 auto;}
 .recommend .r_goods li .r_g_img img{width: 160px;height: 160px;}
 .recommend .r_goods li .r_g_title{display: block;text-align: center;color: #000;}

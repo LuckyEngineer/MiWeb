@@ -208,7 +208,80 @@ $(function(){
             $ul.eq(_index).show().siblings().hide();
         });
     })();
-    //content内容的实现
+
+    // 推荐
+    (function(){
+        var $data = indexdata.recommend;
+        var len = $data.imgSrc.length;
+        var html = "";
+        var $ul = $(".recommend .r_goods ul");
+        var $btn = $(".recommend .r_title .r_t_btn div");
+        var flag = true;
+        var $left = $(".recommend .r_title .r_t_btn .r_t_b_left");
+        var $right = $(".recommend .r_title .r_t_btn .r_t_b_right");
+        var timer = null;
+        for(var i=0;i<len;i++){
+            html += "<li>"+
+                "<a href='' class='r_g_img'><img src='"+$data.imgSrc[i]+"'/></a>"+
+                "<a href='' class='r_g_title'>"+$data.title[i]+"</a>"+
+                "<p class='r_g_detail'>"+$data.detail[i]+"</p>"+
+                "<p class='r_g_price'>"+$data.price[i]+"</p>"+
+                "</li>";
+        }
+        $ul.append(html);//appendChild
+        var $li = $(".recommend .r_goods li");
+        var margin = $li.eq(5).position().left;
+        $btn.click(function(){0
+            var index = $(this).index();
+            if(index){//如果点击的是右边
+                if(flag){
+                    flag = !flag;
+                    $ul.stop(true).animate({
+                        marginLeft:-margin
+                    },500);
+                    toggle();
+                    clearInterval(timer);
+                    auto();
+                }
+            }else{
+                if(!flag){
+                    flag = !flag;
+                    $ul.stop(true).animate({
+                        marginLeft:0
+                    },500);
+                    toggle();
+                    clearInterval(timer);
+                    auto();
+                }
+            }
+        });
+        // 实现click样式的轮播切换
+        function toggle(){
+            $left.toggleClass("click");
+            $right.toggleClass("click")
+        };
+        // 自动轮播
+        function auto(){
+            timer = setInterval(function(){
+                if(flag){
+                    flag = !flag;
+                    $ul.stop(true).animate({
+                        marginLeft:-margin
+                    },500);
+                    toggle();
+                }else{
+                    flag = !flag;
+                    $ul.stop(true).animate({
+                        marginLeft:0
+                    },500);
+                    toggle();
+                }
+            },6000);
+        };
+        auto();
+    })();
+
+    // content内容的实现
     (function(){
         var $tabLi = $(".content .c_con .c_c_li .tab li");
         var $box_wrap = $(".content .c_con .c_c_li .box_wrap");
