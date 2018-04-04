@@ -15,6 +15,7 @@ body{
     width: 100%;
     height: 2200px;
 }
+/* top */
 .top{
     width: 1857px;
     height: 102px;
@@ -74,6 +75,7 @@ body{
 .xiaomiguanwang span{
     font-size: 13px;
 }
+
 .top_msg1{
     width: 150px;
     height: 48px;
@@ -98,7 +100,7 @@ body{
     color: rgb(117,117,117);
     font-size: 8px;
 }
-/*µÇÂ¼µÄÕË»§Ò»À¸*/
+/*ï¿½ï¿½Â¼ï¿½ï¿½ï¿½Ë»ï¿½Ò»ï¿½ï¿½*/
 .top_msg3{
     width: 120px;
     height: 30px;
@@ -180,7 +182,7 @@ body{
     top: 50px;
     left: 320px;
 }
-/*µÚÒ»À¸ÄÚÈÝ*/
+/*ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 .content_centre1{
     width: 1226px;
     height: 70px;
@@ -265,7 +267,7 @@ body{
     font-size: 20px;
     color: rgb(66,66,66);
 }
-/*µÚ¶þÀ¸ÄÚÈÝ*/
+/*ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 .content_centre2{
     margin: 0 auto;
     width: 1226px;
@@ -329,7 +331,7 @@ body{
     top: 30px;
     border: 1px solid rgb(224,224,224);
 }
-/*¼ÛÇ®¿ò*/
+/*ï¿½ï¿½Ç®ï¿½ï¿½*/
 .c2_m5_bigbox1{
     width: 40px;
     height: 40px;
@@ -436,7 +438,7 @@ body{
     font-size: 14px;
     margin-left: 10px;
 }
-/*µÚÈýÀ¸ÄÚÈÝ*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 .content_centre3{
     margin: 0 auto;
     width: 1226px;
@@ -500,7 +502,7 @@ body{
     top: 30px;
     border: 1px solid rgb(224,224,224);
 }
-/*¼ÛÇ®¿ò*/
+/*ï¿½ï¿½Ç®ï¿½ï¿½*/
 .c3_m5_bigbox1{
     width: 40px;
     height: 40px;
@@ -733,7 +735,7 @@ body{
     top: 30px;
     border: 1px solid rgb(224,224,224);
 }
-/*¼ÛÇ®¿ò*/
+/*ï¿½ï¿½Ç®ï¿½ï¿½*/
 .c4_m5_bigbox1{
     width: 40px;
     height: 40px;
@@ -811,7 +813,7 @@ body{
 .content_centre4_msg7_chahao:hover.content_centre4_msg7_chahao i{
     color: white;
 }
-/*µÚÎåÀ¸ÄÚÈÝ*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 .content_centre5{
     margin: 0 auto;
     width: 1226px;
@@ -1036,7 +1038,7 @@ body{
     font-size: 14px;
     margin-left: 10px;
 }
-/*µÚÁùÀ¸ÄÚÈÝ*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 .content_centre6{
     margin: 0 auto;
     width: 1226px;
@@ -1067,7 +1069,7 @@ body{
     color: rgb(66,66,66);
     margin-left: 10px;
 }
-/*µÚÆßÀ¸ÄÚÈÝ*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 .content_centre7{
     margin: 0 auto;
     width: 1226px;
@@ -1149,7 +1151,7 @@ body{
 .content_centre7_msg5:hover{
     background-color: rgb(242,88,7);
 }
-/*ÖÐ¼ä±êÌâ*/
+/*ï¿½Ð¼ï¿½ï¿½ï¿½ï¿½*/
 .content_nav{
     width: 1226px;
     height: 70px;
@@ -1182,7 +1184,7 @@ body{
     position: absolute;
     left: 846px;
 }
-/*µ×²¿¸ü¶àÉÌÆ·²¿·Ö*/
+/*ï¿½×²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ·ï¿½ï¿½ï¿½ï¿½*/
 .content_bottom{
     width: 1250px;
     height: 628px;

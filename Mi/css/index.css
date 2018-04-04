@@ -488,7 +488,7 @@
     height: 300px;
     background: #fff;
     float: left;
-    margin-right: 14px;
+    margin-right: 10px;
     position: relative;
     transition: .3s;
     position: relative;
@@ -778,8 +778,28 @@ h2 {
 .household .h_con .h_c_right ul li .h_c_hide .author {
     color: #bbb;
 }
-/*match end*/
+/* End household */
 
+/* recomend */
+.recommend{width: 1226px;height: 400px;margin: 0 auto;}
+.recommend .r_title{height: 60px;}
+.recommend .r_title .r_t_h2{font-size: 22px;font-weight: normal;line-height:60px;float: left;}
+.recommend .r_title .r_t_btn{width:71px;height:22px;border:1px solid #bbb;float: right;margin-top: 19px;}
+.recommend .r_title .r_t_btn div{width:35px;height: 22px;line-height: 22px;text-align: center;float: left;cursor: default;}
+.recommend .r_title .r_t_btn div.click .iconfont{font-weight:bold;color: #333;transition: .5s;}
+.recommend .r_title .r_t_btn div.click:hover .iconfont{color: #f60;transition: .5s;}
+.recommend .r_title .r_t_btn div.click:hover{cursor: pointer;}
+.recommend .r_title .r_t_btn .iconfont{font-size: 12px;font-weight: normal;color: #bbb;}
+.recommend .r_title .r_t_btn .r_t_b_left{border-right: 1px solid #bbb;}
+.recommend .r_goods{width:1226;height: 340px;position: relative;overflow: hidden;}
+.recommend .r_goods ul{width: 1000%;}
+.recommend .r_goods li{width: 234px;height:340px;background: #fafafa;float: left;margin-right: 14px;}
+.recommend .r_goods li .r_g_img{width: 160px;height: 160px;display: block;padding:36px 0;margin:0 auto;}
+.recommend .r_goods li .r_g_img img{width: 160px;height: 160px;}
+.recommend .r_goods li .r_g_title{display: block;text-align: center;color: #000;}
+.recommend .r_goods li .r_g_detail{text-align: center;color: #bbb;margin:8px 0 16px;}
+.recommend .r_goods li .r_g_price{text-align: center;color: #f60;}
+/* End recomend */
 
 /*comment start*/
 .comment {
