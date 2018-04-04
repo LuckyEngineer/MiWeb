@@ -100,7 +100,7 @@ body{
     color: rgb(117,117,117);
     font-size: 8px;
 }
-/*��¼���˻�һ��*/
+/*登录的账户一栏*/
 .top_msg3{
     width: 120px;
     height: 30px;
@@ -182,7 +182,7 @@ body{
     top: 50px;
     left: 320px;
 }
-/*��һ������*/
+/*第一栏内容*/
 .content_centre1{
     width: 1226px;
     height: 70px;
@@ -267,7 +267,7 @@ body{
     font-size: 20px;
     color: rgb(66,66,66);
 }
-/*�ڶ�������*/
+/*第二栏内容*/
 .content_centre2{
     margin: 0 auto;
     width: 1226px;
@@ -331,7 +331,7 @@ body{
     top: 30px;
     border: 1px solid rgb(224,224,224);
 }
-/*��Ǯ��*/
+/*价钱框*/
 .c2_m5_bigbox1{
     width: 40px;
     height: 40px;
@@ -438,7 +438,7 @@ body{
     font-size: 14px;
     margin-left: 10px;
 }
-/*����������*/
+/*第三栏内容*/
 .content_centre3{
     margin: 0 auto;
     width: 1226px;
@@ -502,7 +502,7 @@ body{
     top: 30px;
     border: 1px solid rgb(224,224,224);
 }
-/*��Ǯ��*/
+/*价钱框*/
 .c3_m5_bigbox1{
     width: 40px;
     height: 40px;
@@ -674,12 +674,12 @@ body{
 }
 .content_centre4{
     margin: 0 auto;
-     width: 1226px;
-     height: 117px;
-     position: relative;
-     border-bottom: 1px solid rgb(224,224,224);
-     background-color: white;
- }
+    width: 1226px;
+    height: 117px;
+    position: relative;
+    border-bottom: 1px solid rgb(224,224,224);
+    background-color: white;
+}
 .content_centre4_msg1{
     width: 110px;
     height: 86px;
@@ -735,7 +735,7 @@ body{
     top: 30px;
     border: 1px solid rgb(224,224,224);
 }
-/*��Ǯ��*/
+/*价钱框*/
 .c4_m5_bigbox1{
     width: 40px;
     height: 40px;
@@ -813,7 +813,7 @@ body{
 .content_centre4_msg7_chahao:hover.content_centre4_msg7_chahao i{
     color: white;
 }
-/*����������*/
+/*第五栏内容*/
 .content_centre5{
     margin: 0 auto;
     width: 1226px;
@@ -1038,7 +1038,7 @@ body{
     font-size: 14px;
     margin-left: 10px;
 }
-/*����������*/
+/*第六栏内容*/
 .content_centre6{
     margin: 0 auto;
     width: 1226px;
@@ -1069,7 +1069,7 @@ body{
     color: rgb(66,66,66);
     margin-left: 10px;
 }
-/*����������*/
+/*第七栏内容*/
 .content_centre7{
     margin: 0 auto;
     width: 1226px;
@@ -1151,7 +1151,7 @@ body{
 .content_centre7_msg5:hover{
     background-color: rgb(242,88,7);
 }
-/*�м����*/
+/*中间标题*/
 .content_nav{
     width: 1226px;
     height: 70px;
@@ -1184,7 +1184,7 @@ body{
     position: absolute;
     left: 846px;
 }
-/*�ײ�������Ʒ����*/
+/*底部更多商品部分*/
 .content_bottom{
     width: 1250px;
     height: 628px;

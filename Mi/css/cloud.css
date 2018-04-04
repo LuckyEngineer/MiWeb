@@ -21,7 +21,7 @@ a{
     position: absolute;
     top:30px;
 }
-/*×ó±ßlogo*/
+/*å·¦è¾¹logo*/
 .xiaomibox{
     width: 140px;
     height: 32px;
@@ -39,7 +39,7 @@ a{
 }
 .xiaomibox:hover{
     border-radius: 10%;
-   background-color: rgb(51,63,92);
+    background-color: rgb(51,63,92);
 }
 .xiaomibox:hover i{
     color: white;
@@ -85,7 +85,7 @@ a{
 
 
 
-/*¿Í»§¶ËÏÂÔØ*/
+/*å®¢æˆ·ç«¯ä¸‹è½½*/
 .client{
     width: 140px;
     height: 32px;
@@ -111,7 +111,7 @@ a{
     width: 40px;
     height: 17px;
 }
-/*ÁË½âÔÆ·şÎñ*/
+/*äº†è§£äº‘æœåŠ¡*/
 .top_cloud{
     width: 140px;
     height: 32px;
@@ -136,7 +136,7 @@ a{
 .top_cloud span:hover{
     color: white;
 }
-/*ÖĞ¼ä¿ò*/
+/*ä¸­é—´æ¡†*/
 .centre{
     height: 370px;
     width: 1850px;
@@ -179,7 +179,7 @@ a{
     color: rgb(209,214,221);
     font-size: 18px;
 }
-/*Ğ¡Ã×ÕËºÅµÇÂ¼*/
+/*å°ç±³è´¦å·ç™»å½•*/
 .centre_msg3{
     height: 40px;
     width: 320px;
@@ -198,7 +198,7 @@ a{
 .centre_msg3 p:hover{
     color: white;
 }
-/*µ×¶Ë²¿·Ö*/
+/*åº•ç«¯éƒ¨åˆ†*/
 .bottom{
     width: 1850px;
     height: 100px;
