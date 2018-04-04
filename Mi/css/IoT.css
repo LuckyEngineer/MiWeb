@@ -6,6 +6,9 @@
 a{
     text-decoration: none;
 }
+body{
+    min-width:1220px;
+}
 /*header*/
 .header{
     width:100%;
