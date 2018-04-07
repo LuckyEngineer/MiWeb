@@ -1,4 +1,24 @@
 $(function(){
+    // 初始化抢购的开始时间
+    function initTime(){
+        // 获取当前时间
+        var today = new Date();
+        var startHour = today.getHours() + 3;       //获取当前小时数(0-23)
+        $(".purchase .p_goods .p_g_countdown .start_time").html(startHour);
+    }
+    initTime();
+    // 倒计时三个小时
+    var total = 10800;
+    setInterval(function(){
+        var s = (total%60) < 10 ? ('0' + total%60) : total%60;
+        var h = total/3600 < 10 ? ('0' + parseInt(total/3600)) : parseInt(total/3600);
+        var m = (total-h*3600)/60 < 10 ? ('0' + parseInt((total-h*3600)/60)) : parseInt((total-h*3600)/60);
+        // console.log(h + ' : ' + m + ' : ' + s);
+        $(".rest_hours").html(h);
+        $(".rest_minutes").html(m);
+        $(".rest_seconds").html(s);
+        total--;
+    }, 1000);
     // Container
     // banner轮播图的切换
     (function(){
@@ -139,55 +159,11 @@ $(function(){
         };
         auto();
     })();
+
     // Household
     (function(){
-        var $data = indexdata.household;
-        var len = $data.length;
-        var $right = $(".household .h_con .h_c_right");
         var $t_li = $(".household .h_title ul li");
         $t_li.eq(0).addClass("hover");
-        for(var i=0;i<len;i++){
-            var $ul = $("<ul></ul>");
-            $right.append($ul);
-        }
-        var $ul = $(".household .h_con .h_c_right ul");
-        //让第一个ul展现出来
-        $ul.eq(0).css("display","block");
-        $ul.each(function(index){
-            // console.log(index);
-            for(var i=0;i<9;i++){
-                if(i<7){
-                    $li = $("<li class='h_c_bottom'>"+
-                        "<a href='' class='h_c_r_img'><img src='../images/index/household/"+$data.attr[index]+""+(i+1)+".jpg'></a>"+
-                        "<a href='' class='h_c_r_title'> "+$data[$data.attr[index]].title[i]+" </a>"+
-                        "<p class='h_c_r_comment'>"+$data[$data.attr[index]].comment[i]+"</p>"+
-                        "<p class='h_c_r_price'>"+$data[$data.attr[index]].price[i]+"</p>"+
-
-                        "</li>");
-                    if(i==5 && index==0){
-                        var $div = $("<div class='h_c_hide'>"+
-                            "<span class='review'>小米的产品值得信赖，用了一段时间，无论是听歌，打电话...</span>"+
-                            "<span class='author'> 来自于 气功流 的评价 </span>"+
-                            "</div>");
-                        $li.append($div);
-                    }
-                }else if(i==7){
-                    $li = $("<li class='h_c_eight'>"+
-                        "<a href='javascript:void(0)' class='h_c_e_title'> "+$data[$data.attr[index]].title[i]+"</a>"+
-                        "<a href='javascript:void(0)' class='h_c_e_img'><img src='../images/index/household/"+$data.attr[index]+""+(i+1)+".jpg'></a>"+
-                        "<p class='h_c_e_price'>"+$data[$data.attr[index]].price[i]+"</p>"+
-                        "</li>");
-                }else{
-                    $li = $("<li class='h_c_nine'>"+
-                        "<a href='javascript:void(0)' class='h_c_n_more'>浏览更多</a>"+
-                        "<a href='javascript:void(0)' class='h_c_n_ear'>小米笔记本</a>"+
-                        "<a href='javascript:void(0)' class='iconfont'>&#xe617;</a>"+
-                        "</li>");
-                }
-                $(this).append($li);
-            }
-        });
-
         //当鼠标滑动li的时候
         var $li = $(".household .h_con .h_c_right ul li");
         $li.hover(function(){
@@ -203,6 +179,7 @@ $(function(){
         });
         //鼠标移入title中的li元素
         $t_li.mouseover(function(){
+            var $ul = $(this).parents(".household").find(".h_con").find("ul");
             var _index = $(this).index();
             $(this).addClass("hover").siblings().removeClass("hover");
             $ul.eq(_index).show().siblings().hide();
@@ -351,11 +328,17 @@ $(function(){
 
     //video
     (function(){
+        // 视频图片
         var $img = $(".video .v_con li img");
+        // 播放图标
         var $icon = $(".video .v_con li span");
+        // 播放模态框的背景
         var $hide = $(".video .v_hide");
+        // 播放模态框
         var $h_con = $(".video .v_hide .v_h_con");
+        // 关闭按钮
         var $close = $(".video .v_hide .v_h_con .v_h_c_title .close");
+        // iframe
         var $iframe = $(".video .v_hide .v_h_con .v_h_c_content iframe");
         $img.hover(function(){
             $(this).parent().find("span").addClass("hover");

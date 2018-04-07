@@ -265,7 +265,7 @@
 
 .purchase .p_title .p_t_h2 {
     font-size: 22px;
-    font-weight: normal;
+    font-weight: 200;
     line-height: 60px;
     float: left;
 }
@@ -443,7 +443,6 @@
 /* Phone */
 .phone {
     width: 1226px;
-    /*height: 670px;*/
     margin: 0 auto;
 }
 
@@ -453,6 +452,7 @@
 }
 
 .phone .p_title h2 {
+    font-weight: 200;
     float: left;
 }
 
@@ -542,19 +542,6 @@
     color: #f60;
 }
 
-/*.icon {*/
-    /*width: 64px;*/
-    /*height: 20px;*/
-    /*background: #ffac13;*/
-    /*text-align: center;*/
-    /*line-height: 20px;*/
-    /*color: #fff;*/
-    /*position: absolute;*/
-    /*top: 0;*/
-    /*left: 50%;*/
-    /*margin-left: -32px;*/
-/*}*/
-
 /* End Phone */
 
 /* Household */
@@ -574,6 +561,7 @@ h2 {
 }
 
 .household .h_title .h_t_h2 {
+    font-weight: 200;
     line-height: 56px;
     float: left;
 }
@@ -698,6 +686,10 @@ h2 {
     color: #f60;
     margin: 2px 0 8px;
 }
+.household .h_con .h_c_right ul li .h_c_hide{
+    bottom: -74px;
+    opacity: 0;
+}
 
 .household .h_con .h_c_right ul li .h_c_r_comment {
     text-align: center;
@@ -776,14 +768,14 @@ h2 {
 }
 
 .household .h_con .h_c_right ul li .h_c_hide .author {
-    color: #bbb;
+    color: rgba(255,255,255,.6);
 }
 /* End household */
 
 /* recomend */
 .recommend{width: 1226px;height: 400px;margin: 0 auto;}
 .recommend .r_title{height: 60px;}
-.recommend .r_title .r_t_h2{font-size: 22px;font-weight: normal;line-height:60px;float: left;}
+.recommend .r_title .r_t_h2{font-size: 22px;font-weight: 200;line-height:60px;float: left;}
 .recommend .r_title .r_t_btn{width:71px;height:22px;border:1px solid #bbb;float: right;margin-top: 19px;}
 .recommend .r_title .r_t_btn div{width:35px;height: 22px;line-height: 22px;text-align: center;float: left;cursor: default;}
 .recommend .r_title .r_t_btn div.click .iconfont{font-weight:bold;color: #333;transition: .5s;}
@@ -809,6 +801,7 @@ h2 {
 }
 
 .comment .c_title {
+    font-weight: 200;
     height: 54px;
     line-height: 54px;
 }
@@ -845,12 +838,12 @@ h2 {
 .comment .c_con li a.c_c_detail {
     color: #111;
     font-size: 14px;
-    margin: 30px 30px 40px;
+    margin: 30px 30px 30px;
 }
 
 .comment .c_con li .c_c_comment {
     margin-left: 30px;
-    margin: 50px 0 16px 30px;
+    margin: 30px 0 16px 30px;
     color: #bbb;
 }
 
@@ -877,6 +870,7 @@ h2 {
 }
 
 .content .c_title {
+    font-weight: 200;
     height: 60px;
     line-height: 60px;
 }
@@ -1014,6 +1008,7 @@ h2 {
     line-height: 64px;
 }
 .video .v_title .v_t_h2 {
+    font-weight: 200;
     float: left;
 }
 .video .v_title a {

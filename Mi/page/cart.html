@@ -27,27 +27,21 @@
                 <p>温馨提示：产品是否购买成功，以最终下单为准哦，请尽快结算</p>
             </div>
             <div class="top_nav">
-                <ul>
-                    <li class="t_n_account">
-                        <a href="javascript:void(0)">
-                            949709918
-                            <i class="iconfont icon-xiajiantou"></i>
-                        </a>
-                        <ul class="t_n_a_menu">
-                            <li><a href="javascript:void(0)">个人中心</a></li>
-                            <li><a href="javascript:void(0)">评价晒单</a></li>
-                            <li><a href="javascript:void(0)">我的喜欢</a></li>
-                            <li><a href="javascript:void(0)">小米账户</a></li>
-                            <li><a href="javascript:void(0)">退出登录</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <span>|</span>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)">我的订单</a>
-                    </li>
-                </ul>
+                <span class="t_n_user">
+                    <a  class="t_n_u_id" href="javascript:void(0)">
+                        <span>949709918</span>
+                        <i class="iconfont icon-xiajiantou"></i>
+                    </a>
+                    <ul class="t_n_u_menu">
+                        <li><a href="javascript:void(0)">个人中心</a></li>
+                        <li><a href="javascript:void(0)">评价晒单</a></li>
+                        <li><a href="javascript:void(0)">我的喜欢</a></li>
+                        <li><a href="javascript:void(0)">小米账户</a></li>
+                        <li><a href="javascript:void(0)">退出登录</a></li>
+                    </ul>
+                </span>
+                <span class="t_n_border">|</span>
+                <a class="t_n_order">我的订单</a>
             </div>
         </div>
         <!--End top-->
@@ -57,11 +51,11 @@
     <div class="container">
         <!--content-->
         <div class="content">
-            <div class="content_centre">
+            <ul class="content_centre">
                   <!--第一栏-->
-                  <div class="content_centre1">
+                  <li class="content_centre1">
                       <div class="content_centre1_msg1">
-                          <a href="javascript:void(0)"><i class="iconfont icon-fuxuan1"></i></a>
+                          <a href="javascript:void(0)"><i id="selall" class="iconfont icon-fuxuan1 checkbox_selected"></i></a>
                           <span>全选</span>
                       </div>
                       <div class="content_centre1_msg2">
@@ -79,11 +73,11 @@
                       <div class="content_centre1_msg6">
                           <span>操作</span>
                       </div>
-                  </div>
+                  </li>
                   <!--第二栏-->
-                  <div class="content_centre2">
+                  <li class="content_centre2">
                       <div class="content_centre2_msg1">
-                          <a href="javascript:void(0)"><i class="iconfont icon-fuxuan1"></i></a>
+                          <a href="javascript:void(0)"><i class="iconfont icon-fuxuan1 checkbox_selected selpart"></i></a>
                       </div>
                       <div class="content_centre2_msg2">
                           <a href="javascript:void(0)"><img src="../images/cart/banner_centre2_pic.jpg"> </a>
@@ -91,20 +85,23 @@
                       <div class="content_centre2_msg3">
                           <a href="javascript:void(0)">小米6 全网通版 4GB内存 亮黑色</a>
                       </div>
+                      <!-- 商品单价 -->
                       <div class="content_centre2_msg4">
-                          <span>2209元</span>
+                          <span class="content_price">2209</span><span>元</span>
                       </div>
-                      <div class="content_centre2_msg5">
-                          <div class="c2_m5_bigbox1">
-                              <a href="javascript:void(0)"><i class="iconfont icon-jianhaob"></i></a></div>
-                          <input type="text" value="1">
-                          <div class="c2_m5_bigbox2">
-                              <a href="javascript:void(0)"><i class="iconfont icon-jiahaob"></i></a></div>
+                      <!-- 商品数量 -->
+                      <div class="content_goods">
+                          <a href="javascript:void(0)" class="c_g_minus">
+                              <i class="iconfont icon-jianhaob"></i>
+                          </a>
+                          <input type="text" value="1" class="c_g_num">
+                          <a href="javascript:void(0)" class="c_g_plus">
+                              <i class="iconfont icon-jiahaob"></i>
+                          </a>
                       </div>
-
-
+                      <!-- 小计 -->
                       <div class="content_centre2_msg6">
-                          <span>2290元</span>
+                          <span class="content_subtotal">2290</span><span>元</span>
                       </div>
                       <div class="content_centre2_msg7">
                           <div class="content_centre2_msg7_chahao">
@@ -116,11 +113,11 @@
                        <a class="yiwaibaoz" href="javascript:void(0)">意外保障服务 249元</a>
                        <a class="liaojiebz" href="javascript:void(0)">了解保障服务<span class="iconfont icon-youjiantou1"></span></a>
                       </div>
-                  </div>
+                  </li>
                   <!--第三栏内容-->
-                  <div class="content_centre3">
+                  <li class="content_centre3">
                       <div class="content_centre3_msg1">
-                          <a href="javascript:void(0)"><i class="iconfont icon-fuxuan1"></i></a>
+                          <a href="javascript:void(0)"><i class="iconfont icon-fuxuan1 checkbox_selected selpart"></i></a>
                       </div>
                       <div class="content_centre3_msg2">
                           <a href="javascript:void(0)"><img src="../images/cart/banner_centre3_pic.jpg"> </a>
@@ -128,18 +125,22 @@
                       <div class="content_centre3_msg3">
                           <a href="javascript:void(0)">小米5X 黑色</a>
                       </div>
+                      <!-- 商品单价 -->
                       <div class="content_centre3_msg4">
-                          <span>1499元</span>
+                          <span class="content_price">1499</span><span>元</span>
                       </div>
-                      <div class="content_centre3_msg5">
-                          <div class="c3_m5_bigbox1">
-                              <a href="javascript:void(0)"><i class="iconfont icon-jianhaob"></i></a></div>
-                          <input type="text" value="1">
-                          <div class="c3_m5_bigbox2">
-                              <a href="javascript:void(0)"><i class="iconfont icon-jiahaob"></i></a></div>
+                      <!-- 商品数量 -->
+                      <div class="content_goods">
+                          <a href="javascript:void(0)" class="c_g_minus">
+                              <i class="iconfont icon-jianhaob"></i>
+                          </a>
+                          <input type="text" value="1" class="c_g_num">
+                          <a href="javascript:void(0)" class="c_g_plus">
+                              <i class="iconfont icon-jiahaob"></i>
+                          </a>
                       </div>
                       <div class="content_centre3_msg6">
-                          <span>1499元</span>
+                          <span class="content_subtotal">1499</span><span>元</span>
                       </div>
                       <div class="content_centre3_msg7">
                           <div class="content_centre2_msg7_chahao">
@@ -166,11 +167,11 @@
                           <a class="yiwaibaoz" href="javascript:void(0)">意外保障服务 119元</a>
                           <a class="liaojiebz" href="javascript:void(0)">了解保障服务<span class="iconfont icon-youjiantou1"></span></a>
                       </div>
-                  </div>
+                  </li>
                   <!--第四栏内容-->
-                  <div class="content_centre4">
+                  <li class="content_centre4">
                       <div class="content_centre4_msg1">
-                          <a href="javascript:void(0)"><i class="iconfont icon-fuxuan1"></i></a>
+                          <a href="javascript:void(0)"><i class="iconfont icon-fuxuan1 checkbox_selected selpart"></i></a>
                       </div>
                       <div class="content_centre4_msg2">
                           <a href="javascript:void(0)"><img src="../images/cart/banner_centre4_pic.jpg"> </a>
@@ -178,29 +179,34 @@
                       <div class="content_centre4_msg3">
                           <a href="javascript:void(0)">小米双单元半入耳式耳机 白色</a>
                       </div>
+                      <!-- 商品单价 -->
                       <div class="content_centre4_msg4">
-                          <span>69元</span>
+                          <span class="content_price">69</span><span>元</span>
                       </div>
-                      <div class="content_centre4_msg5">
-                          <div class="c4_m5_bigbox1">
-                              <a href="javascript:void(0)"><i class="iconfont icon-jianhaob"></i></a></div>
-                          <input type="text" value="1">
-                          <div class="c4_m5_bigbox2">
-                              <a href="javascript:void(0)"><i class="iconfont icon-jiahaob"></i></a></div>
+                      <!-- 商品数量 -->
+                      <div class="content_goods">
+                          <a href="javascript:void(0)" class="c_g_minus">
+                              <i class="iconfont icon-jianhaob"></i>
+                          </a>
+                          <input type="text" value="1" class="c_g_num">
+                          <a href="javascript:void(0)" class="c_g_plus">
+                              <i class="iconfont icon-jiahaob"></i>
+                          </a>
                       </div>
+                      <!-- 小计 -->
                       <div class="content_centre4_msg6">
-                          <span>69元</span>
+                          <span class="content_subtotal">69</span><span>元</span>
                       </div>
                       <div class="content_centre4_msg7">
                           <div class="content_centre4_msg7_chahao">
                               <a href="javascript:void(0)"><i class="iconfont icon-chahao"></i></a>
                           </div>
                       </div>
-                  </div>
+                  </li>
                   <!--第五栏内容-->
-                  <div class="content_centre5">
+                  <li class="content_centre5">
                       <div class="content_centre5_msg1">
-                          <a href="javascript:void(0)"><i class="iconfont icon-fuxuan1"></i></a>
+                          <a href="javascript:void(0)"><i class="iconfont icon-fuxuan1 checkbox_selected selpart"></i></a>
                       </div>
                       <div class="content_centre5_msg2">
                           <a href="javascript:void(0)"><img src="../images/cart/banner_centre5_pic.png"> </a>
@@ -208,18 +214,22 @@
                       <div class="content_centre5_msg3">
                           <a href="javascript:void(0)">小米电视4C 55英寸 黑色</a>
                       </div>
+                      <!-- 商品单价 -->
                       <div class="content_centre5_msg4">
-                          <span>2699元</span>
+                          <span class="content_price">2699</span><span>元</span>
                       </div>
-                      <div class="content_centre5_msg5">
-                          <div class="c5_m5_bigbox1">
-                              <a href="javascript:void(0)"><i class="iconfont icon-jianhaob"></i></a></div>
-                          <input type="text" value="1">
-                          <div class="c5_m5_bigbox2">
-                              <a href="javascript:void(0)"><i class="iconfont icon-jiahaob"></i></a></div>
+                      <!-- 商品数量 -->
+                      <div class="content_goods">
+                          <a href="javascript:void(0)" class="c_g_minus">
+                              <i class="iconfont icon-jianhaob"></i>
+                          </a>
+                          <input type="text" value="1" class="c_g_num">
+                          <a href="javascript:void(0)" class="c_g_plus">
+                              <i class="iconfont icon-jiahaob"></i>
+                          </a>
                       </div>
                       <div class="content_centre5_msg6">
-                          <span>2499元</span>
+                          <span class="content_subtotal">2499</span><span>元</span>
                       </div>
                       <div class="content_centre5_msg7">
                           <div class="content_centre5_msg7_chahao">
@@ -241,16 +251,16 @@
                           <a class="yingshihuiyuan" href="javascript:void(0)">电视挂装服务 160元</a>
                           <a class="liaojiebz" href="javascript:void(0)">了解安装服务<span class="iconfont icon-youjiantou1"></span></a>
                       </div>
-                  </div>
+                  </li>
                   <!--第六栏内容-->
-                  <div class="content_centre6">
+                  <li class="content_centre6">
                       <div class="content_centre6_msg1">
                           <a href="javascript:void(0)"><i class="iconfont icon-jiahaob"></i></a>
                           <a class="mijiafenshan" href="javascript:void(0)">米家随身风扇 14.9元</a>
                       </div>
-                  </div>
+                  </li>
                   <!--第七栏内容-->
-                  <div class="content_centre7">
+                  <li class="content_centre7">
                       <div class="content_centre7_msg1">
                           <a class="mijiafenshan" href="javascript:void(0)">继续购物</a>
                           <span>&nbsp;&nbsp;|</span>
@@ -258,24 +268,19 @@
                       <div class="content_centre7_msg2">
                           <span>共<i>5</i>件商品已选择<i>5</i>件</span>
                       </div>
-                      <div class="content_centre7_msg3">
-                          <span>合计：</span>
-                      </div>
-                      <div class="content_centre7_msg4">
-                          <span>6366元</span>
-                      </div>
-                      <div class="content_centre7_msg5">
-                          <a class="mijiafenshan" href="javascript:void(0)">去结算</a>
-                      </div>
-                  </div>
-            </div>
-
+                      <span class="content_centre7_msg3">
+                          总计:
+                          <em class="totalprice">6357</em>
+                          元
+                      </span>
+                      <a href="javascript:void(0)" class="content_centre7_msg4">去结算</a>
+                  </li>
+            </ul>
+            <!-- content_nav -->
             <div class="content_nav">
-                <div class="content_nav_box1"></div>
-                <div class="content_nav_box2">
+                <h2>
                     <span>买购物车中商品的人还买了</span>
-                </div>
-                <div class="content_nav_box3"></div>
+                </h2>
             </div>
             <div class="content_bottom">
                           <ul class="shoppingbox">
@@ -523,10 +528,174 @@
     <!-- End Footer -->
     <!-- 引入jQuery -->
     <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
-    <!-- 引入header.js -->
-    <!--<script type="text/javascript" src="../js/header.js"></script>-->
-    <!--<script type="text/javascript" src="../js/indexdata.js"></script>-->
     <!-- js -->
-    <script type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function(){
+            // 结算div距离顶部的高度
+            var position = $(".content_centre7").offset().top;
+            // 计算总价条目div的所在位置，如果距离顶部的距离,小于或等于0，则修改div的对应样式
+            function change_position(){
+                // 计算div距离当前浏览器顶部的距离
+                var h = $(".content_centre7").offset().top - $(window).scrollTop();
+                // 计算div距离当前浏览器底部的距离
+                var diff = $(window).height() - h - 50;
+                if(diff < 0){
+                    $(".content_centre7").addClass("content_centre7_fixed");
+                }
+            }
+            // 在渲染页面的时候初始化其位置
+            change_position();
+            // 鼠标移入移开用户名
+            (function(){
+                var $user = $(".top .top_nav .t_n_user");
+                var $menu = $(".top .top_nav .t_n_user .t_n_u_menu");
+                $user.hover(function(){
+                    $menu.stop(true).slideDown(200);
+                },function(){
+                    $menu.stop(true).slideUp(200);
+                })
+            })();
+            // 鼠标点击复选框
+            (function(){
+                // 全选框
+                var $check_all = $("#selall");
+                // 商品复选框
+                var $checkbox = $(".selpart");
+                var flag = 0;
+                // 点击全选框
+                $check_all.click(function(){
+                    // 如果已经被选中了，那么就除去checkbox_selected
+                    if($(this).hasClass("checkbox_selected")){
+                        $(this).removeClass("checkbox_selected");
+                        $checkbox.removeClass("checkbox_selected");
+                    }else{
+                        $(this).addClass("checkbox_selected");
+                        $checkbox.addClass("checkbox_selected");
+                    }
+                });
+                // 局部复选框
+                $checkbox.click(function(){
+                    if($(this).hasClass("checkbox_selected")){
+                        $check_all.removeClass("checkbox_selected");
+                        $(this).removeClass("checkbox_selected");
+                    }else{
+                        $(this).addClass("checkbox_selected");
+                        allchk();
+                    }
+                });
+                // 判断全选框是否需要被选中
+                function allchk(){
+                    var chknum = $(".selpart").length;//选项总个数
+                    var chk = 0;
+                    $(".selpart").each(function () {
+                        if ($(this).hasClass("checkbox_selected")) {
+                            chk++;
+                        }
+                    });
+                    if (chknum == chk) {//全选
+                        $check_all.addClass("checkbox_selected");
+                    }
+                }
+            })();
+            // 响应滚轮事件，调节总价条目的位置
+            (function(){
+                var $pricebar = $(".content_centre7");
+                $(window).scroll(function(){
+                    if($pricebar.offset().top >= position){
+                        $(".content_centre7").removeClass("content_centre7_fixed");
+                    }
+                    change_position();
+
+                });
+            })();
+            // 修改商品数量和价格统计
+            (function(){
+                var $miuns = $(".content .content_goods .c_g_minus");
+                var $plus = $(".content .content_goods .c_g_plus");
+                // 小计
+                var $oneprice = $(".content_subtotal");
+                // 总价
+                var $totalprice = $(".totalprice");
+                // 商品数量输入框
+                var $inputnum = $(".content .content_goods .c_g_num");
+                // 临时变量
+                var temp = 1;
+                // 减少数量
+                $miuns.click(function(){
+                    var $p_obj = $(this).parents("li");
+                    // 商品数量
+                    var num = $p_obj.find(".c_g_num").val();
+                    // 商品单价
+                    var price = $p_obj.find(".content_price").html();
+                    // 小计
+                    var subtotal = $p_obj.find(".content_subtotal").html();
+                    if(num != 1){
+                        // 将数量减1
+                        num--;
+                        $p_obj.find(".c_g_num").val(num);
+                        // 相应的计算小计的值
+                        subtotal = parseInt(subtotal) - parseInt(price);
+                        $p_obj.find(".content_subtotal").html(subtotal);
+                        // 修改总价
+                        calPrice();
+                    }
+                });
+                // 增加数量
+                $plus.click(function(){
+                    var $p_obj = $(this).parents("li");
+                    // 商品数量
+                    var num = $p_obj.find(".c_g_num").val();
+                    // 商品单价
+                    var price = $p_obj.find(".content_price").text();
+                    // 小计
+                    var subtotal = $p_obj.find(".content_subtotal").text();
+                    // 将商品的数量加1
+                    num++;
+                    $p_obj.find(".c_g_num").val(num);
+                    // 更改小计的值
+                    subtotal = parseInt(subtotal) + parseInt(price);
+                    $p_obj.find(".content_subtotal").html(subtotal);
+                    // 修改总价
+                    calPrice();
+                });
+                // 当商品数量输入框失去焦点的时候，计算小计和总价
+                $inputnum.focus(function(){
+                    temp = $(this).val();
+                });
+                $inputnum.blur(function(){
+                    // 判断是否为数值
+                    var userinput = parseInt($(this).val());
+                    if(!isNaN(userinput)){
+                        if($(this).val() <= 0){
+                            $(this).val(temp);
+                        } else {
+                            var $p_obj = $(this).parents("li");
+                            // 商品单价
+                            var price = $p_obj.find(".content_price").text();
+                            // 更改小计的值
+                            var subtotal = parseInt(price) * $(this).val();
+                            $p_obj.find(".content_subtotal").html(subtotal);
+                            // 修改总价
+                            calPrice();
+                        }
+                    } else {
+                        alert("输入的数量只能是数字！");
+                        $(this).val(temp);
+                    }
+
+                });
+                // 计算总价
+                function  calPrice(){
+                    // 计算所有小计之和
+                    var money = 0;
+                    $oneprice.each(function(){
+                        money += parseInt($(this).text());
+                    });
+                    $totalprice.html(money);
+                }
+            })();
+            //
+        });
+    </script>
 </body>
 </html>
