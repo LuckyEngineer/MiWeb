@@ -8,46 +8,55 @@
 </head>
 <body>
 <div class="head">
-<div class="h_panel">
-    <div class="h_logo"><a href="index.html"></a></div>
-</div>
+    <div class="h_panel">
+        <a href="index.html">
+            <img src="../images/login/mistore_logo.png"/>
+        </a>
+    </div>
 </div>
 <div class="wrap">
     <div class="layout_panel">
         <div class="login-main">
             <!--注册框头部-->
-            <div class="nav-tabs">
-                <div class="login-type-box">
-                    <div class="login-type-box1"><a style="text-decoration:none" href="javascript:void(0)">帐号登录</a></div>
-                    <div class="login-type-box2"></div>
-                    <div class="login-type-box3"><a style="text-decoration:none" href="javascript:void(0)">扫码登录</a></div>
-                </div>
+            <div class="login-type-box">
+                <ul class="list">
+                    <li class="l_account">
+                        <a href="javascript:void(0)">帐号登录</a>
+                    </li>
+                    <li class="link">
+                        <span>|</span>
+                    </li>
+                    <li class="l_qrcode">
+                        <a href="javascript:void(0)">扫码登录</a>
+                        <div class="l_q_qrcode">
+                            <img src="../images/login/pic_qrcode.png"/>
+                            <p>使用<span>小米商城APP</span>扫一扫<br/>
+                                小米手机可打开「设置」>「小米帐号」扫码登录</p>
+                        </div>
+                    </li>
+                </ul>
             </div>
             <form>
-            <!--注册框中部-->
-            <div class="login-box">
-                <input class="account" type="text" placeholder="邮箱/手机号码/小米ID">
-                <input class="password" type="text" placeholder="密码">
-                <input class="button" type="submit" value="登录" color="#ffffff">
-                <div class="other">
-                    <div class="other1">
-                        <span><a>手机短信登录注册</a></span>
-                    </div>
-                    <div class="other2">
-                        <a>立即注册</a>
-                        <span>|</span>
-                        <a>忘记密码?</a>
+                <div class="login-box">
+                    <input class="account" type="text" placeholder="邮箱/手机号码/小米ID">
+                    <input class="password" type="text" placeholder="密码">
+                    <input class="button" type="submit" value="登录"/>
+                    <div class="other">
+                        <div class="other1">
+                            <a href="javascript:void(0)">手机短信登录注册</a>
+                        </div>
+                        <ul class="other2">
+                            <li><a href="javascript:void(0)">立即注册</a></li>
+                            <li><span>|</span></li>
+                            <li><a href="javascript:void(0)">忘记密码?</a></li>
+                        </ul>
                     </div>
                 </div>
-            </div>
-
             </form>
-            <!--注册框尾部-->
             <div class="type-login">
                 ---------其他登录方式----------
             </div>
             <div class="type-links"></div>
-
         </div>
     </div>
 </div>

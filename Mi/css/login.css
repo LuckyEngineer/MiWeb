@@ -1,17 +1,19 @@
 
-div{
-    display:block;
-    margin:0px;
-    padding:0px;
+*{
+    margin:0;
+    padding:0;
+    font-family: arial, "Hiragino Sans GB", "Microsoft YaHei", "微軟正黑體", "儷黑 Pro", sans-serif;
+
+}
+a{
+    text-decoration: none;
 }
 body {
     font-size: 14px;
-    font-family: arial, "Hiragino Sans GB", "Microsoft YaHei", "微軟正黑體", "儷黑 Pro", sans-serif;
 }
 .head{
-    width:1286px;
+    width:100%;
     height:98px;
-    /*border:1px solid black;*/
 }
 .h_panel{
     width:1130px;
@@ -22,133 +24,138 @@ body {
 .h_logo{
     width:200px;
     height:98px;
-    background:url(../images/login/mistore_logo.png) no-repeat;
+}
+.h_logo img{
+    width:100%;
+    height:100%;
 }
 .wrap{
-    width:1286px;
-    height:654px;
-    /*border:1px solid red;*/
-    background:url(../images/login/login-background.jpg) no-repeat -635px 0px;
-
+    width:100%;
+    height:588px;
+    background:url(../images/login/login-background.jpg) no-repeat;
+    background-position-x:center;
+    background-position-y:top ;
 }
 .layout_panel{
     width:1130px;
-    height:654px;
-    /*border:1px solid blue;*/
+    height:588px;
     margin:auto;
 
 }
 .wrap .layout_panel .login-main{
     width:410px;
     height:524px;
-    /*border:1px solid green;*/
     float:right;
     margin-top:30px;
     position:relative;
     background-color: white;
 }
-.nav-tabs{
+.login-type-box{
     width:410px;
     height:83px;
-    /*border:1px solid black;*/
-    padding: auto;
+    box-sizing: border-box;
+    padding:27px 0 24px;
 }
+.login-type-box .list {
+    margin-left: 59px;
+    list-style: none;
+}
+.login-type-box .list li{
+    width:110px;
+    height:32px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 32px;
+    float:left;
+}
+.list .l_account a{
+    color:#f56600;
+}
+.login-type-box .list .link{
+    width:70px;
+    font-size: 30px;
+    line-height: 25px;
+    color:#e0e0e0;
+}
+.l_qrcode{
+    position:relative;
+}
+.l_q_qrcode{
+    width:410px;
+    height:315px;
+    background-color: white;
+    box-sizing: border-box;
+    padding-top: 100px;
+    position: absolute;
+    right:-61px;
+    top:32px;
+    z-index: 10;
+    display: none;
+}
+.l_q_qrcode img{
+    display: block;
+    width:181px;
+    height:181px;
+    margin:0 auto;
+}
+.l_q_qrcode p{
+    width: 410px;
+    margin-top:14px;
+    font-size:14px;
+    color:#757575;
+    line-height: 22px;
+    text-align: center;
+}
+.l_q_qrcode span{
+    color:#ff6700;
+}
+.l_qrcode:hover a{
+    color:#f56600;
+}
+.l_qrcode:hover .l_q_qrcode{
+    display: block;
+}
+/*注册框中部*/
 form{
-    width:348px;
+    width:410px;
     height:227px;
-    /*border:3px solid black;*/
     margin:auto
 }
 .login-box{
-    width:410px;
+    width:348px;
     height:227px;
-    /*border:1px solid purple;*/
-    position:absolute;
-    left:0px;
-    top:83px;
+    margin:0 auto;
 }
-.login-type-box{
-    width:410px;
-    height:29px;
-    margin-top:27px;
-    /*border:1px solid yellow;*/
-
-}
-.login-type-box1{
-    width:199px;
-    height:29px;
-    /*border:1px solid black;*/
-    float:left;
-    text-align: center;
-    font-size: 24px;
-}
-.login-type-box1 a{
-    color:#ef5b00;
-}
-.login-type-box2{
-    width:2px;
-    height:29px;
-    /*border:1px solid yellow;*/
-    float:left;
-
-}
-.login-type-box3{
-    width:199px;
-    height:29px;
-    /*border:1px solid black;*/
-    float:left;
-    text-align: center;
-    font-size: 24px;
-    color: #e0e0e0;
-}
-.login-type-box3 :hover{
-    color:#ef5b00;
-
-}
-/*注册框中部*/
-.account{
-    display:block;
-    position:absolute;
-    left:31px;
-    top:10px;
+.login-box input{
     width:346px;
     height:48px;
-    font-size:14px;
+    font-size: 14px;
+    outline:none;
+    border:1px solid #e0e0e0;
+}
+.account{
+    box-sizing: border-box;
+    padding-left: 12px;
 }
 .password{
-    display:block;
-    position:absolute;
-    left:31px;
-    top:73px;
-    width:346px;
-    height:48px;
-    font-size:14px;
+    margin-top:15px;
+    box-sizing: border-box;
+    padding-left: 12px;
 }
 .button{
-    display:block;
-    position:absolute;
-    left:31px;
-    top:141px;
-    width:348px;
-    height:50px;
+    margin-top: 25px;
     background-color: #ef5b00;
     color:#ffffff;
-    font-size:14px;
     border:transparent;
-
 }
+/*表单尾部*/
 .other{
-    width:348px;
     height:20px;
-    /*border:1px solid black;*/
-    position:absolute;
-    left:31px;
-    top:201px;
+    margin-top:8px;
 }
 .other1{
     width:116px;
     height:20px;
-    /*border:1px solid red;*/
     float:left;
     font-size:14px;
 
@@ -157,13 +164,14 @@ form{
     color:#ef5b00;
 }
 .other2{
-    width:150px;
     height:20px;
-    /*border:1px solid red;*/
     float:right;
     font-size:14px;
 }
 .other2 a{
+    color:#757575;
+}
+.other2 span{
     color:#757575;
 }
 .type-login{
@@ -199,11 +207,11 @@ form{
     position:absolute;
     bottom:44px;
 }
-ul{
-    position:absolute;
-    left:500px;
-    bottom:-10px;
-}
+/*ul{*/
+    /*position:absolute;*/
+    /*left:500px;*/
+    /*bottom:-10px;*/
+/*}*/
 li {
     display:inline-block;
     list-style:none;
