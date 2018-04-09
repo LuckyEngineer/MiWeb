@@ -1,4 +1,4 @@
-﻿*{
+*{
     margin: 0;
     padding: 0;
 }
@@ -7,7 +7,7 @@ a{
 }
 .nav{
     height: 40px;
-    width: 1226px;
+    width: 100%;
     background-color: #333333;
 }
 .nav_content {
@@ -64,7 +64,7 @@ a{
 }
 .container{
     height: 958px;
-    width: 1226px;
+    width: 100%;
 }
 .header{
     height: 100px;
@@ -129,15 +129,15 @@ a{
     display: block;
 }
 .content{
-    width:1126px ;
+    width:1226px ;
     height: 956px;
     margin: 0px auto;
 }
 .content .banner_pc{
     height: 500px;
-    width: 1226px;
+    width: 100%;
     position: relative;
-    left: -50px;
+    margin:0 auto;
 }
 .content_title{
     width: 500px;
@@ -177,6 +177,7 @@ a{
     position: relative;
     border: 1px solid darkgrey;;
     top: -80px;
+    margin: 0 auto;
 }
 .sub_content a{
     color: #0c1016;
@@ -186,6 +187,7 @@ a{
     height: 400px;
     position: absolute;
     background-color: white;
+    margin: 0 auto;
 }
 .sub_content_clum li {
     list-style: none;
@@ -226,7 +228,7 @@ a{
     left: 150px;
 }
 .footer{
-    width:1226px ;
+    width:100% ;
     height:100px ;
 
 }
@@ -279,7 +281,7 @@ a{
     opacity: .6;
 }
 .footer_right .kefu{
-
+    position: relative;
 }
 .footer_right .haoma{
     position: relative;
