@@ -192,7 +192,7 @@ form{
     position:absolute;
     left:31px;
     bottom:30px;
-    background:url(../images/login/loginway.PNG) no-repeat 50px 0px;
+    background:url(../images/login/loginway.PNG) no-repeat 50px 0;
 }
 .footer{
     width:1286px;
@@ -227,7 +227,7 @@ li a{
     height:44px;
     /*border:1px solid black;*/
     position:absolute;
-    bottom:0px;
+    bottom:0;
 }
 
 .nf-intro {
