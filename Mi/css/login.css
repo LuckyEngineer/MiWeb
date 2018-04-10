@@ -8,10 +8,10 @@
 a{
     text-decoration: none;
 }
-body {
-    font-size: 14px;
+body{
+    min-width:1226px;
 }
-.head{
+.header{
     width:100%;
     height:98px;
 }
@@ -79,6 +79,9 @@ body {
 }
 .l_qrcode{
     position:relative;
+}
+.l_qrcode a{
+    color:#757575;
 }
 .l_q_qrcode{
     width:410px;
@@ -167,75 +170,111 @@ form{
     height:20px;
     float:right;
     font-size:14px;
+    list-style: none;
+}
+.other2 li{
+    width:65px;
+    height:20px;
+    text-align: center;
+    float:left;
+}
+.other2 .o_register{
+    width:60px;
+}
+.other2 .o_link{
+    width:20px;
+    text-align: center;
+    line-height: 20px;
+    color:#757575;
 }
 .other2 a{
     color:#757575;
 }
-.other2 span{
-    color:#757575;
-}
 .type-login{
-    width:348px;
     height:30px;
-    /*border:1px solid black;*/
-    position:absolute;
-    left:31px;
-    bottom:66px;
+    margin-top: 120px;
     text-align: center;
     color:#757575;
 }
 
-.type-links{
-    width:348px;
-    height:36px;
-    /*border:1px solid black;*/
-    position:absolute;
-    left:31px;
-    bottom:30px;
-    background:url(../images/login/loginway.PNG) no-repeat 50px 0;
+.l-links{
+    width:280px;
+    height:30px;
+    margin:0 auto;
+    list-style: none;
+}
+.l-links li{
+    float:left;
+    width:65px;
+    height:30px;
+    text-align: center;
+    line-height: 50px;
+}
+.l-links i{
+    font-size: 30px;
+    color:#757575;
+}
+.l-links .icon-logo-wechat{
+    font-size: 36px;
+}
+.icon-qq:hover{
+    color:#0288d1;
+}
+.icon-qunfengxinlangweibo:hover{
+    color:#d32f2f;
+}
+.icon-zhifubao:hover{
+    color:#00aaee;
+}
+.icon-logo-wechat:hover{
+    color:#00d20d;
 }
 .footer{
-    width:1286px;
-    height:215px;
-    /*border:1px solid black;*/
-    position:relative;
+    width:100%;
+    height:80px;
+    margin-top: 100px;
 }
 .select{
-    width:1288px;
-    height:20px;
-    /*border:1px solid black;*/
-    position:absolute;
-    bottom:44px;
+    width:1130px;
+    height:80px;
+    margin:0 auto;
+    font-size: 14px;
 }
-/*ul{*/
-    /*position:absolute;*/
-    /*left:500px;*/
-    /*bottom:-10px;*/
-/*}*/
-li {
+.select ul{
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 370px;
+    list-style: none;
+}
+.select ul li {
     display:inline-block;
     list-style:none;
 }
-li a{
+.select ul a{
+    text-decoration: none;
     color:#757575;
 }
-.simple{
+.list .link{
+    display: inline-block;
+    width:20px;
+    text-align: center;
+    line-height: 10px;
+    color:#757575;
+}
+.list .simple{
     color:#333333;
 }
 .introduce{
-    width:1288px;
+    width:100%;
     height:44px;
-    /*border:1px solid black;*/
-    position:absolute;
-    bottom:0;
+    box-sizing: border-box;
+    padding-top: 10px;
 }
-
-.nf-intro {
-    padding: 10px;
-    position:absolute;;
-    left:450px;
-    bottom:1px;
+.introduce a{
+    color:#757575;
 }
 .introduce p{
+    text-align: center;
+    line-height: 34px;
     color:#757575;
 }

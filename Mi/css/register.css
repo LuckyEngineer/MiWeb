@@ -100,6 +100,7 @@ a{
     font-size:14px;
     box-sizing: border-box;
     padding-left: 10px;
+    outline: none;
 }
 .phonenumber{
     width:332px;
@@ -115,6 +116,7 @@ a{
     color:#555555;
     box-sizing: border-box;
     padding-left: 5px;
+    outline: none;
 }
 .phonenumber input{
     width:273px;
@@ -184,7 +186,7 @@ a{
     box-sizing: border-box;
     padding-top: 10px;
     padding-left: 311px;
-   list-style: none;
+    list-style: none;
 }
 .select ul li {
     display:inline-block;
