@@ -1108,6 +1108,7 @@ h2 {
 .video .v_hide .v_h_con .v_h_c_title .v_h_c_h2 {
     float: left;
     margin-left: 10px;
+    font-weight: 300;
 }
 .video .v_hide .v_h_con .v_h_c_title .close {
     float: right;

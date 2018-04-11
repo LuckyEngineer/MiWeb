@@ -39,6 +39,7 @@ $(function(){
             }else{
                 $(this).addClass("checkbox_selected");
                 $checkbox.addClass("checkbox_selected");
+
             }
         });
         // 局部复选框
@@ -73,7 +74,6 @@ $(function(){
                 $(".content_centre7").removeClass("content_centre7_fixed");
             }
             change_position();
-
         });
     })();
     // 修改商品数量和价格统计
@@ -162,5 +162,4 @@ $(function(){
             $totalprice.html(money);
         }
     })();
-    //
 });
