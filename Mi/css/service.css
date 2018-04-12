@@ -1,22 +1,19 @@
-
-body {
-    font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
-    color: #333;
-    background-color: #fff;
-    min-width: 1226px;
-
+*{
+    margin:0;
+    padding:0;
+    font-family: "Microsoft Yahei";
 }
-
+a{
+    text-decoration: none;
+}
 .service-index-box{
-    width:1226px;
-    height:3025px;
-    border:1px solid black;
-    margin:0 auto;
+    width:100%;
+    background-color: #f5f5f5;
 }
 .container1{
     width:1226px;
     height:40px;
-    border:1px solid red;
+    margin:0 auto;
 }
 .breadcrumbs {
     height: 40px;
@@ -25,247 +22,239 @@ body {
     background: #f5f5f5;
     color: #616161;
 }
+.breadcrumbs a{
+    color:#616161;
+}
 .container2{
     width:1226px;
-    height:2985px;
-    border:1px solid red;
+    margin:0 auto;
 }
 .ui-wrapper{
     width:1226px;
     height:250px;
-    border:1px solid green;
+}
+.ui-wrapper img{
+    width:1226px;
+    height:250px;
 }
 .service-index-fquestion{
     width:1226px;
-    height:402px;
-    border:1px solid green;
+    box-sizing: border-box;
+    padding-top: 20px;
 }
+/*自助服务*/
 .webfont{
-    font-family: 'F3454b',"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
-    display: block;
+    width:100%;
+    height:70px;
+    line-height: 70px;
     font-size: 24px;
-    margin-top: 20px;
     color: #666;
-    font-weight: normal;
 }
 .webfont-content{
     width: 1226px;
-    height:340px;
-    border:1px solid yellow;
-    margin:0px;
-    padding:0px;
+    height:350px;
 }
 .webfont-content ul{
     width: 1226px;
-    height:340px;
-    border:1px solid black;
-    margin: 0;
-    padding: 0;
-    font-weight: normal;
+    list-style: none;
 }
 .webfont-content ul li{
-    width:303px;
-    height:170px;
-    border:1px solid blue;
-    /*text-align: center;*/
-    /*border-bottom: 1px solid #f5f5f5;*/
-    /*border-right: 1px solid #f5f5f5;*/
+    width:304px;
+    height:173px;
+    background-color: white;
+    border: 1px solid #f5f5f5;
     float:left;
     list-style:none;
-    position:relative;
 }
-.webfont-content ul li a{
-    width:303px;
-    height:170px;
-    border:1px solid transparent;
-    position:relative;
+.webfont-content a{
+    width:306px;
+    height:175px;
     display:block;
+    box-sizing: border-box;
+    padding-top: 42px;
     color: #757575;
 }
-.webfont-content ul li a :hover{
+.webfont-content a :hover{
     color:#ff6700;
 }
-.webfont-content ul li img{
+.webfont-content img{
     margin:0 auto;
     width: 66px;
     height: 66px;
     display:block;
-    position:absolute;
-    left:115px;
-    top:42px;
 }
-.li-text{
-    position:absolute;
-    left:115px;
-    bottom:45px;
+.webfont-content p{
+    width:100%;
+    height:20px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
 }
-.li-text1{
-    position:absolute;
-    left:110px;
-    bottom:45px;
+/*产品支持*/
+.service-index-goods{
+    width:1226px;
+    margin:0 auto;
+    box-sizing: border-box;
+    padding-top:20px;
 }
 .service-index-goods{
     width:1226px;
-    height:677px;
-    border:1px solid green;
 }
-.blank{
-    width:1226px;
-    height:16px;
-}
-.container2 .content{
-    width:1226px;
-    height:603px;
-    border:1px solid black;
-}
-.container2 .content ul{
+.service-index-goods ul{
     width:1226px;
     height:603px;
     border:1px solid transparent;
 }
-.container2 .content ul li{
-    width:303px;
-    height:301px;
-    border:1px solid red;
+.service-index-goods ul li{
+    width:304px;
+    height:300px;
+    border:1px solid #f5f5f5;
+    background-color: white;
     float:left;
 }
-.container2 .content ul li a{
-    width:303px;
-    height:301px;
-    border:1px solid transparent;
+.service-index-goods a{
+    width:304px;
+    height:300px;
     display:block;
     color: #757575;
+    box-sizing: border-box;
+    padding-top: 63px;
 }
-.container2 .content ul li a :hover{
+.service-index-goods a :hover{
     color: #ff6700;
 }
-.container2 .content ul li a img{
+.service-index-goods img{
     width:200px;
     height:165px;
-    margin-top:63px;
-    margin-left:65px;
+    margin:0 auto;
     display:block;
 }
-.container2 .content ul li a div{
-    margin-bottom:45px;
-    margin-left:125px;
+.g_c_list p{
+    width:100%;
+    height:20px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
 }
+/*常见问题*/
 .service_question{
     width:1226px;
-    height:753px;
-    border:1px solid green;
+    margin:0 auto;
+    box-sizing: border-box;
+    padding-top: 20px;
 }
-.service_question .content{
+.service_question .q_content{
     width:1226px;
-    height:679px;
-
 }
-.service_question .content div{
-    width:304px;
-    height:337px;
-    border:1px solid black;
-    float:left;
+.s_c_list{
+    width:1226px;
+    height:710px;
 }
-.service_question .content a{
-    display:inline-block;
+.s_c_list a{
     color: #757575;
 }
-.service_question .content a :hover{
+.s_c_list a:hover{
     color:#ff6700;
 }
-.service_question .content dl{
-    width:206px;
-    height:260px;
-    border:1px solid red;
-    margin: 35px auto;
+.s_c_list img{
+    width:15px;
+    height:15px;
 }
-.service_question .content dl dt{
+.s_c_list dl{
+    width:306px;
+    height:354px;
+    border: 1px solid #f5f5f5;
+    background-color: white;
+    box-sizing: border-box;
+    padding:50px 50px;
+    float:left;
+}
+.s_c_list dl dt{
+    height:50px;
+    box-sizing: border-box;
+    padding-bottom: 15px;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 35px;
     color: #333;
 }
-.service_question .content dl dd{
-    margin-top:5px;
+.s_c_list dl dd{
+    height:25px;
+    font-size:14px;
+    line-height: 25px;
 }
-.service_question .content .dd-style{
-    margin-top: 17px;
-}
-.service_question .content a :hover {
-    color: #ff6700;
-}
+/*联系客服*/
 .service-index-contact{
     width:1226px;
-    height:763px;
-    border:1px solid green;
+    box-sizing: border-box;
+    padding:20px 0  100px;
 }
 .service-index-contact .contact{
     width:1226px;
-    height:683px;
-    border:1px solid black;
 }
-.service-index-contact .contact .online-clearfix{
+.online-clearfix{
     width:1226px;
     height:160px;
-    border:1px solid black;
+    box-sizing: border-box;
+    padding:30px 0;
+    margin-bottom: 14px;
+    background-color: white;
 }
-.service-index-contact .contact .online-clearfix .block1{
+.online-clearfix .block1{
     width:395px;
     height:100px;
-    border:1px solid red;
     float:left;
-    margin-top: 30px;
     background-image: url("../images/service/contact-icon.png");
     background-position: 90% 0;
     background-repeat: no-repeat;
 }
-/*.block1 img{*/
-    /*margin-right: 10px;*/
-    /*overflow: hidden;*/
-    /**/
-/*}*/
-.block2{
+.online-clearfix dl{
     width:430px;
-    height:56px;
-    border:1px solid red;
+    height:100%;
+    box-sizing: border-box;
+    padding-top: 20px;
     float:left;
-    margin-top:52px;
 }
-.block2 dt{
+.online-clearfix dl dt{
+    height:30px;
+    line-height: 30px;
+    margin-bottom: 5px;
     font-size: 18px;
     color: #000;
 }
-.block3{
+.online-clearfix dl dd{
+    font-size:14px;
+    color:#757575;
+}
+.online-clearfix .block3{
     width:160px;
-    height:40px;
-    border:1px solid red;
+    height:100%;
     float:left;
-    margin-top:60px;
-    background: #ff6700;
-    color: #fff;
-
 }
 .block3 a{
-    margin-top:10px;
-    margin-left:45px;
+    width:160px;
+    height:40px;
+    margin-top:30px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 15px;
+    background-color: #ff6700;
     color: #fff;
     display:block;
 }
-.service-index-contact .contact .telphone-clearfix{
-    width:1226px;
-    height:335px;
-    border:1px solid black;
+.block3 a:hover{
+    background-color: #f25807;
 }
-.big-block{
-    width:1090px;
-    height:235px;
-    border:1px solid black;
-    margin-left: 130px;
-    margin-top:50px;
+.telephone-clearfix{
+    width:1226px;
+    height:349px;
+    box-sizing: border-box;
+    padding:50px 0 50px 160px;
+    background-color: white;
+    margin-bottom: 20px;
 }
 .big-block .block4{
     width:280px;
     height:235px;
-    border:1px solid green;
     float:left;
 }
 .big-block .block4 dt{
@@ -279,6 +268,9 @@ body {
     text-align: center;
     margin-top: 6px;
 }
+.block4 dd{
+    color:#757575;
+}
 .block4 .num{
     color: #ff6700;
     font-size: 16px;
@@ -286,39 +278,30 @@ body {
 .big-block .phone-logo1{
     width:100px;
     height:100px;
-    border:1px solid red;
     background-image: url("../images/service/contact-icon.png");
-    background-position: 0px -100px;
+    background-position: 0 -100px;
     background-repeat: no-repeat;
     margin: auto;
 }
 .big-block .phone-logo2{
     width:100px;
     height:100px;
-    border:1px solid red;
     background-image: url("../images/service/contact-icon.png");
-    background-position: 0px -200px;
+    background-position: 0 -200px;
     background-repeat: no-repeat;
     margin: auto;
 }
 .big-block .phone-logo3{
     width:100px;
     height:100px;
-    border:1px solid red;
     background-image: url("../images/service/contact-icon.png");
-    background-position: 0px -300px;
+    background-position: 0 -300px;
     background-repeat: no-repeat;
     margin: auto;
-}
-.blank2{
-    width:1226px;
-    height:14px;
-    border:1px solid black;
 }
 .service-index-contact .contact .weixin{
     width:1226px;
     height:160px;
-    border:1px solid black;
 }
 
 

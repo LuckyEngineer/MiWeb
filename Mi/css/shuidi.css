@@ -74,7 +74,7 @@ a{
 /*-----------内容！！！--------*/
 .container{
     width: 100%;
-    background-color: #fdfdfdfd;
+    overflow: hidden;
 }
 /*-----------广告内容！！！--------*/
 .container .banner{
@@ -135,18 +135,18 @@ a{
 }
 /*-----------正文内容内容！！！--------*/
 .c_content{
-    width: 1226px;
+    width: 1220px;
     margin: 0 auto;
     box-sizing: border-box;
     padding-top:100px;
 }
 .c_c_apply{
-    width: 1226px;
+    width: 1220px;
     height: 1000px;
     border-bottom: 1px solid #eef2f5;
 }
 .c_c_a_top{
-    width: 1226px;
+    width: 1220px;
     height: 505px;
     box-sizing: border-box;
     padding:40px 30px;
@@ -367,7 +367,7 @@ a{
 }
 /* ---______-------下面的模块-------------*/
 .content_bottom{
-    width: 1226px;
+    width: 1220px;
     margin:0 auto;
     margin-top:130px;
 }
@@ -572,7 +572,7 @@ a{
     background-color: #eeeeee;
 }
 .f_container{
-    width:1226px;
+    width:1220px;
     height:200px;
     margin:0 auto;
     box-sizing: border-box;
