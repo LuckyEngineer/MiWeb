@@ -9,6 +9,7 @@ $(function(){
         var $input = $(".nav .n_wrapper .n_w_s_input input");
         var $search_hide = $(".nav .n_wrapper .n_w_s_input .n_w_s_hide");
         var $hotwords = $(".nav .n_wrapper .n_w_s_hotwords");
+        // 购物车鼠标移进事件
         $shop.hover(function(){
             $s_hide.stop(true).slideDown();
         },function(){

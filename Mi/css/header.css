@@ -66,10 +66,13 @@ a img{
     color:#b0b0b0;
     background-color: #424242;
 }
+.topnav .t_wrapper .t_w_right .t_w_r_shop a{
+    color:#b0b0b0;
+}
 .topnav .t_wrapper .t_w_right .t_w_r_shop:hover .iconfont{
     color: #f60;
 }
-.topnav .t_wrapper .t_w_right .t_w_r_shop:hover .car{
+.topnav .t_wrapper .t_w_right .t_w_r_shop:hover a{
     color: #f60;
 }
 .topnav .t_wrapper .t_w_right .t_w_r_shop:hover{
