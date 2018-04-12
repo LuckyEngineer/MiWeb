@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>商品购买界面</title>
+    <!-- 引入swiper插件css -->
+    <link rel="stylesheet" type="text/css" href="library/swiper/swiper-4.2.0.min.css">
     <!-- header:iconfont -->
     <link rel="stylesheet" type="text/css" href="iconfont/header/iconfont.css">
     <!-- header.css -->
@@ -24,27 +26,27 @@
             <div class="t_wrapper">
                 <div class="t_w_left">
                     <ul>
-                        <li><a href="javascript:void(0)">小米商城</a><span>|</span></li>
-                        <li><a href="javascript:void(0)">MIUI</a><span>|</span></li>
-                        <li><a href="javascript:void(0)">IoT</a><span>|</span></li>
-                        <li><a href="javascript:void(0)">云服务</a><span>|</span></li>
-                        <li><a href="javascript:void(0)">水滴</a><span>|</span></li>
-                        <li><a href="javascript:void(0)">金融</a><span>|</span></li>
-                        <li><a href="javascript:void(0)">有品</a><span>|</span></li>
+                        <li><a href="index.html">小米商城</a><span>|</span></li>
+                        <li><a href="miui.html">MIUI</a><span>|</span></li>
+                        <li><a href="IoT.html">IoT</a><span>|</span></li>
+                        <li><a href="cloud.html">云服务</a><span>|</span></li>
+                        <li><a href="shuidi.html">水滴</a><span>|</span></li>
+                        <li><a href="jr.html">金融</a><span>|</span></li>
+                        <li><a href="youpin.html">有品</a><span>|</span></li>
                         <li><a href="javascript:void(0)" class="t_w_l_selregion">Select Region</a></li>
                     </ul>
                 </div>
                 <div class="t_w_right">
                     <div class="t_w_r_shop">
                         <i class="iconfont icon-gouwuchekong"></i>
-                        <span class="car">购物车（<span>0</span>）</span>
+                        <a href="cart.html" class="car">购物车（<span>0</span>）</a>
                         <div class="t_w_r_s_hide">
                             购物车中还没有商品，赶紧选购吧！
                         </div>
                     </div>
                     <div class="t_w_r_login">
-                        <a href="javascript:void(0)">登录</a><span>|</span>
-                        <a href="javascript:void(0)">注册</a><span>|</span>
+                        <a href="login.html">登录</a><span>|</span>
+                        <a href="register.html">注册</a><span>|</span>
                         <a href="javascript:void(0)">消息通知</a>
                     </div>
                 </div>
@@ -482,8 +484,27 @@
         <div class="description">
             <!-- 左侧轮播图 -->
             <div class="d_view">
-                <img src="images/product/product_1.jpg">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/product/product_1.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/product/product_2.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/product/product_3.jpg">
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
+
+            <!--<div class="d_view">-->
+                <!--<img src="images/product/product_1.jpg">-->
+            <!--</div>-->
             <div class="d_parameter">
                 <h1 class="d_p_title">小米MIX 2  全面屏2.0</h1>
                 <!-- 提示 -->
@@ -511,24 +532,24 @@
                         <span>永定门外街道</span>
                         <a class="d_p_a_update">修改</a>
                     </p>
-                    <p>有现货</p>
+                    <p class="d_p_a_have">有现货</p>
                 </div>
                 <!-- 选择版本 -->
                 <div class="d_p_sel">选择版本</div>
                 <ul class="d_p_version">
-                    <li>
+                    <li class="d_p_version_1">
                         <a href="javascript:void(0)">
                             <span class="type">6GB+64GB </span>
                             <span class="price"> 2999元 </span>
                         </a>
                     </li>
-                    <li>
+                    <li class="d_p_version_2">
                         <a href="javascript:void(0)">
                             <span class="type">6GB+128GB  </span>
                             <span class="price"> 2999元 </span>
                         </a>
                     </li>
-                    <li>
+                    <li class="d_p_version_2">
                         <a href="javascript:void(0)">
                             <span class="type">6GB+64GB </span>
                             <span class="price"> 2999元 </span>
@@ -716,7 +737,8 @@
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
     <!-- 引入header.js -->
     <script type="text/javascript" src="js/header.js"></script>
-    <script type="text/javascript">
-    </script>
+    <!-- 引入swiper插件js -->
+    <script type="text/javascript" src="library/swiper/swiper-4.2.0.min.js"></script>
+    <script type="text/javascript" src="js/product.js"></script>
 </body>
 </html>

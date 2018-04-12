@@ -20,10 +20,9 @@ a{
     margin: 0 auto;
 }
 .nav .logo{
-    position: absolute;
-    top: 16px;
-    left: 0;
-line-height: 49px;
+    line-height: 49px;
+    float: left;
+    display: block;
 }
 .nav ul{
     position: absolute;
@@ -131,6 +130,9 @@ line-height: 49px;
     border-right: none;
     position: relative;
 }
+.footer .language_list a{
+    text-decoration: none;
+}
 .footer .language_list .languages{
     position: absolute;
     z-index: 3;
@@ -138,7 +140,10 @@ line-height: 49px;
     right: -15px;
     bottom: -13px;
     background: white ;
-    /*display: none;*/
+    display: none;
+}
+.footer .language_list:hover .languages{
+    display: block;
 }
 .footer .language_list .languages a{
     font-family: 'microsoft yahei';
@@ -152,11 +157,14 @@ line-height: 49px;
 }
 .footer .language_list .languages a:hover{
     color: #ff6700;
-    text-decoration: underline;
+    text-decoration: none;
 }
 .footer .address{
     line-height: 20px;
     color: #c5c6c8;
     font-size: 11px;
     text-align: center;
+}
+.footer .language_list .languages i{
+    font-size: 12px;
 }
