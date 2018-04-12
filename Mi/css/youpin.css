@@ -2109,7 +2109,6 @@ ul{
 .c_c_r_daily{
     width:538px;
     height:206px;
-    background-color: blue;
     margin-right: 5px;
     float:left;
 }
@@ -2120,7 +2119,6 @@ ul{
 .c_c_r_funding{
     width:266px;
     height:206px;
-    background-color: green;
     margin-right: 5px;
     float:left;
 }
@@ -2131,7 +2129,6 @@ ul{
 .c_c_r_outfit{
     width:266px;
     height:206px;
-    background-color: purple;
     float:left;
 }
 .c_c_r_outfit img{

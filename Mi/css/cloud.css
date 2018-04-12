@@ -1,246 +1,219 @@
+*{
+    margin:0;
+    padding:0;
+}
 a{
     text-decoration: none;
 }
+body{
+    background: url(../images/cloud/bg_content.png) 0 0;
+    background-repeat: repeat-x;
+    background-color: #328eb4;
+}
 .container{
     width: 100%;
-    height: 890px;
+    min-width: 1226px;
 }
 .content{
-    width: 1850px;
-    height: 890px;
-    position: relative;
-}
-.content img{
-    width: 1850px;
-    height: 890px;
-    position: absolute;
+    width: 100%;
+    height:100%;
+    margin:0 auto;
 }
 .top{
-    width: 1850px;
-    height: 50px;
-    position: absolute;
-    top:30px;
+    width: 100%;
+    height: 70px;
+    box-sizing: border-box;
+    padding-top: 30px;
 }
 /*左边logo*/
 .xiaomibox{
     width: 140px;
     height: 32px;
-    position: absolute;
-    left: 20px;
-    top: 10px;
-}
-.xiaomibox span{
-    color:rgb(162,167,181);
+    border-radius: 7px;
+    margin-left: 20px;
+    float:left;
+    position:relative;
     font-size: 14px;
-}
-.xiaomibox i{
+    text-align: center;
+    line-height: 32px;
     color:rgb(162,167,181);
+}
+.xiaomibox a{
+    color:rgb(162,167,181);
+}
+.xiaomibox .icon-xiaomi{
     font-size: 20px;
 }
-.xiaomibox:hover{
-    border-radius: 10%;
-    background-color: rgb(51,63,92);
-}
-.xiaomibox:hover i{
-    color: white;
-}
-.xiaomibox:hover span{
-    color: white;
-}
-.xiaomibox_msg{
-    width: 130px;
-    height: 170px;
+.x_address{
     position: absolute;
-    left:-20px;
-    top: 16px;
-    list-style: none;
-    background-color: rgb(46,58,88);
-    line-height: 28px;
+    top: 32px;
+    box-sizing: border-box;
+    padding-top:10px;
     z-index: 2;
-    padding: 0px;
-    text-align: center;
     display: none;
 }
-.xiaomibox:hover .xiaomibox_msg{
-    display: block;
+.xiaomibox_msg{
+    border-radius: 7px;
+    list-style: none;
+    background-color: rgb(46,58,88);
 }
-.xiaomibox_msg li a{
+.xiaomibox_msg li{
+    width:140px;
+    height:32px;
+    line-height: 32px;
+    text-align: left;
+}
+.xiaomibox_msg a{
+    display: block;
+    width:140px;
+    height:32px;
+    box-sizing: border-box;
+    padding-left:35px;
     color: rgb(193,200,209);
 }
-.size_yunfuwu{
-    background-color: rgb(68,82,109);
+.xiaomibox:hover{
+    background-color: rgb(51,63,92);
+}
+.xiaomibox:hover .x_box{
     color: white;
 }
-.xiaomibox_msg li:hover{
-    background-color: rgb(54,66,92);
+.xiaomibox:hover .x_address{
+    display: block;
 }
-.xiaomibox_msg a:hover{
+.x_address a:hover{
+    background-color: rgb(54,66,92);
     color:white;
 }
-
-
-
-
-
-
-
-
 /*客户端下载*/
+.c_t_rightnavsar{
+    /*width:300px;*/
+    height:40px;
+    float:right;
+    margin-right:40px;
+}
 .client{
     width: 140px;
-    height: 32px;
-    position: absolute;
-    left: 1500px;
-    top: 10px;
+    height: 40px;
+    float:left;
 }
 .client img{
-    width: 20px;
-    height: 15px;
+    width: 15px;
+    height: 13px;
 }
 .client span{
-    color: rgb(189,200,211);
+    color: rgb(162,167,181);
     font-size: 14px;
-    padding-left: 25px;
+    line-height: 40px;
 }
-.new{
-    position: absolute;
-    top: 0;
-    left: 100px;
-}
-.new img{
-    width: 40px;
-    height: 17px;
+.client .t_d_new{
+    width: 32px;
+    height: 15px;
 }
 /*了解云服务*/
 .top_cloud{
-    width: 140px;
-    height: 32px;
-    position: absolute;
-    left: 1650px;
-    top: 10px;
+    height: 40px;
+    float:left;
 }
-.doubt{
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.doubt img{
-    width: 25px;
-    height: 20px;
+.top_cloud img{
+    width: 20px;
+    height: 18px;
+    display: block;
+    float:left;
+    margin-top:11px;
 }
 .top_cloud span{
-    color: rgb(189,200,211);
+    color: rgb(162,167,181);
     font-size: 14px;
-    padding-left: 25px;
+    line-height: 40px;
 }
 .top_cloud span:hover{
     color: white;
 }
 /*中间框*/
-.centre{
-    height: 370px;
-    width: 1850px;
+.service{
+    width:100%;
     position: absolute;
-    top: 230px;
+    top:50%;
+    margin-top: -210px;
+}
+.centre{
+    width:600px;
+    margin:0 auto;
 }
 .centre_cloud{
-    height: 150px;
-    width: 350px;
-    position: absolute;
-    top: 0;
-    left: 670px;
-    text-align: center;
+    height:220px;
+    width: 600px;
 }
 .centre_cloud img{
     height: 105px;
     width: 156px;
+    display: block;
+    margin:0 auto;
 }
-.centre_msg1{
-    height: 80px;
-    width: 350px;
-    position: absolute;
-    top: 90px;
-    left: 750px;
+.centre_cloud p{
     text-align: center;
+    color:rgb(162,167,181);
 }
-.centre_msg1 p{
-    color: rgb(209,214,221);
-    font-size: 30px;
+.cente_title{
+    height:50px;
+    line-height: 50px;
+    margin-top:10px;
+    font-size:30px;
 }
-.centre_msg2{
-    height: 80px;
-    width: 350px;
-    position: absolute;
-    top: 150px;
-    left: 755px;
-    text-align: center;
-}
-.centre_msg2 p{
-    color: rgb(209,214,221);
-    font-size: 18px;
+.cente_text{
+    height:30px;
+    line-height: 30px;
 }
 /*小米账号登录*/
-.centre_msg3{
-    height: 40px;
-    width: 320px;
-    position: absolute;
-    top: 225px;
-    left: 765px;
-    text-align: center;
-    background-color:#2C759A;
-    border-color:#598fab;
-    border-radius: 30px;
-    line-height: 10px;
+.centre_msg{
+    height: 100px;
+    width: 100%;
 }
-.centre_msg3 p{
+.centre_msg a{
+    display: block;
+    width:320px;
+    height:42px;
+    margin:40px auto 0;
+    background-color:#2C759A;
+    border:1px solid #598fab;
+    border-radius: 30px;
+    line-height: 42px;
+    text-align: center;
     color: rgb(209,214,221);
 }
-.centre_msg3 p:hover{
+.centre_msg a:hover{
     color: white;
 }
 /*底端部分*/
 .bottom{
-    width: 1850px;
-    height: 100px;
+    width: 100%;
+    margin-top:100px;
     position: absolute;
-    top: 790px;
+    bottom:0;
 }
 .bottom_text{
-    width: 1700px;
-    height: 30px;
-    position: absolute;
-    top: 30px;
-    left: 120px;
+    width:100%;
+    margin:0 auto;
+    text-align: center;
 }
 .bottom a{
-    font-size: 13px;
-    color: rgb(209,214,221);
+    font-size: 12px;
+    color:#bdc8d3;
 }
 .bottom a:hover{
     color: white;
 }
 .bottom_text span{
-    color: rgb(209,214,221);
-    font-size: 13px;
+    color: #bdc8d3;
+    font-size: 12px;
 }
 .bottom_text2{
-    width: 800px;
+    width: 100%;
     height: 30px;
-    position: absolute;
-    top: 60px;
-    left: 550px;
+    text-align: center;
+    line-height: 30px;
 }
 .bottom_text2 span{
-    color: rgb(209,214,221);
-    font-size: 13px;
-}
-.bottom_text3{
-    width: 600px;
-    height: 30px;
-    position: absolute;
-    top: 0px;
-    left: 280px;
-}
-.bottom_text3 span{
-    color: rgb(109,170,197);
+    color: #bdc8d3;
+    font-size: 12px;
 }
