@@ -9,64 +9,24 @@ $(function(){
         $(window).scroll(function(){
             // height 滚动条的高度
             var height = $(document).scrollTop();
-            // content_2与滚轮的高度差
-            var content2_h = $(".container .content_2").offset().top - height;
-            // content_3与滚轮的高度差
-            var content3_h = $(".container .content_3").offset().top - height;
-            // content_4与滚轮的高度差
-            var content4_h = $(".container .content_4").offset().top - height;
-            // content_5与滚轮的高度差
-            var content5_h = $(".container .content_5").offset().top - height;
-            // content_6与滚轮的高度差
-            var content6_h = $(".container .content_6").offset().top - height;
-            // content_7与滚轮的高度差
-            var content7_h = $(".container .content_7").offset().top - height;
+            // 定义高度差
+            var content_h = 0;
             // 当滚动条的高度达到200以上时，显示导航栏
             if(height>200){
                 $(".top").css({"position":"fixed","top":"0","left":"0","z-index":"1000"});
             } else {
-                $(".top").css("position","relative");
+                $(".top").css({"position":"relative","z-index":"0"});
             }
-            // content_2与滚轮的高度差小于290px时，content_2中的文字上浮
-            if(content2_h < 290){
-                var $content2 = $(".container .content_2 .content_2_nav");
-                if(!$content2.hasClass("preload")){
-                    $content2.addClass("preload");
-                }
-            }
-            // content_3与滚轮的高度差小于290px时，content_3中的文字上浮
-            if(content3_h < 290){
-                var $content3 = $(".container .content_3");
-                if(!$content3.hasClass("preload")){
-                    $content3.addClass("preload");
-                }
-            }
-            // content_4与滚轮的高度差小于290px时，content_4中的文字上浮
-            if(content4_h < 290){
-                var $content4 = $(".container .content_4");
-                if(!$content4.hasClass("preload")){
-                    $content4.addClass("preload");
-                }
-            }
-            // content_5与滚轮的高度差小于290px时，content_5中的文字上浮
-            if(content5_h < 290){
-                var $content5 = $(".container .content_5");
-                if(!$content5.hasClass("preload")){
-                    $content5.addClass("preload");
-                }
-            }
-            // content_6与滚轮的高度差小于290px时，content_6中的文字上浮
-            if(content6_h < 290){
-                var $content6 = $(".container .content_6");
-                if(!$content6.hasClass("preload")){
-                    $content6.addClass("preload");
-                }
-            }
-            // content_7与滚轮的高度差小于290px时，content_7中的文字上浮
-            if(content7_h < 290){
-                var $content7 = $(".container .content_7");
-                if(!$content7.hasClass("preload")){
-                    $content7.addClass("preload");
+            // 定义一个关联数组用于存放各个内容快与滚轮的高度差
+            var arr = new Array();
+            for(var i = 2; i < 17; i++){
+                // 循环计算每个块与滚轮的高度差
+                content_h = $(".container .content_"+i).offset().top - height;
+                if(content_h < 290){
+                    var $content = $(".container .content_"+i);
+                    if(!$content.hasClass("preload")){
+                        $content.addClass("preload");
+                    }
                 }
             }
         });
