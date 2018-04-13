@@ -2037,11 +2037,38 @@ ul{
 .c_c_adv{
     width:1080px;
     height:450px;
+    position: relative;
 }
-.c_c_adv img{
-    width:1080px;
-    height:450px;
+.c_c_adv .hoverbtn{
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
 }
+.c_c_adv .hoverbtn:hover{
+    background-color:rgba(0,0,0,.2);
+}
+.c_c_adv .swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+.c_c_adv .swiper-slide-bg1{
+    background-image: url("../images/youpin/banner_1.jpg");
+}
+.c_c_adv .swiper-slide-bg2{
+    background-image: url("../images/youpin/banner_2.jpg");
+}
+.c_c_adv .swiper-slide-bg3{
+    background-image: url("../images/youpin/banner_3.jpg");
+}
+.c_c_adv .swiper-slide-bg4{
+    background-image: url("../images/youpin/banner_4.jpg");
+}
+.c_c_adv .swiper-slide-bg5{
+    background-image: url("../images/youpin/banner_5.jpg");
+}
+
+
 /*menu*/
 .c_c_menu{
     width:1080px;

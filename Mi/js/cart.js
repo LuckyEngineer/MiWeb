@@ -1,4 +1,19 @@
 $(function(){
+    // top
+    // 鼠标移入移开用户名
+    (function(){
+        var $user = $(".top .top_nav .t_n_user");
+        var $menu = $(".top .top_nav .t_n_user .t_n_u_menu");
+        $user.hover(function(){
+            $menu.stop(true).slideDown(200);
+        },function(){
+            $menu.stop(true).slideUp(200);
+        })
+    })();
+    // End top
+
+
+    // content_centre7
     // 结算div距离顶部的高度
     var position = $(".content_centre7").offset().top;
     // 计算总价条目div的所在位置，如果距离顶部的距离,小于或等于0，则修改div的对应样式
@@ -13,33 +28,52 @@ $(function(){
     }
     // 在渲染页面的时候初始化其位置
     change_position();
-    // 鼠标移入移开用户名
+
+    // 响应滚轮事件，调节总价条目的位置
     (function(){
-        var $user = $(".top .top_nav .t_n_user");
-        var $menu = $(".top .top_nav .t_n_user .t_n_u_menu");
-        $user.hover(function(){
-            $menu.stop(true).slideDown(200);
-        },function(){
-            $menu.stop(true).slideUp(200);
-        })
+        var $pricebar = $(".content_centre7");
+        $(window).scroll(function(){
+            if($pricebar.offset().top >= position){
+                $(".content_centre7").removeClass("content_centre7_fixed");
+            }
+            change_position();
+        });
     })();
+    // End content_centre7
+
+
+
     // 鼠标点击复选框
+    // (function(){
+    //
+    // })();
+
+    // 点击复选框，修改商品数量和价格统计
     (function(){
-        // 全选框
-        var $check_all = $("#selall");
-        // 商品复选框
-        var $checkbox = $(".selpart");
-        var flag = 0;
+        var $check_all = $("#selall");// 全选框
+        var $checkbox = $(".selpart");// 商品复选框
+        var $miuns = $(".content .content_goods .c_g_minus");// 减
+        var $plus = $(".content .content_goods .c_g_plus");// 加
+        var $oneprice = $(".content_subtotal");// 小计
+        var $totalprice = $(".totalprice");// 总价
+        var $inputnum = $(".content .content_goods .c_g_num");// 商品数量输入框
+        // 临时变量
+        var temp = 1;
+        // var flag = 0;
         // 点击全选框
         $check_all.click(function(){
-            // 如果已经被选中了，那么就除去checkbox_selected
+            // 如果已经被选中了，那么就除去checkbox_selected，并且将总价置为0
             if($(this).hasClass("checkbox_selected")){
                 $(this).removeClass("checkbox_selected");
                 $checkbox.removeClass("checkbox_selected");
+                // 将总价计为0
+                $(".totalprice").html("0");
             }else{
                 $(this).addClass("checkbox_selected");
+                // 计算
                 $checkbox.addClass("checkbox_selected");
-
+                // 修改总价
+                calPrice();
             }
         });
         // 局部复选框
@@ -47,12 +81,16 @@ $(function(){
             if($(this).hasClass("checkbox_selected")){
                 $check_all.removeClass("checkbox_selected");
                 $(this).removeClass("checkbox_selected");
+                // 修改总价
+                calPrice();
             }else{
                 $(this).addClass("checkbox_selected");
                 allchk();
+                // 修改总价
+                calPrice();
             }
         });
-        // 判断全选框是否需要被选中
+        // 判断全选框是否需要被选中，当所有子复选框都被选中时，自动选中全选框
         function allchk(){
             var chknum = $(".selpart").length;//选项总个数
             var chk = 0;
@@ -65,29 +103,6 @@ $(function(){
                 $check_all.addClass("checkbox_selected");
             }
         }
-    })();
-    // 响应滚轮事件，调节总价条目的位置
-    (function(){
-        var $pricebar = $(".content_centre7");
-        $(window).scroll(function(){
-            if($pricebar.offset().top >= position){
-                $(".content_centre7").removeClass("content_centre7_fixed");
-            }
-            change_position();
-        });
-    })();
-    // 修改商品数量和价格统计
-    (function(){
-        var $miuns = $(".content .content_goods .c_g_minus");
-        var $plus = $(".content .content_goods .c_g_plus");
-        // 小计
-        var $oneprice = $(".content_subtotal");
-        // 总价
-        var $totalprice = $(".totalprice");
-        // 商品数量输入框
-        var $inputnum = $(".content .content_goods .c_g_num");
-        // 临时变量
-        var temp = 1;
         // 减少数量
         $miuns.click(function(){
             var $p_obj = $(this).parents("li");
@@ -153,11 +168,24 @@ $(function(){
 
         });
         // 计算总价
-        function  calPrice(){
-            // 计算所有小计之和
+        // function  calPrice(){
+        //     // 计算所有小计之和
+        //     var money = 0;
+        //     $oneprice.each(function(){
+        //         money += parseInt($(this).text());
+        //     });
+        //     $totalprice.html(money);
+        // }
+
+        // 动态计算总价
+        function calPrice(){
+            // 计算所有被选中的商品小计之和
             var money = 0;
             $oneprice.each(function(){
-                money += parseInt($(this).text());
+                var flag = $(this).parents("li").find(".selpart").hasClass("checkbox_selected");
+                if(flag){
+                    money += parseInt($(this).text());
+                }
             });
             $totalprice.html(money);
         }

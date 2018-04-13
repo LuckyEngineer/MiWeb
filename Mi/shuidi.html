@@ -3,6 +3,8 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
+    <!-- 引入swiper插件css -->
+    <link rel="stylesheet" type="text/css" href="library/swiper/swiper-4.2.0.min.css">
     <link href="css/shuidi.css" rel="stylesheet">
     <link href="iconfont/shuidi/iconfont.css" rel="stylesheet">
 </head>
@@ -25,7 +27,16 @@
     </div>
 </div>
 <div class="container">
-    <div class="banner"></div>
+    <div class="banner">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide swiper-slide-bg1"></div>
+            <div class="swiper-slide swiper-slide-bg2"></div>
+            <div class="swiper-slide swiper-slide-bg3"></div>
+            <div class="swiper-slide swiper-slide-bg4"></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination swiper-pagination-white"></div>
+    </div>
     <!--广告位置下方喇叭小位置-->
     <div class="c_hot">
         <div class="c_h_container">
@@ -239,5 +250,11 @@
         </div>
     </div>
 </div>
+<!-- 引入jQuery -->
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<!-- 引入swiper插件js -->
+<script type="text/javascript" src="library/swiper/swiper-4.2.0.min.js"></script>
+<!-- shuidi.js -->
+<script type="text/javascript" src="js/shuidi.js"></script>
 </body>
 </html>

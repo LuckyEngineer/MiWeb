@@ -2,6 +2,8 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
+    <!-- 引入swiper插件css -->
+    <link rel="stylesheet" type="text/css" href="library/swiper/swiper-4.2.0.min.css">
     <link rel="stylesheet" type="text/css" href="css/youpin.css"/>
     <link rel="stylesheet" type="text/css" href="iconfont/youpin/iconfont.css"/>
     <title>有品</title>
@@ -950,7 +952,18 @@
         </div>
         <div class="c_content">
             <div class="c_c_adv">
-                <img src="images/youpin/banner_anniversary.jpg"/>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-slide-bg1"></div>
+                    <div class="swiper-slide swiper-slide-bg2"></div>
+                    <div class="swiper-slide swiper-slide-bg3"></div>
+                    <div class="swiper-slide swiper-slide-bg4"></div>
+                    <div class="swiper-slide swiper-slide-bg5"></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination swiper-pagination-white"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next hoverbtn swiper-button-white"></div>
+                <div class="swiper-button-prev hoverbtn swiper-button-white"></div>
             </div>
             <div class="c_c_menu">
                 <ul class="c_c_m_list">
@@ -2907,5 +2920,11 @@
             <div class="f_c_clear"></div>
         </div>
     </div>
+    <!-- 引入jQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- 引入swiper插件js -->
+    <script type="text/javascript" src="library/swiper/swiper-4.2.0.min.js"></script>
+    <!-- youpin.js -->
+    <script type="text/javascript" src="js/youpin.js"></script>
 </body>
 </html>
