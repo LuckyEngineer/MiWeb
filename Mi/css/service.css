@@ -32,10 +32,29 @@ a{
 .ui-wrapper{
     width:1226px;
     height:250px;
+    position: relative;
 }
-.ui-wrapper img{
-    width:1226px;
-    height:250px;
+.ui-wrapper .hoverbtn{
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.ui-wrapper .hoverbtn:hover{
+    background-color:rgba(0,0,0,.2);
+}
+.ui-wrapper .swiper-pagination{
+    color: blue;
+}
+.ui-wrapper .swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+.ui-wrapper .swiper-slide-bg1{
+    background-image: url("../images/service/banner_1.jpg");
+}
+.ui-wrapper .swiper-slide-bg2{
+    background-image: url("../images/service/banner_2.jpg");
 }
 .service-index-fquestion{
     width:1226px;

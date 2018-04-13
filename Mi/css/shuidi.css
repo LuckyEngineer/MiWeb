@@ -81,8 +81,37 @@ a{
     width: 100%;
     height: 400px;
     margin: 0 auto;
-
+    position: relative;
 }
+.banner .hoverbtn{
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.banner .hoverbtn:hover{
+    background-color:rgba(0,0,0,.2);
+}
+.banner .swiper-pagination{
+    color: blue;
+}
+.banner .swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+.banner .swiper-slide-bg1{
+    background-image: url("../images/shuidi/banner_1.jpg");
+}
+.banner .swiper-slide-bg2{
+    background-image: url("../images/shuidi/banner_2.jpg");
+}
+.banner .swiper-slide-bg3{
+    background-image: url("../images/shuidi/banner_3.jpg");
+}
+.banner .swiper-slide-bg4{
+    background-image: url("../images/shuidi/banner_4.jpg");
+}
+
 /*-----------广告下方！！！--------*/
 .c_hot{
     width: 100%;

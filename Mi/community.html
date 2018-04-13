@@ -3,6 +3,8 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>小米官网手机社区 - 小米手机旗下网站</title>
+    <!-- 引入swiper插件css -->
+    <link rel="stylesheet" type="text/css" href="library/swiper/swiper-4.2.0.min.css">
     <link href="css/community.css" rel="stylesheet" >
     <link href="iconfont/community/iconfont.css" rel="stylesheet">
 </head>
@@ -70,7 +72,19 @@
     </div>
     <!--content-->
     <div class="content">
-        <div class="banner_box"></div>
+        <div class="banner_box">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide swiper-slide-bg1"></div>
+                <div class="swiper-slide swiper-slide-bg2"></div>
+                <div class="swiper-slide swiper-slide-bg3"></div>
+                <div class="swiper-slide swiper-slide-bg4"></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination swiper-pagination-white"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next hoverbtn swiper-button-white"></div>
+            <div class="swiper-button-prev hoverbtn swiper-button-white"></div>
+        </div>
         <div class="content_box">
             <div class="content_leftbox">
                 <div class="leftbox_topline">
@@ -589,6 +603,7 @@
                     </div>
                     <a href="javascript:void(null)">
                         <div class="camera_img" >
+                            <img src="images/community/slide_picture.png">
                         </div>
                     </a>
                 </div>
@@ -866,5 +881,11 @@
         </div>
     </div>
 </div>
+<!-- 引入jQuery -->
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<!-- 引入swiper插件js -->
+<script type="text/javascript" src="library/swiper/swiper-4.2.0.min.js"></script>
+<!-- community.js -->
+<script type="text/javascript" src="js/community.js"></script>
 </body>
 </html>

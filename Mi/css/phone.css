@@ -168,6 +168,7 @@ body{
 .buybox{
     width: 120px;
     height: 30px;
+    line-height: 30px;
     margin-top: 10px;
     float:left;
     text-align: center;
@@ -679,7 +680,12 @@ body{
     transition: width 1s cubic-bezier(0.25, 0.46, 0.33, 0.98) 0.5s;
     background: #4b4b4b;
 }
-/* content_12 */
+.content_11 li .spe{
+    width: 140px;
+    height: 9px;
+    background: #4b4b4b;
+}
+    /* content_12 */
 .content_12{
     background: url(../images/phone/bg_content_12.jpg) 50% 50% no-repeat;
     background-size: cover;
