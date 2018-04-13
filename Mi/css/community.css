@@ -1,5 +1,4 @@
-/*ÒÔÏÂÒÔÒ»ÌõºáÏß»®·ÖÄ£¿é*/
-/*ÒÔÒ»´®ÐÇÐÇºáÏß»®·Ö¶¯Ì¬hover±ä»¯*/
+
 *{
     margin: 0;
     padding: 0;
@@ -14,7 +13,7 @@ a{
     height: 100%;
     background-color: #f1f2f6;
 }
-/*µ¼º½À¸ÉèÖÃ*/
+/* nav */
 /*-----------------------------------------------------------------------*/
 .nav {
     width: 100%;
@@ -27,7 +26,7 @@ a{
     background-color: #4f4f51;
     margin: 0 auto;
 }
-/*logoÉèÖÃ*/
+/*logo_pic*/
 .logo_pic {
     height:65px;
     float:left;
@@ -36,7 +35,7 @@ a{
     height:65px;
     width:175px;
 }
-/*¶þÎ¬ÂëÉèÖÃ*/
+/* nav_Client_flag */
 .nav_Client_flag {
     width: 90px;
     height: 65px;
@@ -64,7 +63,7 @@ a{
     z-index: 2;
     display: none;
 }
-/*¶þÎ¬ÂëÍ¼Æ¬ÉèÖÃ*/
+/*ï¿½ï¿½Î¬ï¿½ï¿½Í¼Æ¬ï¿½ï¿½ï¿½ï¿½*/
 .qr_pic {
     background: url("../images/community/logo_qr.png") no-repeat center;
     width: 150px;
@@ -81,7 +80,7 @@ a{
 .nav_Client_flag:hover .n_h_f_qr{
     display: block;
 }
-/*µ¼º½À¸²Ëµ¥ÉèÖÃ*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ëµï¿½ï¿½ï¿½ï¿½ï¿½*/
 .nav_header_menu{
     list-style: none;
     float:left;
@@ -134,7 +133,7 @@ a{
 .subnav_bankuai:hover .sub_gengduo{
     display: block;
 }
-/*µ¼º½À¸ÓÒ²à  ¸ü¶à£¬µÇÂ½£¬×¢²á*/
+/* nav_right */
 .nav_right{
     float: right;
 }
@@ -159,27 +158,66 @@ a{
     color: #ff6f3d;
 }
 /*----------------------------------------------------------------------------------------------*/
-/*bodyÖ÷Ìå*/
+/*body content*/
 
 .content{
     width: 1200px;
     margin:20px auto 0;
     background-color: #f1f2f6;
 }
-/*»ÃµÆÆ¬²¿·Ö*/
+/* banner_box */
 .banner_box{
     height: 350px;
     width: 100%;
     border-radius: 10px;
-    background-color: deepskyblue;
+    position: relative;
 }
+.banner_box .swiper-pagination-bullet{
+    width: 30px;
+    height: 20px;
+    border-radius: 0;
+    background: #666666;
+    color: white;
+}
+.banner_box .swiper-pagination-bullet-active {
+    color:#fff;
+    background: rgb(0,0,0,.6);
+}
+.banner_box .hoverbtn{
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.banner_box .hoverbtn:hover{
+    background-color:rgba(0,0,0,.2);
+}
+.banner_box .swiper-slide {
+    /*background-position: center;*/
+    background-size: cover;
+}
+.banner_box .swiper-slide-bg1{
+    background-image: url("../images/community/banner_1.jpg");
+}
+.banner_box .swiper-slide-bg2{
+    background-image: url("../images/community/banner_2.jpg");
+}
+.banner_box .swiper-slide-bg3{
+    background-image: url("../images/community/banner_3.jpg");
+}
+.banner_box .swiper-slide-bg4{
+    background-image: url("../images/community/banner_4.jpg");
+}
+
+
+
+
 .content_box{
     width: 100%;
     height:8200px;
     margin-top:10px;
 }
-/*·Ö³ÉÁ½¸ö²¿·Ö*/
-/*×ó±ßÒ»¸öºÐ×Ó£¬ÓÒ±ßÒ»¸öºÐ×Ó*/
+/* content_leftbox */
 .content_leftbox{
     width: 870px;
     float:left;
@@ -188,7 +226,7 @@ a{
 
 }
 
-/*ÉèÖÃ×ó²àµÚÒ»¸ö¿ò*//*¶Ô×ó²àµÄµÚÒ»¸öºÐ×Ó½øÐÐÃèÊö*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½*//*ï¿½ï¿½ï¿½ï¿½ï¿½Äµï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½Ó½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 .leftbox_topline{
     width: 100%;
     height: 360px;
@@ -210,7 +248,7 @@ a{
     color: #ff6f3d;
 }
 /***************************************************************************/
-/*È¥³ýÏÂ»®Ïß*/
+/*È¥ï¿½ï¿½ï¿½Â»ï¿½ï¿½ï¿½*/
 .l_t_picture{
     width:430px;
     height:270px;
@@ -223,7 +261,7 @@ a{
     height: 270px;
     border-radius: 10px;
 }
-/* ¹Ø×¢ÈËÊý£¬Î¢²©·ÖÏí Ð¡Í¼±ê*/
+/* ï¿½ï¿½×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ð¡Í¼ï¿½ï¿½*/
 .leftbox_topline_xiaotubiao{
     height: 20px;
     line-height: 20px;
@@ -257,7 +295,7 @@ a{
     float: right;
     color: cornflowerblue;
 }
-/*×ó²àµÚ¶þ¸ö¿ò*/
+/*ï¿½ï¿½ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½*/
 .leftbox_subtopline{
     margin-top:20px;
     height:205px;
@@ -306,7 +344,7 @@ a{
 .leftbox_subtopline_share i:hover{
     opacity: 1;
 }
-/*-------------------------×ó²àÒ»ÁÐÐÂÎÅ---------------------*/
+/*-------------------------ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½---------------------*/
 .c_t_news{
     border-radius: 10px;
     list-style: none;
@@ -417,7 +455,7 @@ a{
 }
 
 /**/
-/*---------------ÓÒ²àÈÈµãÄÚÈÝ----------------*/
+/*---------------ï¿½Ò²ï¿½ï¿½Èµï¿½ï¿½ï¿½ï¿½ï¿½----------------*/
 .content_rightbox{
     width: 319px;
     border-radius: 10px;
@@ -558,7 +596,7 @@ a{
 
 
 
-/*----------------½ñÈÕÍÆ¼öÐÂÎÅÀ¸------------------*/
+/*----------------ï¿½ï¿½ï¿½ï¿½ï¿½Æ¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½------------------*/
 .right_recommendation{
      width:100%;
      border-radius: 10px;
@@ -608,7 +646,7 @@ a{
     color:sandybrown;
 }
 
-/*---------------»î¶¯¹ã¸æ---------------*/
+/*---------------ï¿½î¶¯ï¿½ï¿½ï¿½---------------*/
 .right_hot_activity{
     width:100%;
     border-radius: 10px;
@@ -642,7 +680,7 @@ a{
     margin:10px;
     border-radius: 5px;
 }
-/*------Ð¡Ã×ÊÖ»úROM-------*/
+/*------  -------*/
 .right_rom_box{
     width:100%;
     border-radius: 10px;
@@ -655,7 +693,7 @@ a{
     line-height: 41px;
     background-color:#f9f9f9;
 }
-/*×ÖÌåÉèÖÃ*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 .right_rom_box h4{
     font-size: 13px;
     margin-left:10px;
@@ -726,7 +764,7 @@ a{
 .rom_box_buttom_box a:hover {
     color: #ff6f3d;
 }
-/*-------------------ÉãÏñ¹Ý---------------------------*/
+/*-------------------ï¿½ï¿½ï¿½ï¿½ï¿½---------------------------*/
 .right_camera{
     width:100%;
     border-radius: 10px;
@@ -738,9 +776,20 @@ a{
     height: 41px;
     width: 100%;
     line-height: 41px;
-    background-color:#f9f9f9;
+    /*background-color:#f9f9f9;*/
     position: relative;
 }
+.camera_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+
+
 .right_camera_title h4{
     font-size: 13px;
     margin-left:10px;
@@ -762,7 +811,7 @@ a{
     border-radius: 5px;
     margin:10px;
 }
-/*--------------Íæ»ú----------------*/
+/*--------------ï¿½ï¿½ï¿½----------------*/
 .right_banner{
     width:100%;
     border-radius: 10px;
@@ -836,7 +885,7 @@ a{
     top:40px;
     left:81px;
 }
-/*----------------------Ð¡Ã×Ñ§Ôº-----------------*/
+/*----------------------Ð¡ï¿½ï¿½Ñ§Ôº-----------------*/
 
 .right_school{
     width:100%;
@@ -892,7 +941,7 @@ a{
     margin:15px auto 0;
     border-radius: 5px;
 }
-/*-------×ó²àµÚÒ»¸öÍ¼±ê---ÉèÖÃ---------*/
+/*-------ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Í¼ï¿½ï¿½---ï¿½ï¿½ï¿½ï¿½---------*/
 .right_school_content .school_top{
     top:20px;
 }
@@ -900,7 +949,7 @@ a{
     height:20px ;
     color: black;
 }
-/*------------------³ÈÉ«ÅÜ--------------*/
+/*------------------ï¿½ï¿½É«ï¿½ï¿½--------------*/
 .right_cehngsepao{
     width:100%;
     border-radius: 10px;
@@ -926,7 +975,7 @@ a{
     margin:10px auto;
     border-radius: 5px;
 }
-/*----------------Ã×·ÛÖ®ÐÇ------------*/
+/*----------------ï¿½×·ï¿½Ö®ï¿½ï¿½------------*/
 .right_fans{
     width:100%;
     border-radius: 10px;
@@ -1029,7 +1078,7 @@ a{
     color: #ff6f3d;
     opacity: 1;
 }
-    /*----------------------µØµã²¿·Ö-------------------------*/
+    /*----------------------ï¿½Øµã²¿ï¿½ï¿½-------------------------*/
 .location_box{
     background-color: white;
     width:100%;
@@ -1064,7 +1113,7 @@ a{
     position: relative;
     left: -13px;
 }
-/*-----------------¹ØÁª²¿·Ö--------------------*/
+/*-----------------ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½--------------------*/
 .friendlinks_box{
     background-color: white;
     width:100%;
@@ -1115,7 +1164,7 @@ a{
     text-align: center;
     color:#808080;
 }
-/*Î²²¿*/
+/*Î²ï¿½ï¿½*/
 .footer{
     width: 1226px;
     margin: 0 auto;

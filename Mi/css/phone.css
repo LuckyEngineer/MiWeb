@@ -168,6 +168,7 @@ body{
 .buybox{
     width: 120px;
     height: 30px;
+    line-height: 30px;
     margin-top: 10px;
     float:left;
     text-align: center;

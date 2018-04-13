@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title> 商品管理 </title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="shortcut icon" href="favicon.ico"> <link href="css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+    <link href="css/font-awesome.css?v=4.4.0" rel="stylesheet">
+
+    <!-- jqgrid-->
+    <link href="css/plugins/jqgrid/ui.jqgrid.css?0820" rel="stylesheet">
+
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css?v=4.1.0" rel="stylesheet">
+
+    <style>
+        /* Additional style to fix warning dialog position */
+
+        #alertmod_table_list_2 {
+            top: 900px !important;
+        }
+    </style>
+
+</head>
+
+<body class="gray-bg">
+    <div class="wrapper wrapper-content  animated fadeInRight">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="ibox ">
+                    <div class="ibox-title">
+                        <h5>商品列表</h5>
+                    </div>
+                    <div class="ibox-content">
+                        <!-- <h4 class="m-t">高级用法</h4> -->
+
+
+                        <div class="jqGrid_wrapper">
+                            <table id="table_list_2"></table>
+                            <div id="pager_list_2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 全局js -->
+    <script src="js/jquery.min.js?v=2.1.4"></script>
+    <script src="js/bootstrap.min.js?v=3.3.6"></script>
+
+
+
+    <!-- Peity -->
+    <script src="js/plugins/peity/jquery.peity.min.js"></script>
+
+    <!-- jqGrid -->
+    <script src="js/plugins/jqgrid/i18n/grid.locale-cn.js?0820"></script>
+    <script src="js/plugins/jqgrid/jquery.jqGrid.min.js?0820"></script>
+
+    <!-- 自定义js -->
+    <script src="js/content.js?v=1.0.0"></script>
+
+    <!-- Page-Level Scripts -->
+    <script>
+        $(document).ready(function () {
+
+            $.jgrid.defaults.styleUI = 'Bootstrap';
+            // Examle data for jqGrid
+            var mydata = [
+                {
+                    id: "1",
+                    type: "手机",
+                    goodsname: "小米MIX",
+                    image: "<img src='img/phone_4.jpg' style='width:120px;height:120px;'>",
+                    outprice: "2000.00",
+                    price: "2999.00",
+                    lowprice: "2899.00",
+                    desc:"小米MIX商品描述！！！"
+                },
+                {
+                    id: "2",
+                    type: "手机",
+                    goodsname: "小米MIX",
+                    image: "<img src='img/phone_3.jpg' style='width:120px;height:120px;'>",
+                    outprice: "2000.00",
+                    price: "2999.00",
+                    lowprice: "2899.00",
+                    desc:"小米MIX商品描述！！！"
+                },
+                {
+                    id: "3",
+                    type: "手机",
+                    goodsname: "小米MIX",
+                    image: "<img src='img/phone_2.jpg' style='width:120px;height:120px;'>",
+                    outprice: "2000.00",
+                    price: "2999.00",
+                    lowprice: "2899.00",
+                    desc:"小米MIX商品描述！！！"
+                },
+                {
+                    id: "4",
+                    type: "手机",
+                    goodsname: "小米MIX",
+                    image: "<img src='img/phone_5.jpg' style='width:120px;height:120px;'>",
+                    outprice: "2000.00",
+                    price: "2999.00",
+                    lowprice: "2899.00",
+                    desc:"小米MIX商品描述！！！"
+                },
+                {
+                    id: "5",
+                    type: "手机",
+                    goodsname: "小米MIX",
+                    image: "<img src='img/phone_6.jpg' style='width:120px;height:120px;'>",
+                    outprice: "2000.00",
+                    price: "2999.00",
+                    lowprice: "2899.00",
+                    desc:"小米MIX商品描述！！！"
+                },
+                {
+                    id: "6",
+                    type: "手机",
+                    goodsname: "小米MIX",
+                    image: "<img src='img/phone_7.jpg' style='width:120px;height:120px;'>",
+                    outprice: "2000.00",
+                    price: "2999.00",
+                    lowprice: "2899.00",
+                    desc:"小米MIX商品描述！！！"
+                },
+                {
+                    id: "7",
+                    type: "手机",
+                    goodsname: "小米MIX",
+                    image: "<img src='img/phone_8.jpg' style='width:120px;height:120px;'>",
+                    outprice: "2000.00",
+                    price: "2999.00",
+                    lowprice: "2899.00",
+                    desc:"小米MIX商品描述！！！"
+                },
+                {
+                    id: "8",
+                    type: "手机",
+                    goodsname: "小米MIX",
+                    image: "<img src='img/phone_4.jpg' style='width:120px;height:120px;'>",
+                    outprice: "2000.00",
+                    price: "2999.00",
+                    lowprice: "2899.00",
+                    desc:"小米MIX商品描述！！！"
+                },
+                {
+                    id: "9",
+                    type: "手机",
+                    goodsname: "小米MIX",
+                    image: "<img src='img/phone_3.jpg' style='width:120px;height:120px;'>",
+                    outprice: "2000.00",
+                    price: "2999.00",
+                    lowprice: "2899.00",
+                    desc:"小米MIX商品描述！！！"
+                },
+                {
+                    id: "10",
+                    type: "手机",
+                    goodsname: "小米MIX",
+                    image: "<img src='img/phone_2.jpg' style='width:120px;height:120px;'>",
+                    outprice: "2000.00",
+                    price: "2999.00",
+                    lowprice: "2899.00",
+                    desc:"小米MIX商品描述！！！"
+                },
+                {
+                    id: "11",
+                    type: "手机",
+                    goodsname: "小米MIX",
+                    image: "<img src='img/phone_6.jpg' style='width:120px;height:120px;'>",
+                    outprice: "2000.00",
+                    price: "2999.00",
+                    lowprice: "2899.00",
+                    desc:"小米MIX商品描述！！！"
+                }
+
+            ];
+
+            // Configuration for jqGrid Example 2
+            $("#table_list_2").jqGrid({
+                data: mydata,
+                datatype: "local",
+                height: 450,
+                autowidth: true,
+                shrinkToFit: true,
+                rowNum: 20,
+                rowList: [10, 20, 30],
+                colNames: ['序号','商品类别', '商品名称', '商品图片', '出货价', '售价', '优惠价', '商品描述'],
+                colModel: [
+                    {
+                        name: 'id',
+                        index: 'id',
+                        editable: true,
+                        width: 60,
+                        sorttype: "int",
+                        search: true
+                    },
+                    {
+                        name: 'type',
+                        index: 'invdate',
+                        editable: true,
+                        width: 60
+                        // sorttype: "date",
+                        // formatter: "date"
+                    },
+                    {
+                        name: 'goodsname',
+                        index: 'goodsname',
+                        editable: true,
+                        width: 100
+                    },
+                    {
+                        name: 'image',
+                        index: 'image',
+                        editable: false,
+                        width: 130
+                        // align: "right",
+                        // sorttype: "float",
+                        // formatter: "number"
+                    },
+                    {
+                        name: 'outprice',
+                        index: 'outprice',
+                        editable: true,
+                        width: 80,
+                        sorttype: "float",
+                        formatter: "number"
+                        // align: "right",
+                        // sorttype: "float"
+                    },
+                    {
+                        name: 'price',
+                        index: 'price',
+                        editable: true,
+                        width: 80,
+                        sorttype: "float",
+                        formatter: "number"
+                        // align: "right",
+                        // sorttype: "float"
+                    },
+                    {
+                        name: 'lowprice',
+                        index: 'lowprice',
+                        editable: true,
+                        width: 100,
+                        // sortable: false,
+                        sorttype: "float",
+                        formatter: "number"
+                    },
+                    {
+                        name: 'desc',
+                        index: 'desc',
+                        editable: true,
+                        width: 100
+                        // sortable: false
+                        // sorttype: "float",
+                        // formatter: "number"
+                    }
+                ],
+                pager: "#pager_list_2",
+                viewrecords: true,
+                caption: "",
+                add: true,
+                edit: true,
+                addtext: 'Add',
+                edittext: 'Edit',
+                hidegrid: false
+            });
+
+            // Add selection
+            $("#table_list_2").setSelection(4, true);
+
+
+            // Setup buttons
+            $("#table_list_2").jqGrid('navGrid', '#pager_list_2', {
+                edit: true,
+                add: true,
+                del: true,
+                search: true
+            }, {
+                height: 200,
+                reloadAfterSubmit: true
+            });
+
+            // Add responsive to jqGrid
+            $(window).bind('resize', function () {
+                var width = $('.jqGrid_wrapper').width();
+                // $('#table_list_1').setGridWidth(width);
+                $('#table_list_2').setGridWidth(width);
+            });
+        });
+    </script>
+
+    
+    
+
+</body>
+
+</html>

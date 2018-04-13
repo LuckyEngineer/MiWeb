@@ -13,9 +13,9 @@
     /*background-color: palegreen;*/
 }
 .subnav .s_wrapper h2 {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 65px;
     color: #212121;
     float: left;
 }
@@ -37,12 +37,14 @@
     float: left;
 }
 .subnav .s_wrapper .s_w_right li a{
+    line-height: 40px;
     color: #616161;
 }
 .subnav .s_wrapper .s_w_right li span{
-    margin-left: 6px;
-    margin-right: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
     color: #e0e0e0;
+    line-height: 40px;
 }
 /* End subnav */
 /* description */
@@ -75,7 +77,7 @@
     margin: 0;
     padding: 0;
     font-size: 24px;
-    font-weight: 300;
+    font-weight: bold;
     color: #212121;
 }
 .description .d_parameter .d_p_tip{
