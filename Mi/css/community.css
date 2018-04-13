@@ -1,4 +1,5 @@
-
+/*以下以一条横线划分模块*/
+/*以一串星星横线划分动态hover变化*/
 *{
     margin: 0;
     padding: 0;
@@ -13,7 +14,7 @@ a{
     height: 100%;
     background-color: #f1f2f6;
 }
-/* nav */
+/*导航栏设置*/
 /*-----------------------------------------------------------------------*/
 .nav {
     width: 100%;
@@ -26,7 +27,7 @@ a{
     background-color: #4f4f51;
     margin: 0 auto;
 }
-/*logo_pic*/
+/*logo设置*/
 .logo_pic {
     height:65px;
     float:left;
@@ -35,7 +36,7 @@ a{
     height:65px;
     width:175px;
 }
-/* nav_Client_flag */
+/*二维码设置*/
 .nav_Client_flag {
     width: 90px;
     height: 65px;
@@ -63,7 +64,7 @@ a{
     z-index: 2;
     display: none;
 }
-/*��ά��ͼƬ����*/
+/*二维码图片设置*/
 .qr_pic {
     background: url("../images/community/logo_qr.png") no-repeat center;
     width: 150px;
@@ -80,7 +81,7 @@ a{
 .nav_Client_flag:hover .n_h_f_qr{
     display: block;
 }
-/*�������˵�����*/
+/*导航栏菜单设置*/
 .nav_header_menu{
     list-style: none;
     float:left;
@@ -133,7 +134,7 @@ a{
 .subnav_bankuai:hover .sub_gengduo{
     display: block;
 }
-/* nav_right */
+/*导航栏右侧  更多，登陆，注册*/
 .nav_right{
     float: right;
 }
@@ -158,66 +159,27 @@ a{
     color: #ff6f3d;
 }
 /*----------------------------------------------------------------------------------------------*/
-/*body content*/
+/*body主体*/
 
 .content{
     width: 1200px;
     margin:20px auto 0;
     background-color: #f1f2f6;
 }
-/* banner_box */
+/*幻灯片部分*/
 .banner_box{
     height: 350px;
     width: 100%;
     border-radius: 10px;
-    position: relative;
+    background-color: deepskyblue;
 }
-.banner_box .swiper-pagination-bullet{
-    width: 30px;
-    height: 20px;
-    border-radius: 0;
-    background: #666666;
-    color: white;
-}
-.banner_box .swiper-pagination-bullet-active {
-    color:#fff;
-    background: rgb(0,0,0,.6);
-}
-.banner_box .hoverbtn{
-    display: block;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-}
-.banner_box .hoverbtn:hover{
-    background-color:rgba(0,0,0,.2);
-}
-.banner_box .swiper-slide {
-    /*background-position: center;*/
-    background-size: cover;
-}
-.banner_box .swiper-slide-bg1{
-    background-image: url("../images/community/banner_1.jpg");
-}
-.banner_box .swiper-slide-bg2{
-    background-image: url("../images/community/banner_2.jpg");
-}
-.banner_box .swiper-slide-bg3{
-    background-image: url("../images/community/banner_3.jpg");
-}
-.banner_box .swiper-slide-bg4{
-    background-image: url("../images/community/banner_4.jpg");
-}
-
-
-
-
 .content_box{
     width: 100%;
     height:8200px;
     margin-top:10px;
 }
-/* content_leftbox */
+/*分成两个部分*/
+/*左边一个盒子，右边一个盒子*/
 .content_leftbox{
     width: 870px;
     float:left;
@@ -226,7 +188,7 @@ a{
 
 }
 
-/*��������һ����*//*�����ĵ�һ�����ӽ�������*/
+/*设置左侧第一个框*//*对左侧的第一个盒子进行描述*/
 .leftbox_topline{
     width: 100%;
     height: 360px;
@@ -248,7 +210,7 @@ a{
     color: #ff6f3d;
 }
 /***************************************************************************/
-/*ȥ���»���*/
+/*去除下划线*/
 .l_t_picture{
     width:430px;
     height:270px;
@@ -261,7 +223,7 @@ a{
     height: 270px;
     border-radius: 10px;
 }
-/* ��ע������΢������ Сͼ��*/
+/* 关注人数，微博分享 小图标*/
 .leftbox_topline_xiaotubiao{
     height: 20px;
     line-height: 20px;
@@ -295,7 +257,7 @@ a{
     float: right;
     color: cornflowerblue;
 }
-/*���ڶ�����*/
+/*左侧第二个框*/
 .leftbox_subtopline{
     margin-top:20px;
     height:205px;
@@ -344,7 +306,7 @@ a{
 .leftbox_subtopline_share i:hover{
     opacity: 1;
 }
-/*-------------------------���һ������---------------------*/
+/*-------------------------左侧一列新闻---------------------*/
 .c_t_news{
     border-radius: 10px;
     list-style: none;
@@ -455,7 +417,7 @@ a{
 }
 
 /**/
-/*---------------�Ҳ��ȵ�����----------------*/
+/*---------------右侧热点内容----------------*/
 .content_rightbox{
     width: 319px;
     border-radius: 10px;
@@ -588,13 +550,21 @@ a{
     color: red;
     font-size: 14.5px;
 }
-/*----------------�����Ƽ�������------------------*/
+
+
+
+
+
+
+
+
+/*----------------今日推荐新闻栏------------------*/
 .right_recommendation{
-     width:100%;
-     border-radius: 10px;
-     background-color: white;
-     margin-top: 15px;
- }
+    width:100%;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 15px;
+}
 .right_recommendation_title{
     height: 41px;
     width: 100%;
@@ -638,7 +608,7 @@ a{
     color:sandybrown;
 }
 
-/*---------------����---------------*/
+/*---------------活动广告---------------*/
 .right_hot_activity{
     width:100%;
     border-radius: 10px;
@@ -672,7 +642,7 @@ a{
     margin:10px;
     border-radius: 5px;
 }
-/*------  -------*/
+/*------小米手机ROM-------*/
 .right_rom_box{
     width:100%;
     border-radius: 10px;
@@ -685,7 +655,7 @@ a{
     line-height: 41px;
     background-color:#f9f9f9;
 }
-/*��������*/
+/*字体设置*/
 .right_rom_box h4{
     font-size: 13px;
     margin-left:10px;
@@ -741,11 +711,11 @@ a{
     color: #ff6f3d;
 }
 .rom_box_buttom_box{
-     margin-top:10px;
+    margin-top:10px;
     padding-bottom: 20px;
-     height:20px;
-     text-align: center;
- }
+    height:20px;
+    text-align: center;
+}
 .rom_box_buttom_box span{
     color: #808080;
 }
@@ -756,7 +726,7 @@ a{
 .rom_box_buttom_box a:hover {
     color: #ff6f3d;
 }
-/*-------------------�����---------------------------*/
+/*-------------------摄像馆---------------------------*/
 .right_camera{
     width:100%;
     border-radius: 10px;
@@ -768,20 +738,9 @@ a{
     height: 41px;
     width: 100%;
     line-height: 41px;
-    /*background-color:#f9f9f9;*/
+    background-color:#f9f9f9;
     position: relative;
 }
-.camera_img img{
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-}
-
-
-
-
-
-
 .right_camera_title h4{
     font-size: 13px;
     margin-left:10px;
@@ -803,7 +762,7 @@ a{
     border-radius: 5px;
     margin:10px;
 }
-/*--------------���----------------*/
+/*--------------玩机----------------*/
 .right_banner{
     width:100%;
     border-radius: 10px;
@@ -877,7 +836,7 @@ a{
     top:40px;
     left:81px;
 }
-/*----------------------С��ѧԺ-----------------*/
+/*----------------------小米学院-----------------*/
 
 .right_school{
     width:100%;
@@ -933,7 +892,7 @@ a{
     margin:15px auto 0;
     border-radius: 5px;
 }
-/*-------����һ��ͼ��---����---------*/
+/*-------左侧第一个图标---设置---------*/
 .right_school_content .school_top{
     top:20px;
 }
@@ -941,7 +900,7 @@ a{
     height:20px ;
     color: black;
 }
-/*------------------��ɫ��--------------*/
+/*------------------橙色跑--------------*/
 .right_cehngsepao{
     width:100%;
     border-radius: 10px;
@@ -967,7 +926,7 @@ a{
     margin:10px auto;
     border-radius: 5px;
 }
-/*----------------�׷�֮��------------*/
+/*----------------米粉之星------------*/
 .right_fans{
     width:100%;
     border-radius: 10px;
@@ -1070,7 +1029,7 @@ a{
     color: #ff6f3d;
     opacity: 1;
 }
-    /*----------------------�ص㲿��-------------------------*/
+/*----------------------地点部分-------------------------*/
 .location_box{
     background-color: white;
     width:100%;
@@ -1105,7 +1064,7 @@ a{
     position: relative;
     left: -13px;
 }
-/*-----------------��������--------------------*/
+/*-----------------关联部分--------------------*/
 .friendlinks_box{
     background-color: white;
     width:100%;
@@ -1156,7 +1115,7 @@ a{
     text-align: center;
     color:#808080;
 }
-/*β��*/
+/*尾部*/
 .footer{
     width: 1226px;
     margin: 0 auto;
