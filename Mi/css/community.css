@@ -22,7 +22,7 @@ a{
     background-color:#4f4f51;
 }
 .nav_header {
-    width: 1226px;
+    width: 1200px;
     height: 65px;
     background-color: #4f4f51;
     margin: 0 auto;
@@ -171,8 +171,45 @@ a{
     height: 350px;
     width: 100%;
     border-radius: 10px;
-    background-color: deepskyblue;
+    position: relative;
 }
+.banner_box .swiper-pagination-bullet{
+    width: 30px;
+    height: 20px;
+    border-radius: 0;
+    background: #666666;
+    color: white;
+}
+.banner_box .swiper-pagination-bullet-active {
+    color:#fff;
+    background: rgb(0,0,0,.6);
+}
+.banner_box .hoverbtn{
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.banner_box .hoverbtn:hover{
+    background-color:rgba(0,0,0,.2);
+}
+.banner_box .swiper-slide {
+    /*background-position: center;*/
+    background-size: cover;
+}
+.banner_box .swiper-slide-bg1{
+    background-image: url("../images/community/banner_1.jpg");
+}
+.banner_box .swiper-slide-bg2{
+    background-image: url("../images/community/banner_2.jpg");
+}
+.banner_box .swiper-slide-bg3{
+    background-image: url("../images/community/banner_3.jpg");
+}
+.banner_box .swiper-slide-bg4{
+    background-image: url("../images/community/banner_4.jpg");
+}
+
 .content_box{
     width: 100%;
     height:8200px;
@@ -757,10 +794,14 @@ a{
 }
 .camera_img{
     height: 210px;
-    background-color: #4f4f51;
     width: 298px;
     border-radius: 5px;
     margin:10px;
+}
+.camera_img img{
+    width:100%;
+    height: 100%;
+    border-radius: 10px;
 }
 /*--------------玩机----------------*/
 .right_banner{
