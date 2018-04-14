@@ -28,6 +28,15 @@ $(function(){
                     }
                 }
             }
+            // 无线充电器 content_13
+            (function(){
+                // 无线充电器特效
+                var $phonebase = $(".c13_pic1");//充电器
+                // 判断当前图片与滚轮的高度差
+                if( ($phonebase.offset().top - height) < 290 ){
+                    $(".content_13").addClass("showphone");
+                }
+            })();
         });
     })();
     // content_1轮播
