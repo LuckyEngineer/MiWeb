@@ -1,0 +1,168 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: "Microsoft Yahei";
+}
+a{
+    text-decoration: none;
+}
+.centain{
+    width:100%;
+    background-color:#f5f5f5;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.c_person{
+    width:1226px;
+    height:40px;
+    margin:0 auto;
+    line-height: 40px;
+}
+.c_person span{
+    margin-left:10px;
+}
+.c_p_index{
+    color:#757575;
+    cursor: pointer;
+}
+.c_p_index:hover{
+    color:#424242;
+}
+/*中心模块设置*/
+.c_main{
+    width:1226px;
+    background-color: #f5f5f5;
+    margin:0 auto;
+    color:#757575;
+    overflow: hidden;
+    padding-bottom: 35px;
+}
+.c_main:after{
+    /*clear:both;*/
+    content:" ";
+
+}
+.c_m_list{
+    width:230px;
+    height:260px;
+    background-color: white;
+    float:left;
+}
+.c_m_l_nav{
+    list-style: none;
+}
+.c_m_l_nav li{
+    width:100%;
+    height:85px;
+    text-align: center;
+    line-height: 85px;
+    font-size: 16px;
+}
+.c_m_l_nav a{
+    cursor: pointer;
+    color:#757575;
+}
+.c_m_l_n_update a{
+    color:#ff6700;
+}
+.c_m_info{
+    width:980px;
+    margin-left: 15px;
+    background-color: white;
+    box-sizing: border-box;
+    padding:15px 15px 0 15px;
+    float:left;
+}
+.c_m_i_personal{
+    width:100%;
+    height:40px;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 40px;
+    border-bottom: 1px solid #f5f5f5;
+    margin-bottom: 15px;
+}
+/*
+订单表属性设置
+ */
+/*
+表头设置
+ */
+.c_m_i_header{
+    width:950px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    padding:10px;
+    background-color: #f5f5f5;
+}
+.c_m_i_h_th td{
+    width:140px;
+    text-align: center;
+    line-height: 20px;
+
+}
+.c_m_i_header .c_m_i_h_info{
+    width:530px;
+    text-align: left;
+}
+/*
+表头设置结束
+ */
+/*
+表格第一行属性设置
+ */
+.c_m_i_item{
+    width:950px;
+    border-bottom: 1px solid #f5f5f5;
+    margin-bottom: 15px;
+}
+.c_m_i_i_fir{
+    width:950px;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    padding:10px;
+}
+.c_m_i_i_fir a{
+    color: #424242;
+}
+.c_m_i_i_fir a:hover{
+    color:#ff6700;
+}
+.c_m_i_i_fir .c_m_i_i_t_text{
+    margin-right: 40px;
+}
+.c_m_i_i_fir .c_m_i_i_t_particulars{
+    float:right;
+}
+/*
+表格第一行属性设置结束
+ */
+/*
+表格第二行属性设置
+ */
+.c_m_i_i_pic{
+    box-sizing: border-box;
+    padding:5px;
+}
+.c_m_i_i_pic img{
+    width:82px;
+    height:82px;
+}
+.c_m_i_i_info{
+    width:440px;
+    box-sizing: border-box;
+    padding:10px;
+}
+.c_m_i_i_info a{
+    color:#757575;
+}
+.c_m_i_i_info a:hover{
+    color:#ff6700;
+}
+.common_td{
+    width:145px;
+    text-align: center;
+}
+.c_m_i_i_total{
+    color:#ff6700;
+}
