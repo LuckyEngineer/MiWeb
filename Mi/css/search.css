@@ -1,0 +1,238 @@
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    height: 3100px;
+    background-color: rgb(245,245,245);
+
+}
+
+/*第一行内容*/
+.content_1{
+    width: 100%;
+    height: 40px;
+    position: relative;
+}
+
+.c1_more{
+    margin: auto;
+    border: 1px;
+    width: 1226px;
+    height: 40px;
+
+}
+
+.c1_more a{
+    color: rgb(117,117,117);
+    font-size: 13px;
+   line-height: 3;
+
+}
+
+.c1_more a:hover{
+    color: black;
+}
+
+.c1_more span{
+    color: rgb(117,117,117);
+    font-size: 13px;
+    margin-top: 50px;
+
+}
+
+/*第二栏内容*/
+.content_2{
+    position: relative;
+    width: 100%;
+    /*height: 150px;*/
+    background-color: white;
+}
+
+.c2_more{
+    width: 1226px;
+    height: 50px;
+    margin: auto;
+    position: relative;
+}
+
+.c2_dl dt{
+    display: block;
+    color: rgb(172,172,172);
+    position: absolute;
+    top:12px;
+    left: 0px;
+    font-size: 14px;
+}
+
+.c2_dl dd{
+    float: left;
+    width: 172px;
+    padding: 12px 0;
+    font-size: 14px;
+}
+
+.c2_dl dd a{
+    color: black;
+}
+
+.c2_dl dd a:hover{
+    color: rgb(255,103,0);
+}
+
+.dl_dd_all{
+    -webkit-margin-start: 40px;
+    color: rgb(255,103,0);
+}
+
+.c2_moreChoose{
+    color: rgb(117,117,117);
+    font-size: 14px;
+    line-height: 41px;
+    padding-left: 100px;
+}
+
+.displaybox{
+    height: 100px;
+    display: none;
+}
+
+.display_nav{
+    margin: auto;
+    width: 1226px;
+    padding-left: 75px;
+}
+
+.display_nav li{
+    font-size: 14px;
+    float: left;
+    width: 172px;
+    padding: 12px 0;
+}
+
+.display_nav li a{
+    color: black;
+}
+
+.display_nav li a:hover{
+    color: rgb(255,103,0);
+}
+
+/*清除浮动*/
+.clearlif{
+    clear: both;
+}
+
+/*第三个内容*/
+.content_3{
+    width: 100%;
+    height: 2850px;
+    position: relative;
+}
+
+.c3_nav_top{
+    width: 1226px;
+    height: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 283px;
+    position: relative;
+}
+
+.c3_nav_ul li{
+    float: left;
+    /*padding-right: 30px ;*/
+    padding:0 30px;
+    border-right: 1px solid #e0e0e0;
+}
+
+.c3_nav_ul li a{
+    font-size: 14px;
+    color: black;
+}
+
+
+/*手机内容*/
+.c3_nav_cont{
+    width: 1240px;
+    height: 2664px;
+    margin: auto;
+}
+
+.goods_item{
+    position: relative;
+    float: left;
+    width: 296px;
+    height: 383px;
+    padding-top: 47px;
+    margin-right: 14px;
+    margin-bottom: 14px;
+    text-align: center;
+    background-color: #fff;
+    transition: box-shadow .5s linear;
+
+}
+
+.goods_item:hover{
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+}
+
+/*放图片的div*/
+.goodsbox{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+.goods_msg{
+    color: black;
+    font-size: 14px;
+  line-height: 80px;
+}
+
+.goods_price{
+    margin-top: -25px;
+    color: rgb(255,103,0);
+    font-size: 15px;
+}
+
+.goods_price del{
+    color:rgb(117,117,117);
+}
+
+.goodsbox_small{
+    width: 34px;
+    height: 34px;
+    margin-top: 20px;
+    margin-left: 130px;
+}
+
+.goodsbox_small:hover{
+    border: 1px solid red;
+}
+
+.Pages_box{
+    width: 1226px;
+    height: 60px;
+    margin: auto;
+}
+
+.pb_num{
+    width: 600px;
+    height: 60px;
+    margin: auto;
+}
+
+.Pages_box a{
+    width: 48px;
+    height: 24px;
+    padding: 5px 13px;
+    margin: 0 7px;
+    font-size: 22px;
+    line-height: 40px;
+    color: #b0b0b0;
+}
+
+
